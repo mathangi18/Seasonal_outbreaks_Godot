@@ -18,3 +18,10 @@ layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
 text = "Scoreboard"
+
+[node name="ScenarioSelect" type="OptionButton" parent="Control"]
+layout_mode = 0
+offset_left = 20.0
+offset_top = 300.0
+offset_right = 200.0
+offset_bottom = 330.0

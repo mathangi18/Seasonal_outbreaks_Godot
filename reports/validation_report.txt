@@ -1,0 +1,33 @@
+# Validation Report
+
+## Environment
+- OS: Windows
+- Godot Executable: Not available in current environment (Headless run skipped).
+- Validation Method: Static Analysis + Python Logic Simulation.
+
+## Checks Performed
+
+### 1. Static Analysis
+- **Project Structure**: Verified.
+- **Spec Files**: `FEATURES_GODOT_FULL.txt` and `seasonal_outbreak_Revised.txt` present.
+- **Scripts**: All core scripts (`Main.gd`, `SimulationEngine.gd`, `Patient.gd`, `Facility.gd`, `HUD.gd`, `scale_utils.gd`, `logger.gd`) created and populated.
+- **Scenes**: Minimal `.tscn` files created for Main, Patient, Facility, HUD.
+- **Assets**: Placeholder `patient_placeholder.png` generated.
+
+### 2. Logic Verification (Python Simulation)
+- **Script**: `tests/test_logic.py`
+- **Result**: PASSED.
+- **Details**: Simulated 100 patients, 200 ticks. Infection spread from 1 initial patient to others, eventually recovering.
+- **Output**: `Final Counts: S=97, E=0, I=0, R=3` (Random seed 12345).
+
+### 3. Fail-Safe Check
+- **Scale Utils**: Implemented with fail-safe constants (`FAILSAFE_WORLD_W`, etc.) to handle missing viewport.
+
+## Manual Verification Required (User)
+1. Open `project.godot` in Godot 4.x.
+2. Press Play (F5).
+3. Verify visual movement and scoreboard updates.
+4. Check `user://logs/sim_log.csv` after run.
+
+## Conclusion
+Project scaffold and core logic are valid. Visuals and engine integration require Godot runtime to verify fully.
