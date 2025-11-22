@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://patient"]
+
+[ext_resource type="Script" path="res://scripts/Patient.gd" id="1_patient"]
+[ext_resource type="Texture2D" uid="uid://placeholder" path="res://assets/patient_placeholder.png" id="2_tex"]
+
+[node name="Patient" type="Node2D"]
+script = ExtResource("1_patient")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_tex")
+
+[node name="Halo" type="PointLight2D" parent="."]
+texture = ExtResource("2_tex")
+texture_scale = 2.0
