@@ -1,0 +1,2 @@
+The original requirement document is available at docs/original/seasonal_outbreak_Revised.docx.
+Please refer to that file for the detailed concept and requirements if not fully covered in FEATURES_GODOT_FULL.txt.

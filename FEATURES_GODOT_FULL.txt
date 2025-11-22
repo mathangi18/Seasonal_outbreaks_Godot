@@ -1,0 +1,237 @@
+FEATURES_GODOT_FULL.txt
+Title: Seasonal_outbreaks — Full Godot 4.x Feature Specification (Basic → Advanced)
+Version: 1.0
+Engine: Godot 4.x (2D, GDScript)
+
+project.godot
+/scenes
+    Main.tscn
+    Simulation.tscn
+    Patient.tscn
+    Facility.tscn
+    HUD.tscn
+/scripts
+    Main.gd
+    SimulationEngine.gd
+    Patient.gd
+    Facility.gd
+    HUD.gd
+    scale_utils.gd
+    logger.gd
+/assets
+    patient_placeholder.png
+/logs
+    sample_sim_log.csv
+README.md
+run_instructions.md
+quick_test.md
+
+------------------------------------------------------------
+1. PROJECT SKELETON & CORE ARCHITECTURE
+------------------------------------------------------------
+1.1 Project Structure: create the files/folders above exactly.
+1.2 Main Scene Bootstrap:
+  - Main.tscn loads Simulation.tscn & HUD.tscn.
+  - call scale_utils.init() in Main._ready().
+  - provide Start / Pause / Reset controls exposed in HUD.
+
+------------------------------------------------------------
+2. UNIVERSAL SCALING SYSTEM (scale_utils.gd)
+------------------------------------------------------------
+2.1 Auto-scaling API:
+  - sx(x) -> scaled X coordinate
+  - sy(y) -> scaled Y coordinate
+  - ss(size) -> scaled size (radius, font size, icon)
+  - Detect viewport size, DPR, aspect ratio, world bounds and compute scale factors.
+  - Call init() from Main._ready() to compute scales and export them as global constants or a singleton.
+
+2.2 Fail-safe Mode (exact fallback):
+  - If detection fails, use:
+      PATIENT_RADIUS = 3.0
+      PATIENT_BASE_SPEED = 1.8
+      WORLD_W = 600
+      WORLD_H = 380
+  - Ensure simulation still runs when fallbacks are active.
+
+------------------------------------------------------------
+3. TICK-BASED SIMULATION ENGINE (SimulationEngine.gd)
+------------------------------------------------------------
+3.1 Fixed Tick Loop:
+  - export var tick_interval
+  - process ticks via _process(delta) accumulating dt and calling _tick() when >= tick_interval
+  - emit signals: tick(int), patient_infected(Node), patient_recovered(Node), facility_overloaded(Node)
+
+3.2 Exported Editor Parameters (must be @export):
+  - initial_population : int
+  - infection_radius : float
+  - infection_prob : float
+  - incubation_ticks : int
+  - infectious_ticks : int
+  - patient_speed : float
+  - facility_capacity : int
+  - facility_service_rate : float
+  - RNG_seed : int (0 = random)
+
+3.3 Responsibilities:
+  - spawn/track patient instances
+  - spawn/track facility instances
+  - call infection check function (isolated)
+  - update scoreboard (via signals)
+  - call logger to append tick row
+
+------------------------------------------------------------
+4. PATIENT SYSTEM (Patient.tscn / Patient.gd)
+------------------------------------------------------------
+4.1 State machine:
+  - enum {SUSCEPTIBLE, EXPOSED, INFECTIOUS, RECOVERED}
+  - Exposed -> after incubation_ticks -> Infectious
+  - Infectious -> after infectious_ticks -> Recovered
+
+4.2 Movement:
+  - use CharacterBody2D (or Node2D + move_and_slide)
+  - pick random target within world bounds using sx/sy
+  - cap per-frame step: max_step = patient_speed * delta * smoothing_factor
+  - optional: Tween smoothing on target changes
+
+4.3 Visuals:
+  - 48x48 placeholder sprite (assets/patient_placeholder.png)
+  - Light2D or shader halo: orange = EXPOSED, red = INFECTIOUS, blue/green = RECOVERED
+  - clicking a patient opens info tooltip (id, state, ticks in state, facility assigned)
+
+4.4 Infection (isolated function):
+  - naive O(n^2) initial implementation:
+      for each infectious a:
+        for each susceptible b:
+          if distance(a,b) <= infection_radius:
+             if randf() < infection_prob: b.infect()
+  - wrap into check_infections() so grid/quadtree swap is trivial later
+
+------------------------------------------------------------
+5. FACILITY & QUEUE SYSTEM
+------------------------------------------------------------
+5.1 Facility Node (Facility.tscn / Facility.gd):
+  - properties: capacity, service_rate
+  - lists: occupants[], queue[]
+  - methods: admit(patient), enqueue(patient), dequeue_and_admit()
+  - tick_service() called each simulation tick to process service_rate patients
+
+5.2 Queue Logic:
+  - FIFO queue
+  - when admit fails because full -> push to queue and emit facility_overloaded if queue grows beyond threshold
+
+5.3 Visuals:
+  - Label showing occupancy and queue "Q: x / cap"
+  - pulse Tween on overload, or flash color via modulate
+
+------------------------------------------------------------
+6. SCOREBOARD & HUD PANELS (HUD.tscn / HUD.gd)
+------------------------------------------------------------
+6.1 Score rules:
+  - +10 on recovery
+  - -5 on new infection
+  - -20 on facility overload or failed admission
+
+6.2 Toggleable Panels (use flags or @export):
+  - SHOW_SCOREBOARD = true
+  - SHOW_QUEUE_PANEL = true
+  - SHOW_STATS_PANEL = true
+  - SHOW_FACILITY_PANEL = true
+
+6.3 Panels must:
+  - read scale via scale_utils and size/position themselves using sx/sy/ss
+  - update on SimulationEngine.tick signal
+  - expose buttons to toggle visibility and to export current CSV snapshot
+
+6.4 HUD Controls:
+  - Buttons: Start, Pause, Reset, Load Preset, Export CSV, Toggle Panels
+
+------------------------------------------------------------
+7. CSV LOGGING (logger.gd)
+------------------------------------------------------------
+7.1 Write to user://logs/sim_log.csv
+7.2 Header (write once at simulation start):
+    tick,susceptible,exposed,infectious,recovered,queued,hospitalized
+7.3 Append one line per tick with integer counts
+7.4 Also commit logs/sample_sim_log.csv as example output
+
+------------------------------------------------------------
+8. SAMPLE SCENARIOS / PRESETS
+------------------------------------------------------------
+8.1 Provide preset files (JSON or .tres) placed in /scenarios or /res://presets:
+  - high_infectivity.json
+  - low_hospital_capacity.json
+  - long_incubation.json
+  - low_mobility.json
+  - stress_test_large_pop.json
+
+8.2 UI dropdown to load presets, or auto-load a default on first run
+
+------------------------------------------------------------
+9. PERFORMANCE & HEADLESS (advanced)
+------------------------------------------------------------
+9.1 Spatial Partitioning (replaceable implementation):
+  - Implement spatial_grid.gd or quadtree.gd utility
+  - Same public API as check_infections() to allow swapping
+
+9.2 Headless Batch Mode:
+  - SimulationEngine should support running in headless mode:
+    - optional command-line flags: --ticks=N --seed=S --preset=NAME --headless
+  - When headless: disable rendering, still write CSV logs
+  - Useful for parameter sweeps and reproducible runs
+
+------------------------------------------------------------
+10. EDITOR TOOLS, GRAPHS & DEBUG (advanced)
+------------------------------------------------------------
+10.1 Editor Tool:
+  - add tool script for painting facilities / spawn zones in editor
+  - expose Save Preset button
+
+10.2 In-Game Graphs:
+  - simple CanvasItem drawing S/E/I/R time series
+  - zoom/scale controls and export to PNG
+
+10.3 Debug Overlay:
+  - show FPS, agent count, infection checks/tick, grid cell occupancy
+
+------------------------------------------------------------
+11. ASSET POLISH & ACCESSIBILITY
+------------------------------------------------------------
+11.1 Replace placeholders with distinct icons / shapes per state
+11.2 Color-blind friendly mode: use shapes or icons + colors
+11.3 Minimal animations (idle breathing, infection particle burst)
+
+------------------------------------------------------------
+12. DOCUMENTATION & QA
+------------------------------------------------------------
+12.1 README.md:
+  - How to run in Godot 4.x
+  - Feature summary
+  - Scale_utils explanation & fail-safe behavior
+  - Scenario list
+  - Mapping section->script lines (short mapping)
+
+12.2 run_instructions.md: step-by-step for beginners
+
+12.3 quick_test.md:
+  - Project opens with no missing resources
+  - Press Play -> initial population spawns
+  - At least one infection within first X ticks
+  - CSV logs generated at user://logs/sim_log.csv
+  - Scoreboard updates and panels toggle
+  - Fail-safe fallback triggers on abnormal viewport
+
+------------------------------------------------------------
+13. OPTIONAL CI / QA / NEXT STEPS
+------------------------------------------------------------
+13.1 Add simple GitHub Action verifying repository structure and running a lint (gdformat)
+13.2 Add unit tests (GUT) for patient state transitions, facility queue logic and logger writes (headless)
+13.3 Create issues for: asset polish, spatial grid optimization, editor plugin
+
+------------------------------------------------------------
+14. REFERENCE FILES USED (local paths)
+------------------------------------------------------------
+Please cross-check & map these features to:
+  - /mnt/data/FEATURES_MASTER.txt.txt
+  - /mnt/data/seasonal outbreak - Revised.docx
+
+END OF FEATURES_GODOT_FULL.txt
