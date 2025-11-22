@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://mainscene"]
+
+[ext_resource type="Script" path="res://scripts/Main.gd" id="1_main"]
+[ext_resource type="Script" path="res://scripts/SimulationEngine.gd" id="2_sim"]
+[ext_resource type="Script" path="res://scripts/HUD.gd" id="3_hud"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_main")
+
+[node name="SimulationEngine" type="Node" parent="."]
+script = ExtResource("2_sim")
+
+[node name="World" type="Node2D" parent="."]
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("3_hud")
