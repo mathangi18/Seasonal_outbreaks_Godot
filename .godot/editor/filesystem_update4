@@ -1,0 +1,6 @@
+res://logs/sample_sim_log.Susceptible.translation
+res://logs/sample_sim_log.Exposed.translation
+res://logs/sample_sim_log.Infectious.translation
+res://logs/sample_sim_log.Recovered.translation
+res://logs/sample_sim_log.Queued.translation
+res://logs/sample_sim_log.Hospitalized.translation
