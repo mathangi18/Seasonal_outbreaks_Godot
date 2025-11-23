@@ -3,11 +3,13 @@ class_name Facility
 
 @export var capacity: int = 5
 @export var service_rate: int = 1
+@export var infection_control_factor: float = 0.3
 
 var occupants: Array = []
 var queue: Array = []
 
 signal facility_overloaded
+signal patient_admitted(patient_id)
 
 func _ready():
     collision_layer = 4
@@ -21,6 +23,7 @@ func admit(patient: Patient) -> bool:
         occupants.append(patient)
         patient.hospitalize()
         update_label()
+        patient_admitted.emit(patient.get_instance_id())
         return true
     else:
         enqueue(patient)

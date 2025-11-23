@@ -10,6 +10,9 @@ var speed: float = 150.0
 var turn_rate: float = 3.0
 var capacity: int = 1
 var carried_patients: Array[Patient] = []
+var siren_playing: bool = false
+
+signal ambulance_dispatched(ambulance_id, patient_id)
 
 func _ready():
     collision_layer = 8
@@ -21,8 +24,14 @@ func _ready():
 func _physics_process(delta):
     match state:
         State.IDLE:
-            pass
+            if siren_playing:
+                siren_playing = false
         State.MOVING_TO_PATIENT:
+            if not siren_playing:
+                siren_playing = true
+                if AudioManager:
+                    AudioManager.play_sfx("ambulance_siren")
+            
             if is_instance_valid(target_patient):
                 move_to_smooth(target_patient.global_position, delta)
                 if global_position.distance_to(target_patient.global_position) < 20.0:
@@ -52,6 +61,7 @@ func dispatch(patient: Patient, facility: Facility):
     target_patient = patient
     target_facility = facility
     state = State.MOVING_TO_PATIENT
+    ambulance_dispatched.emit(get_instance_id(), patient.get_instance_id())
 
 func pickup_patient():
     if is_instance_valid(target_patient) and carried_patients.size() < capacity:
@@ -72,3 +82,4 @@ func drop_off_patients():
                 target_facility.admit(patient)
         carried_patients.clear()
         state = State.IDLE
+        siren_playing = false

@@ -8,6 +8,11 @@ class_name SimulationEngine
 @export var infection_radius: float = 50.0
 @export var base_transmission: float = 0.3
 
+# Advanced infection parameters
+@export var superspreader_event_prob: float = 0.05
+@export var superspreader_multiplier: float = 3.0
+@export var mask_adoption_rate: float = 0.3
+
 # State tracking
 var patients: Array = []
 var facilities: Array = []
@@ -16,13 +21,18 @@ var current_tick: int = 0
 var is_running: bool = false
 var new_infections_this_tick: int = 0
 var infection_log: Array = []
+var infection_chain_log: Array = []
 
 # Resources
 var patient_scene = preload("res://scenes/Patient.tscn")
 var facility_scene = preload("res://scenes/Facility.tscn")
 var ambulance_scene = preload("res://scenes/Ambulance.tscn")
 
+# Signals
 signal tick_updated(tick)
+signal patient_infected(patient_id, source_id)
+signal patient_admitted(patient_id)
+signal ambulance_dispatched(ambulance_id, patient_id)
 
 func _ready():
     pass
@@ -38,7 +48,7 @@ func start_simulation():
     timer.timeout.connect(_on_tick)
     add_child(timer)
     timer.start()
-    print("Simulation started with visual enhancements")
+    print("Simulation started with cinematic infection mechanics")
 
 func spawn_world_entities():
     var world = get_parent().get_node_or_null("World")
@@ -59,6 +69,7 @@ func spawn_world_entities():
         f.position = Vector2(randf_range(100, 1000), randf_range(100, 500))
         world.add_child(f)
         facilities.append(f)
+        f.patient_admitted.connect(_on_patient_admitted)
     
     # Spawn Ambulances
     for i in range(ambulance_count):
@@ -66,17 +77,24 @@ func spawn_world_entities():
         a.position = Vector2(100 + i * 50, 100)
         world.add_child(a)
         ambulances.append(a)
+        a.ambulance_dispatched.connect(_on_ambulance_dispatched)
     
     # Spawn Patients
     for i in range(initial_population):
         var p = patient_scene.instantiate()
         p.position = Vector2(randf_range(50, 1100), randf_range(50, 600))
+        
+        # Apply mask adoption
+        if randf() < mask_adoption_rate:
+            p.has_mask = true
+        
         world.add_child(p)
         patients.append(p)
+        p.patient_infected.connect(_on_patient_infected_signal)
     
     # Infect patient zero
     if patients.size() > 0:
-        patients[0].infect()
+        patients[0].mark_infected(-1, 0)
         print("Patient zero infected")
 
 func _on_tick():
@@ -90,6 +108,10 @@ func _on_tick():
         if p.has_method("sim_tick"):
             p.sim_tick(current_tick)
     
+    # Check for superspreader event
+    var is_superspreader_event = randf() < superspreader_event_prob
+    var transmission_multiplier = superspreader_multiplier if is_superspreader_event else 1.0
+    
     # Infection spread with distance-based probability
     for p in patients:
         if p.state == Patient.State.INFECTIOUS or p.state == Patient.State.SYMPTOMATIC:
@@ -97,9 +119,14 @@ func _on_tick():
                 if other.state == Patient.State.SUSCEPTIBLE:
                     var dist = p.position.distance_to(other.position)
                     if dist < infection_radius:
-                        var prob = base_transmission * (1.0 - dist / infection_radius)
+                        var prob = base_transmission * (1.0 - dist / infection_radius) * transmission_multiplier
+                        
+                        # Apply mask protection
+                        if other.has_mask:
+                            prob *= (1.0 - other.mask_protection)
+                        
                         if randf() < prob:
-                            other.infect()
+                            other.mark_infected(p.get_instance_id(), current_tick)
                             new_infections_this_tick += 1
     
     # Facilities
@@ -120,6 +147,10 @@ func _on_tick():
     # Log R(t) every 10 ticks
     if current_tick % 10 == 0:
         log_reproduction_number()
+    
+    # Save infection chain every 50 ticks
+    if current_tick % 50 == 0:
+        save_infection_chain()
 
 func get_idle_ambulance():
     for a in ambulances:
@@ -129,7 +160,6 @@ func get_idle_ambulance():
 
 func get_available_facility():
     if facilities.is_empty(): return null
-    # Return facility with smallest queue
     var best = facilities[0]
     for f in facilities:
         if f.queue.size() < best.queue.size():
@@ -166,11 +196,10 @@ func log_reproduction_number():
         "r_estimate": r_estimate
     })
     
-    # Write to CSV every 50 ticks
     if current_tick % 50 == 0:
-        save_infection_log()
+        save_reproduction_log()
 
-func save_infection_log():
+func save_reproduction_log():
     var timestamp = Time.get_datetime_string_from_system().replace(":", "-")
     var file_path = "logs/reproduction_%s.csv" % timestamp
     var file = FileAccess.open(file_path, FileAccess.WRITE)
@@ -184,4 +213,27 @@ func save_infection_log():
                 entry.r_estimate
             ])
         file.close()
-        print("Saved infection log to: ", file_path)
+
+func save_infection_chain():
+    var timestamp = Time.get_datetime_string_from_system().replace(":", "-")
+    var file_path = "logs/infections_%s.csv" % timestamp
+    var file = FileAccess.open(file_path, FileAccess.WRITE)
+    if file:
+        file.store_line("patient_id,infected_by_id,infection_time")
+        for p in patients:
+            if p.infected_by_id != -1:
+                file.store_line("%d,%d,%d" % [
+                    p.get_instance_id(),
+                    p.infected_by_id,
+                    p.infection_time
+                ])
+        file.close()
+
+func _on_patient_infected_signal(patient_id: int, source_id: int):
+    patient_infected.emit(patient_id, source_id)
+
+func _on_patient_admitted(patient_id: int):
+    patient_admitted.emit(patient_id)
+
+func _on_ambulance_dispatched(ambulance_id: int, patient_id: int):
+    ambulance_dispatched.emit(ambulance_id, patient_id)

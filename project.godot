@@ -36,3 +36,4 @@ window/stretch/mode="canvas_items"
 
 addons/auto_play/plugin.cfg=true
 
+AudioManager="*res://scripts/AudioManager.gd"
