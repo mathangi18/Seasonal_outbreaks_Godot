@@ -1,5 +1,4 @@
 extends Node
-# AudioManager autoload - no class_name to avoid singleton conflict
-
+# No class_name to avoid autoload conflict
 func play_sfx(name:String):
-    print("AudioManager: play_sfx ", name)
+    print('AudioManager: play_sfx ', name)
