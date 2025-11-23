@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bv8smabc6pto1"
-path="res://.godot/imported/ambulance.png-b9f17f9cddb4e7b41a7e9fb52ba314aa.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://res/assets/ambulance.png"
-dest_files=["res://.godot/imported/ambulance.png-b9f17f9cddb4e7b41a7e9fb52ba314aa.ctex"]
 
 [params]
 

@@ -3,15 +3,11 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://coqy2dh5boiku"
-path="res://.godot/imported/patient.png-1b35f29fb45535ffe5daccd91bb120fb.ctex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
 source_file="res://res/assets/patient.png"
-dest_files=["res://.godot/imported/patient.png-1b35f29fb45535ffe5daccd91bb120fb.ctex"]
 
 [params]
 
