@@ -4,7 +4,7 @@ extends CanvasLayer
 # Retry interval (seconds) to find the SimulationEngine if it is not yet available
 const RETRY_INTERVAL := 0.5
 
-var sim := null
+var sim: Node = null
 var _retry_timer := 0.0
 
 func _ready():
