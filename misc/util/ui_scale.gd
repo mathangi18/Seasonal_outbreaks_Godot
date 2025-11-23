@@ -1,31 +1,46 @@
 extends Node
-class_name UIScale
+# ui_scale.gd — autoload-friendly UI / world scale helper (no class_name)
 
-# Constants from spec
-const PATIENT_RADIUS = 3.0
-const PATIENT_BASE_SPEED = 1.8
-const WORLD_W = 600.0
-const WORLD_H = 380.0
+# Fail-safe constants
+const PATIENT_RADIUS := 3.0
+const PATIENT_BASE_SPEED := 1.8
+const WORLD_W := 600.0
+const WORLD_H := 380.0
 
-var scale_factor: float = 1.0
-var world_width: float = WORLD_W
-var world_height: float = WORLD_H
+# Instance fields (autoload will provide global `UIScale`)
+var world_width := WORLD_W
+var world_height := WORLD_H
 
-func _ready():
-	var vp = get_viewport()
-	if vp:
-		var size = vp.get_visible_rect().size
-		if size.x > 0 and size.y > 0:
-			var sx = size.x / WORLD_W
-			var sy = size.y / WORLD_H
-			scale_factor = min(sx, sy)
-			print("UIScale: Initialized with scale factor ", scale_factor)
+func _ready() -> void:
+    # Keep world size if project overrides (safe)
+    if world_width <= 0.0:
+        world_width = WORLD_W
+    if world_height <= 0.0:
+        world_height = WORLD_H
 
-func sx(x: float) -> float:
-	return x * scale_factor
+# screen scale scalar (safe in headless/editor)
+func ss() -> float:
+    var vp := get_viewport()
+    if vp == null:
+        return 1.0
+    # local names renamed to avoid collision with functions sx()/sy()
+    var local_sx: float = float(vp.size.x) / float(world_width)
+    var local_sy: float = float(vp.size.y) / float(world_height)
+    # clamp and return the minimum scaling factor (safe non-zero)
+    return min(max(0.0001, local_sx), max(0.0001, local_sy))
 
-func sy(y: float) -> float:
-	return y * scale_factor
+# scale helpers
+func sx(v: float) -> float:
+    return v * ss()
 
-func ss(size: float) -> float:
-	return size * scale_factor
+func sy(v: float) -> float:
+    return v * ss()
+
+# convenience: pixel radius for patient
+func patient_radius_px() -> float:
+    return sx(PATIENT_RADIUS)
+
+# allow runtime override
+func set_world_size(w: float, h: float) -> void:
+    world_width = max(1.0, w)
+    world_height = max(1.0, h)
