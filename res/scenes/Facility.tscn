@@ -1,0 +1,26 @@
+﻿[gd_scene load_steps=4 format=3 uid="uid://facility_visual"]
+
+[ext_resource type="Script" path="res://scripts/Facility.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/facility.png" id="2_tex"]
+
+[sub_resource type="RectangleShape2D" id="1"]
+size = Vector2(64, 64)
+
+[node name="Facility" type="Area2D"]
+collision_layer = 4
+collision_mask = 10
+script = ExtResource("1_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_tex")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")
+
+[node name="Label" type="Label" parent="."]
+offset_left = -40.0
+offset_top = -60.0
+offset_right = 40.0
+offset_bottom = -30.0
+text = "HOSPITAL"
+horizontal_alignment = 1
