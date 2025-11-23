@@ -1,50 +1,62 @@
-extends Node2D
+extends CharacterBody2D
 class_name Patient
-# FEATURES: see /FEATURES_GODOT_FULL.txt, section 5
 
-enum State { SUSCEPTIBLE, EXPOSED, INFECTIOUS, RECOVERED }
+enum State { SUSCEPTIBLE, EXPOSED, INFECTIOUS, SYMPTOMATIC, RECOVERED, HOSPITALIZED }
 
 var state: State = State.SUSCEPTIBLE
 var target_pos: Vector2
 var speed: float = 10.0
-var scale_utils
+var wander_radius: float = 50.0
 
-# Timers for state transitions
+# Timers
 var exposed_ticks: int = 0
 var infectious_ticks: int = 0
+var symptomatic_ticks: int = 0
 
-# Config from SimulationEngine (set on spawn)
+# Config
 var incubation_period: int = 5
-var recovery_period: int = 10
+var contagious_period: int = 10
+var symptom_onset: int = 8 # When they become symptomatic (and visible to ambulances)
+
+signal state_changed(new_state)
 
 func _ready():
-	scale_utils = get_node_or_null("/root/Main/ScaleUtils")
-	if not scale_utils:
-		# Fallback
-		scale_utils = load("res://scripts/scale_utils.gd").new()
-		scale_utils._ready()
-		
-	# Initial random target
+	speed = UIScale.PATIENT_BASE_SPEED * 10.0 # Adjust for scale
 	pick_new_target()
 	update_visuals()
+	
+	# Set collision layer/mask
+	collision_layer = 2 # Layer 2: Patient
+	collision_mask = 1 | 3 # World | Facility
+
+func _physics_process(delta):
+	if state == State.HOSPITALIZED:
+		return
+		
+	var dir = (target_pos - position).normalized()
+	velocity = dir * UIScale.ss(speed)
+	move_and_slide()
+	
+	if position.distance_to(target_pos) < 10.0:
+		pick_new_target()
+
+func pick_new_target():
+	# Wander randomly
+	var w = UIScale.world_width
+	var h = UIScale.world_height
+	target_pos = Vector2(randf_range(0, w), randf_range(0, h))
 
 func infect():
 	if state == State.SUSCEPTIBLE:
 		state = State.EXPOSED
 		exposed_ticks = 0
 		update_visuals()
-
-func is_infectious() -> bool:
-	return state == State.INFECTIOUS
-
-func is_susceptible() -> bool:
-	return state == State.SUSCEPTIBLE
+		state_changed.emit(state)
 
 func sim_tick(tick: int):
-	# Movement
-	move_towards_target()
-	
-	# State transitions
+	if state == State.HOSPITALIZED:
+		return
+
 	match state:
 		State.EXPOSED:
 			exposed_ticks += 1
@@ -52,39 +64,38 @@ func sim_tick(tick: int):
 				state = State.INFECTIOUS
 				infectious_ticks = 0
 				update_visuals()
+				state_changed.emit(state)
 		State.INFECTIOUS:
 			infectious_ticks += 1
-			if infectious_ticks >= recovery_period:
+			if infectious_ticks >= symptom_onset:
+				state = State.SYMPTOMATIC
+				symptomatic_ticks = 0
+				update_visuals()
+				state_changed.emit(state)
+			elif infectious_ticks >= contagious_period:
 				state = State.RECOVERED
 				update_visuals()
-
-func move_towards_target():
-	var dist = position.distance_to(target_pos)
-	if dist < 5.0:
-		pick_new_target()
-	else:
-		var dir = (target_pos - position).normalized()
-		position += dir * scale_utils.ss(speed) * 0.5 # 0.5 is tick interval approx, should use delta but this is tick based
-
-func pick_new_target():
-	if scale_utils:
-		target_pos = scale_utils.get_random_pos()
-	else:
-		target_pos = Vector2(randf_range(0, 600), randf_range(0, 380))
+				state_changed.emit(state)
+		State.SYMPTOMATIC:
+			symptomatic_ticks += 1
+			if symptomatic_ticks > 20: # recover eventually if not hospitalized
+				state = State.RECOVERED
+				update_visuals()
+				state_changed.emit(state)
 
 func update_visuals():
-	var sprite = get_node_or_null("Sprite2D")
-	var halo = get_node_or_null("Halo")
+	var sprite = $Sprite2D
+	if not sprite: return
 	
-	var color = Color.GREEN
 	match state:
-		State.SUSCEPTIBLE: color = Color.GREEN
-		State.EXPOSED: color = Color.YELLOW
-		State.INFECTIOUS: color = Color.RED
-		State.RECOVERED: color = Color.BLUE
-	
-	if sprite:
-		sprite.modulate = color
-	if halo:
-		halo.color = color
-		halo.energy = 1.0 if state == State.INFECTIOUS else 0.5
+		State.SUSCEPTIBLE: sprite.modulate = Color.GREEN
+		State.EXPOSED: sprite.modulate = Color.YELLOW
+		State.INFECTIOUS: sprite.modulate = Color.ORANGE
+		State.SYMPTOMATIC: sprite.modulate = Color.RED
+		State.RECOVERED: sprite.modulate = Color.BLUE
+		State.HOSPITALIZED: visible = false
+
+func hospitalize():
+	state = State.HOSPITALIZED
+	visible = false
+	state_changed.emit(state)

@@ -1,0 +1,6 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Standalone lambdas cannot be accessed. Consider assigning it to a variable.
+   at: GDScript::reload (res://misc/validate_project.gd:5)
+ERROR: Failed to load script "res://misc/validate_project.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)

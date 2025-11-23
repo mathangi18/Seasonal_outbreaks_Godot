@@ -1,14 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://patient"]
+[gd_scene load_steps=4 format=3 uid="uid://patient"]
 
-[ext_resource type="Script" path="res://scripts/Patient.gd" id="1_patient"]
-[ext_resource type="Texture2D" uid="uid://placeholder" path="res://assets/patient_placeholder.png" id="2_tex"]
+[ext_resource type="Script" path="res://scripts/Patient.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/patient.png" id="2_tex"]
 
-[node name="Patient" type="Node2D"]
-script = ExtResource("1_patient")
+[sub_resource type="CircleShape2D" id="1"]
+radius = 16.0
+
+[node name="Patient" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_script")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("2_tex")
 
-[node name="Halo" type="PointLight2D" parent="."]
-texture = ExtResource("2_tex")
-texture_scale = 2.0
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("1")

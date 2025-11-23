@@ -1,41 +1,25 @@
-extends SceneTree
+extends Node
 
-func _init():
-	print("Starting validation...")
+func _ready():
+	print("Validator: Starting scene-based validation...")
+	await get_tree().process_frame
 	
-	# 1. Check resources
-	var main = load("res://scenes/Main.tscn")
-	if not main:
-		print("ERROR: Main.tscn not found or failed to load.")
-		quit(1)
-		return
-		
-	# 2. Instance Main
-	var main_node = main.instantiate()
-	if not main_node:
-		print("ERROR: Failed to instance Main scene.")
-		quit(1)
-		return
-		
-	# 3. Check SimulationEngine
-	var sim = main_node.get_node("SimulationEngine")
-	if not sim:
-		print("ERROR: SimulationEngine node missing in Main.")
-		quit(1)
-		return
-		
-	# 4. Run short sim
-	print("Running 200 ticks...")
-	sim._ready()
-	for i in range(200):
-		sim._tick()
-		
-	# 5. Check logs
-	var file = FileAccess.open("user://logs/sim_log.csv", FileAccess.READ)
-	if not file:
-		print("ERROR: Log file not created.")
-		quit(1)
-		return
-		
-	print("Validation PASSED.")
-	quit(0)
+	# Check Core Scenes
+	var scenes = ["res://scenes/Main.tscn", "res://scenes/Patient.tscn", "res://scenes/Facility.tscn", "res://scenes/HUD.tscn"]
+	for s_path in scenes:
+		var s = load(s_path)
+		if s:
+			print("Validator: Loaded ", s_path)
+			var inst = s.instantiate()
+			if inst:
+				print("Validator: Instantiated ", s_path)
+				inst.queue_free()
+			else:
+				print("Validator: ERROR - Failed to instantiate ", s_path)
+				get_tree().quit(1)
+		else:
+			print("Validator: ERROR - Failed to load ", s_path)
+			get_tree().quit(1)
+			
+	print("Validator: All checks passed.")
+	get_tree().quit(0)

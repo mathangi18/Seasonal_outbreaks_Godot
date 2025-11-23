@@ -1,0 +1,10 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Static function "get_unix_time()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://misc/validate_project.gd:4)
+SCRIPT ERROR: Parse Error: Static function "get_unix_time()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://misc/validate_project.gd:5)
+SCRIPT ERROR: Parse Error: Static function "get_unix_time()" not found in base "GDScriptNativeClass".
+   at: GDScript::reload (res://misc/validate_project.gd:8)
+ERROR: Failed to load script "res://misc/validate_project.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)

@@ -1,9 +1,9 @@
 [gd_scene load_steps=2 format=3 uid="uid://hud"]
 
-[ext_resource type="Script" path="res://scripts/HUD.gd" id="1_hud"]
+[ext_resource type="Script" path="res://scripts/HUD.gd" id="1_script"]
 
 [node name="HUD" type="CanvasLayer"]
-script = ExtResource("1_hud")
+script = ExtResource("1_script")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -13,15 +13,8 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Scoreboard" type="Label" parent="Control"]
+[node name="Label" type="Label" parent="Control"]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
-text = "Scoreboard"
-
-[node name="ScenarioSelect" type="OptionButton" parent="Control"]
-layout_mode = 0
-offset_left = 20.0
-offset_top = 300.0
-offset_right = 200.0
-offset_bottom = 330.0
+text = "Stats"

@@ -1,0 +1,23 @@
+extends SceneTree
+
+func _initialize():
+    print("[VALIDATOR] Starting validation…")
+
+func _ready():
+    var scenes := [
+        "res://scenes/Main.tscn",
+        "res://scenes/Simulation.tscn",
+        "res://scenes/Patient.tscn",
+        "res://scenes/Facility.tscn",
+        "res://scenes/HUD.tscn"
+    ]
+
+    for path in scenes:
+        var res := load(path)
+        if res == null:
+            print("[VALIDATOR] ERROR: Missing scene: %s" % path)
+        else:
+            print("[VALIDATOR] OK: %s" % path)
+
+    print("[VALIDATOR] Done.")
+    quit()
