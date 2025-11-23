@@ -4,3 +4,4 @@ res://logs/sample_sim_log.Infectious.translation
 res://logs/sample_sim_log.Recovered.translation
 res://logs/sample_sim_log.Queued.translation
 res://logs/sample_sim_log.Hospitalized.translation
+res://res/scripts/Main.gd
