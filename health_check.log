@@ -1,0 +1,39 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+Vulkan 1.3.205 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2050
+
+ERROR: No loader found for resource: res://assets/patient.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/patient.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: No loader found for resource: res://assets/facility.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: res://scenes/Facility.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/facility.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: No loader found for resource: res://assets/ambulance.png (expected type: Texture2D)
+   at: _load (core/io/resource_loader.cpp:358)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: res://scenes/Ambulance.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: res://assets/ambulance.png.
+   at: _printerr (scene/resources/resource_format_text.cpp:40)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+SCRIPT ERROR: Parse Error: Identifier "Ambulance" not declared in the current scope.
+   at: GDScript::reload (res://scripts/SimulationEngine.gd:88)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: Failed to load script "res://scripts/SimulationEngine.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+MISSING_SCENE:res://scenes/World.tscn
+MISSING_SCRIPT:res://scripts/game.gd
+MISSING_SCRIPT:res://scripts/player.gd
+HEALTH_CHECK_FAILED
