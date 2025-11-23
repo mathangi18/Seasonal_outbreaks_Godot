@@ -1,18 +1,8 @@
-﻿[gd_scene load_steps=4 format=3 uid="uid://ambulance_visual"]
+[gd_scene load_steps=1 format=3]
 
-[ext_resource type="Script" path="res://scripts/Ambulance.gd" id="1_script"]
-[ext_resource type="Texture2D" path="res://assets/ambulance.png" id="2_tex"]
+[node name="Ambulance.tscn" type="Node2D"]
 
-[sub_resource type="RectangleShape2D" id="1"]
-size = Vector2(32, 16)
+[ext_resource type="Texture2D" path="res://res/assets/ambulance.png" id=1]
 
-[node name="Ambulance" type="CharacterBody2D"]
-collision_layer = 8
-collision_mask = 1
-script = ExtResource("1_script")
+[ext_resource type="Script" path="res://res/scripts/Ambulance.gd" id=2]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-texture = ExtResource("2_tex")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("1")
