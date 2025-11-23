@@ -1,5 +1,7 @@
-extends Node
-# FEATURES: see /FEATURES_GODOT_FULL.txt, section 3
+﻿extends Node
+
+@onready var sim = $SimulationEngine
 
 func _ready():
-	print("Main scene loaded.")
+    if sim:
+        sim.start_simulation()

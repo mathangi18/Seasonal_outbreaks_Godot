@@ -1,102 +1,139 @@
-extends Node
+﻿extends Node
 class_name SimulationEngine
 
-@export var initial_population: int = 50
-@export var facility_count: int = 2
+# Core simulation parameters
+@export var initial_population: int = 100
+@export var facility_count: int = 3
 @export var ambulance_count: int = 2
 @export var infection_radius: float = 30.0
-@export var infection_prob: float = 0.1
+@export var infection_prob: float = 0.3
+@export var recovery_chance: float = 0.05
 
+# State tracking
 var patients: Array = []
 var facilities: Array = []
 var ambulances: Array = []
 var current_tick: int = 0
+var is_running: bool = false
 
+# Resources
 var patient_scene = preload("res://scenes/Patient.tscn")
 var facility_scene = preload("res://scenes/Facility.tscn")
 var ambulance_scene = preload("res://scenes/Ambulance.tscn")
 
-signal tick(current_tick)
+signal tick_updated(tick)
 
 func _ready():
-	spawn_facilities()
-	spawn_patients()
-	spawn_ambulances()
-	
-	var timer = Timer.new()
-	timer.wait_time = 0.5
-	timer.timeout.connect(_on_tick)
-	add_child(timer)
-	timer.start()
+    # Wait for start_simulation to be called or auto-start if needed
+    pass
 
-func spawn_patients():
-	for i in range(initial_population):
-		var p = patient_scene.instantiate()
-		get_parent().get_node("World").add_child(p)
-		patients.append(p)
-	# Infect one
-	if patients.size() > 0:
-		patients[0].infect()
+func start_simulation():
+    if is_running: return
+    is_running = true
+    
+    spawn_world_entities()
+    
+    var timer = Timer.new()
+    timer.wait_time = 0.5 # 2 ticks per second
+    timer.timeout.connect(_on_tick)
+    add_child(timer)
+    timer.start()
+    print("Simulation started.")
 
-func spawn_facilities():
-	for i in range(facility_count):
-		var f = facility_scene.instantiate()
-		f.position = Vector2(randf_range(50, UIScale.world_width-50), randf_range(50, UIScale.world_height-50))
-		get_parent().get_node("World").add_child(f)
-		facilities.append(f)
+func spawn_world_entities():
+    var world = get_parent().get_node_or_null("World")
+    if not world:
+        print("Error: World node not found")
+        return
 
-func spawn_ambulances():
-	for i in range(ambulance_count):
-		var a = ambulance_scene.instantiate()
-		a.position = Vector2(50, 50)
-		get_parent().get_node("World").add_child(a)
-		ambulances.append(a)
+    # Clear existing
+    for c in world.get_children():
+        c.queue_free()
+    patients.clear()
+    facilities.clear()
+    ambulances.clear()
+    
+    # Spawn Facilities
+    for i in range(facility_count):
+        var f = facility_scene.instantiate()
+        f.position = Vector2(randf_range(50, UIScale.world_width-50), randf_range(50, UIScale.world_height-50))
+        world.add_child(f)
+        facilities.append(f)
+        
+    # Spawn Ambulances
+    for i in range(ambulance_count):
+        var a = ambulance_scene.instantiate()
+        a.position = Vector2(50, 50) + Vector2(i*40, 0)
+        world.add_child(a)
+        ambulances.append(a)
+        
+    # Spawn Patients
+    for i in range(initial_population):
+        var p = patient_scene.instantiate()
+        p.position = Vector2(randf_range(20, UIScale.world_width-20), randf_range(20, UIScale.world_height-20))
+        world.add_child(p)
+        patients.append(p)
+        
+    # Infect initial patient
+    if patients.size() > 0:
+        patients[0].infect()
 
 func _on_tick():
-	current_tick += 1
-	tick.emit(current_tick)
-	
-	# Update patients
-	for p in patients:
-		p.sim_tick(current_tick)
-		
-	# Infection spread
-	for p in patients:
-		if p.state == Patient.State.INFECTIOUS or p.state == Patient.State.SYMPTOMATIC:
-			for other in patients:
-				if other.state == Patient.State.SUSCEPTIBLE:
-					if p.position.distance_to(other.position) < infection_radius:
-						if randf() < infection_prob:
-							other.infect()
-							
-	# Facilities
-	for f in facilities:
-		f.tick_service()
-		
-	# Ambulance Dispatch
-	for p in patients:
-		if p.state == Patient.State.SYMPTOMATIC and p.visible: # Visible means not already in ambulance/hospital
-			# Find idle ambulance
-			var amb = get_idle_ambulance()
-			if amb:
-				# Find nearest facility with capacity (or just any)
-				var fac = facilities[0] # Simple logic
-				amb.dispatch(p, fac)
+    if not is_running: return
+    current_tick += 1
+    tick_updated.emit(current_tick)
+    
+    # 1. Update Patients (Movement, State Timers)
+    for p in patients:
+        if p.has_method("sim_tick"):
+            p.sim_tick(current_tick)
+            
+    # 2. Infection Spread
+    # Optimization: Spatial grid would be better, but O(N^2) is fine for N=100
+    for p in patients:
+        if p.state == Patient.State.INFECTIOUS or p.state == Patient.State.SYMPTOMATIC:
+            for other in patients:
+                if other.state == Patient.State.SUSCEPTIBLE:
+                    if p.position.distance_to(other.position) < infection_radius:
+                        if randf() < infection_prob:
+                            other.infect()
+                            
+    # 3. Facilities Logic
+    for f in facilities:
+        if f.has_method("tick_service"):
+            f.tick_service()
+            
+    # 4. Ambulance Dispatch
+    # Simple strategy: Find first symptomatic patient not being attended
+    for p in patients:
+        if p.state == Patient.State.SYMPTOMATIC and p.visible and not p.is_being_attended:
+            var ambulance = get_idle_ambulance()
+            if ambulance:
+                var facility = get_available_facility()
+                if facility:
+                    ambulance.dispatch(p, facility)
+                    p.is_being_attended = true
 
 func get_idle_ambulance():
-	for a in ambulances:
-		if a.state == Ambulance.State.IDLE:
-			return a
-	return null
+    for a in ambulances:
+        if a.state == Ambulance.State.IDLE:
+            return a
+    return null
+
+func get_available_facility():
+    # Return facility with least queue or just random
+    if facilities.is_empty(): return null
+    return facilities[0] # Simplification for now
 
 func get_counts() -> Dictionary:
-	var s=0; var e=0; var i=0; var sym=0; var r=0; var h=0
-	for p in patients:
-		match p.state:
-			Patient.State.SUSCEPTIBLE: s+=1
-			Patient.State.EXPOSED: e+=1
-			Patient.State.INFECTIOUS: i+=1
-			Patient.State.SYMPTOMATIC: sym+=1
-			Patient.State.RECOVERED: r+=1
-			Patient.State.HOSPITALIZED: h+=1
-	return {"tick": current_tick, "s": s, "e": e, "i": i, "sym": sym, "r": r, "h": h}
+    var counts = {"S":0, "E":0, "I":0, "Sym":0, "R":0, "H":0}
+    for p in patients:
+        match p.state:
+            Patient.State.SUSCEPTIBLE: counts.S += 1
+            Patient.State.EXPOSED: counts.E += 1
+            Patient.State.INFECTIOUS: counts.I += 1
+            Patient.State.SYMPTOMATIC: counts.Sym += 1
+            Patient.State.RECOVERED: counts.R += 1
+            Patient.State.HOSPITALIZED: counts.H += 1
+    counts["Tick"] = current_tick
+    return counts

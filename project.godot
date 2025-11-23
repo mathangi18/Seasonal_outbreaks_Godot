@@ -31,3 +31,8 @@ window/stretch/mode="canvas_items"
 2d_physics/layer_2="Patient"
 2d_physics/layer_3="Facility"
 2d_physics/layer_4="Vehicle"
+
+[editor_plugins]
+
+addons/auto_play/plugin.cfg=true
+
