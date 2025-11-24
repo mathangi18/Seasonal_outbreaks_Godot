@@ -1,4 +1,2 @@
-﻿extends Node
-# No class_name to avoid autoload conflict
-func play_sfx(name:String):
-    print('AudioManager: play_sfx ', name)
+extends Node
+func play_sfx(n): pass
