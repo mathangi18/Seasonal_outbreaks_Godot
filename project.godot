@@ -1,4 +1,4 @@
-﻿; Engine configuration file.
+; Engine configuration file.
 ; It's best edited using the editor UI and not directly,
 ; since the parameters that go here are not all obvious.
 ;
@@ -7,6 +7,8 @@
 ;   param=value ; assign values to parameters
 
 config_version=5
+
+"ï»¿config_version"=5
 
 [application]
 
@@ -34,4 +36,3 @@ addons/auto_play/plugin.cfg=true
 2d_physics/layer_2="Patient"
 2d_physics/layer_3="Facility"
 2d_physics/layer_4="Vehicle"
-
