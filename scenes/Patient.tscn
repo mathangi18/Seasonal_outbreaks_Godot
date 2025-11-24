@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://patient"]
+﻿[gd_scene load_steps=4 format=3 uid="uid://patient"]
 
 [ext_resource type="Script" path="res://res/scripts/Patient.gd" id="1_script"]
 [ext_resource type="Texture2D" path="res://assets/patient.png" id="2_tex"]

@@ -1,4 +1,4 @@
-FEATURES_GODOT_FULL.txt
+﻿FEATURES_GODOT_FULL.txt
 Title: Seasonal_outbreaks — Full Godot 4.x Feature Specification (Basic → Advanced)
 Version: 1.0
 Engine: Godot 4.x (2D, GDScript)

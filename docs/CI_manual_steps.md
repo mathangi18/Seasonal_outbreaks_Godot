@@ -1,4 +1,4 @@
-# CI Manual Steps
+﻿# CI Manual Steps
 
 If the automated CI fails or if running on a self-hosted runner without Godot:
 

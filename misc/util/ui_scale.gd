@@ -1,4 +1,4 @@
-# res://misc/util/ui_scale.gd
+﻿# res://misc/util/ui_scale.gd
 # Minimal autoload-friendly UIScale helper (no class_name to avoid hiding autoload)
 extends Node
 

@@ -1,4 +1,4 @@
-extends Node
+﻿extends Node
 class_name SimulationEngine
 
 signal counts_changed

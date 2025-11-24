@@ -1,4 +1,4 @@
-# Quick Test Guide
+﻿# Quick Test Guide
 
 ## Validation Checklist
 

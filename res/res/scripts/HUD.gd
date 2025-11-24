@@ -1,4 +1,4 @@
-﻿# res://scripts/HUD.gd
+﻿﻿# res://scripts/HUD.gd
 extends CanvasLayer
 
 # Retry interval (seconds) to find the SimulationEngine if it is not yet available

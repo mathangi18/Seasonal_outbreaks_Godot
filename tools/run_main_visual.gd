@@ -1,4 +1,4 @@
-# res://tools/run_main_visual.gd - temporary helper script for AG
+﻿# res://tools/run_main_visual.gd - temporary helper script for AG
 extends MainLoop
 func _init():
     var f = load("res://res/scenes/Main.tscn")

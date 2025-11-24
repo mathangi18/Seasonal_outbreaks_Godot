@@ -1,4 +1,4 @@
-extends Node
+﻿extends Node
 
 func _ready():
 	print("Validator: Starting scene-based validation...")

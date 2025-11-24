@@ -1,4 +1,4 @@
-extends CanvasLayer
+﻿extends CanvasLayer
 class_name HUD
 var engine:SimulationEngine = null
 var label: Label

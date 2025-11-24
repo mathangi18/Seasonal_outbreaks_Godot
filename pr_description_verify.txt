@@ -1,4 +1,4 @@
-# PR Description
+﻿# PR Description
 
 ## Title
 chore: verify & fix Godot scaffold (docs-verified, headless tests)

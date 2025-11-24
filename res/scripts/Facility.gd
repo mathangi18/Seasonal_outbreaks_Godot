@@ -1,4 +1,4 @@
-extends Node2D
+﻿extends Node2D
 class_name Facility
 var capacity = 10
 var occupied = 0

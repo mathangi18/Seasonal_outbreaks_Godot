@@ -1,4 +1,4 @@
-# Layer Verification
+﻿# Layer Verification
 
 ## Collision Layers
 - **Manual**: Open `project.godot` -> Layer Names -> 2d_physics. Verify Layer 1=World, 2=Patient, 3=Facility, 4=Vehicle.

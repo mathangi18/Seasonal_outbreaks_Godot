@@ -1,2 +1,2 @@
-Auto-fix performed: rebuilt Main.tscn to enable visual run.
+﻿Auto-fix performed: rebuilt Main.tscn to enable visual run.
 Evidence: logs/health_check_after_auto_fix.log, logs/godot_run_instantiate.log, logs/main_scene_running_*.png

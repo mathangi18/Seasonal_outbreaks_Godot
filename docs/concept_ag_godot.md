@@ -1,4 +1,4 @@
-# Concept: Seasonal Outbreaks (Godot)
+﻿# Concept: Seasonal Outbreaks (Godot)
 
 ## Overview
 A simulation of seasonal disease outbreaks in a population, modeled in Godot 4.x.

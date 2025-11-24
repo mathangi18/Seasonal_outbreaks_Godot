@@ -1,3 +1,3 @@
-class_name Facility
+﻿class_name Facility
 extends Node2D
 func _ready(): pass

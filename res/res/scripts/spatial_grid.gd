@@ -1,4 +1,4 @@
-extends Node
+﻿extends Node
 class_name SpatialGrid
 # FEATURES: see /FEATURES_GODOT_FULL.txt, section 9 (Optimization)
 

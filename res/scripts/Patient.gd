@@ -1,4 +1,4 @@
-extends Node2D
+﻿extends Node2D
 class_name Patient
 enum State {SUSCEPTIBLE, EXPOSED, INFECTIOUS, SYMPTOMATIC, RECOVERED, HOSPITAL}
 var state = State.SUSCEPTIBLE

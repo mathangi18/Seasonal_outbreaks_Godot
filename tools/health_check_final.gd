@@ -1,4 +1,4 @@
-extends SceneTree
+﻿extends SceneTree
 func _init():
     var ok = true
     var scenes = ["res://res/res/scenes/Main.tscn", "res://res/res/scenes/Patient.tscn"]

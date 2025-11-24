@@ -1,4 +1,4 @@
-extends SceneTree
+﻿extends SceneTree
 
 var ticks := 200
 

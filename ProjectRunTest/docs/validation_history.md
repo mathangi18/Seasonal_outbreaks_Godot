@@ -1,4 +1,4 @@
-# Validation history — Seasonal_outbreaks_Godot
+﻿# Validation history — Seasonal_outbreaks_Godot
 
 *(Auto-seeded with known issues & fixes. Use tools/run_and_log.ps1 to append future failures automatically.)*
 

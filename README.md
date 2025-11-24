@@ -1,4 +1,4 @@
-# Seasonal Outbreaks (Godot)
+﻿# Seasonal Outbreaks (Godot)
 
 A 2D simulation of seasonal outbreaks using Godot 4.x.
 

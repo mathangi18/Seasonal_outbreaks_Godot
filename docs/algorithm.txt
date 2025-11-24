@@ -1,4 +1,4 @@
-# Algorithm Notes
+﻿# Algorithm Notes
 
 ## Infection State Machine
 1. **Susceptible**: Can be infected if near Infectious/Symptomatic.

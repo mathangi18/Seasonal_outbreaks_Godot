@@ -1,4 +1,4 @@
-extends Node
+﻿extends Node
 # FEATURES: see /FEATURES_GODOT_FULL.txt, section 8
 
 var log_file: FileAccess

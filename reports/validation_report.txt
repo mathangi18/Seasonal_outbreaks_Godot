@@ -1,4 +1,4 @@
-# Validation Report
+﻿# Validation Report
 
 ## Environment
 - OS: Windows

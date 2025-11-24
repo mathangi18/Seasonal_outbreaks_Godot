@@ -1,4 +1,4 @@
-# Code Explanation
+﻿# Code Explanation
 
 ## scripts/SimulationEngine.gd
 - `spawn_patients()`: Instantiates patients.

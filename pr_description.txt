@@ -1,4 +1,4 @@
-# PR Description
+﻿# PR Description
 
 ## Title
 feat: Godot 4 scaffold + SimulationEngine + Patient + Facility + HUD + Logger (validated)

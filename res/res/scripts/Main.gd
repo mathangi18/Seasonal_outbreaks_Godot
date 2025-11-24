@@ -1,29 +1,7 @@
-extends Node2D
+﻿﻿extends Node
 
-var patient_scene = preload("res://res/res/scenes/Patient.tscn")
-var facility_scene = preload("res://res/res/scenes/Facility.tscn")
-var ambulance_scene = preload("res://res/res/scenes/Ambulance.tscn")
+@onready var sim = $SimulationEngine
 
 func _ready():
-    print("MAIN: Spawning entities...")
-    randomize()
-    
-    # Spawn 50 Patients
-    for i in range(50):
-        var p = patient_scene.instantiate()
-        p.position = Vector2(randf() * 1000, randf() * 700)
-        add_child(p)
-        
-    # Spawn 3 Facilities
-    for i in range(3):
-        var f = facility_scene.instantiate()
-        f.position = Vector2(100 + i * 300, 200)
-        add_child(f)
-        
-    # Spawn 3 Ambulances
-    for i in range(3):
-        var a = ambulance_scene.instantiate()
-        a.position = Vector2(100 + i * 300, 500)
-        add_child(a)
-        
-    print("MAIN: Spawn complete.")
+    if sim:
+        sim.start_simulation()

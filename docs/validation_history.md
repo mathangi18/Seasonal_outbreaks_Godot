@@ -1,4 +1,4 @@
-# Validation History
+﻿# Validation History
 
 ## 2025-11-23
 - Initial setup of Godot project.

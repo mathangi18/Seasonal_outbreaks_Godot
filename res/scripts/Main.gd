@@ -1,4 +1,4 @@
-extends Node2D
+﻿extends Node2D
 
 var patient_scene = preload("res://res/scenes/Patient.tscn")
 var facility_scene = preload("res://res/scenes/Facility.tscn")

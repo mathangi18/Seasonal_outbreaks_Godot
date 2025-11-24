@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://main"]
+﻿[gd_scene load_steps=4 format=3 uid="uid://main"]
 
 [ext_resource type="Script" path="res://res/scripts/Main.gd" id="1_main"]
 [ext_resource type="Script" path="res://res/scripts/SimulationEngine.gd" id="2_sim"]

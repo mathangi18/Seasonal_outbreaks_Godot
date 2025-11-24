@@ -1,4 +1,4 @@
-# Features: Seasonal Outbreaks (Godot)
+﻿# Features: Seasonal Outbreaks (Godot)
 
 ## 1. Simulation
 - **Infection**: Proximity-based spread.

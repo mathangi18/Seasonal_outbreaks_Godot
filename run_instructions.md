@@ -1,4 +1,4 @@
-# Run Instructions
+﻿# Run Instructions
 
 1. **Install Godot 4.x**: Ensure you have Godot 4.2 or later installed.
 2. **Open Project**: Launch Godot, click "Import", and select the `project.godot` file in this directory.

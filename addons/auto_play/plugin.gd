@@ -1,6 +1,9 @@
-tool
+@tool
 extends EditorPlugin
 func _enter_tree():
     if not Engine.is_editor_hint(): return
-    # Wait a frame then run
-    get_tree().create_timer(1.0).timeout.connect(func(): get_editor_interface().play_custom_scene("res://res/res/scenes/Main.tscn"))
+    # Wait a bit for editor to settle
+    get_tree().create_timer(2.0).timeout.connect(func():
+        print("AutoPlay: Triggering Main Scene...")
+        get_editor_interface().play_custom_scene("res://res/res/scenes/Main.tscn")
+    )
