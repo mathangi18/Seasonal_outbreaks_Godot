@@ -1,4 +1,3 @@
 class_name Facility
 extends Node2D
-var queue = []
-func _ready() -> void: pass
+func _ready(): pass

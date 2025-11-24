@@ -1,19 +1,29 @@
 extends Node2D
-const PatientScene = preload("res://res/scenes/Patient.tscn")
-const FacilityScene = preload("res://res/scenes/Facility.tscn")
-const AmbulanceScene = preload("res://res/scenes/Ambulance.tscn")
-func _ready() -> void:
+
+var patient_scene = preload("res://res/res/scenes/Patient.tscn")
+var facility_scene = preload("res://res/res/scenes/Facility.tscn")
+var ambulance_scene = preload("res://res/res/scenes/Ambulance.tscn")
+
+func _ready():
+    print("MAIN: Spawning entities...")
     randomize()
-    for i in range(30):
-        var p = PatientScene.instantiate()
-        p.position = Vector2(randf()*800-400, randf()*600-300)
+    
+    # Spawn 50 Patients
+    for i in range(50):
+        var p = patient_scene.instantiate()
+        p.position = Vector2(randf() * 1000, randf() * 700)
         add_child(p)
+        
+    # Spawn 3 Facilities
     for i in range(3):
-        var f = FacilityScene.instantiate()
-        f.position = Vector2(-300 + i*300, -50)
+        var f = facility_scene.instantiate()
+        f.position = Vector2(100 + i * 300, 200)
         add_child(f)
+        
+    # Spawn 3 Ambulances
     for i in range(3):
-        var a = AmbulanceScene.instantiate()
-        a.position = Vector2(-200 + i*200, 150)
+        var a = ambulance_scene.instantiate()
+        a.position = Vector2(100 + i * 300, 500)
         add_child(a)
-    print("MAIN: spawned demo entities")
+        
+    print("MAIN: Spawn complete.")
