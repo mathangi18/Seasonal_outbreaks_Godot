@@ -1,0 +1,410 @@
+Project-ready cleanup report - 20251125_204753
+
+== SNAPSHOT ==
+PREVIEW: Would create snapshot folder: D:\SO_QUICK_SNAPSHOT\20251125_204753
+
+== TRASH BACKUP ==
+PREVIEW: Would create trash backup folder: D:\SO_TRASH_BACKUP\20251125_204753
+
+== FIND & MOVE PATTERNS ==
+
+Processing pattern: *.ctex
+None found for pattern: *.ctex
+
+Processing pattern: *.md5
+None found for pattern: *.md5
+
+Processing pattern: shader_cache
+None found for pattern: shader_cache
+
+Processing pattern: godot_temp
+None found for pattern: godot_temp
+
+Processing pattern: logs
+None found for pattern: logs
+
+Processing pattern: removed_backup_*
+None found for pattern: removed_backup_*
+
+Processing pattern: .ag_work
+None found for pattern: .ag_work
+
+Processing pattern: .openagent
+None found for pattern: .openagent
+
+Processing pattern: .open-agent
+None found for pattern: .open-agent
+
+Processing pattern: Godot.exe.broken_*
+None found for pattern: Godot.exe.broken_*
+
+== .godot/imported cleanup ==
+
+== Recover originals into assets/originals (if any found in common backup locations) ==
+PREVIEW: Would ensure folder exists: D:\Repos\Seasonal_outbreaks_Godot\assets\originals
+No matching recovered originals found in probe locations.
+
+== GIT OPERATIONS (scoped to D:\Repos\Seasonal_outbreaks_Godot) ==
+Detected git repo at D:\Repos\Seasonal_outbreaks_Godot
+GIT: Preview mode or commit disabled. Showing git status (preview):
+ M .godot/editor/filesystem_cache10
+ D .godot/editor/filesystem_update4
+ M .godot/editor/project_metadata.cfg
+ M .godot/global_script_class_cache.cfg
+ D .godot/imported/ambient_bg.ogg-5a7e88e540e29b154cd40d77e4615534.md5
+ D .godot/imported/ambulance.png-325152256f4fd2ed82f88940b0aeba8c.ctex
+ D .godot/imported/ambulance.png-325152256f4fd2ed82f88940b0aeba8c.md5
+ D .godot/imported/ambulance.png-b9f17f9cddb4e7b41a7e9fb52ba314aa.md5
+ D .godot/imported/ambulance.png-ba249e11e25e83e3ad5880c0421b88d7.md5
+ D .godot/imported/ambulance_siren.ogg-11e0b342fc66c58318f11c42831fc3a1.md5
+ D .godot/imported/cinematic_sting.ogg-b2564c00504c724f57fd14cf26914e72.md5
+ D .godot/imported/concept_ambulance.png-7f59e0aa43c80e5f7a2d7440ff5a24bf.ctex
+ D .godot/imported/concept_ambulance.png-7f59e0aa43c80e5f7a2d7440ff5a24bf.md5
+ D .godot/imported/concept_gameplay.png-e6426628cf462130deee0a17d73dcf69.ctex
+ D .godot/imported/concept_gameplay.png-e6426628cf462130deee0a17d73dcf69.md5
+ D .godot/imported/concept_ui.png-d6aee6df623599d0e9e8f1b4c5ee7672.ctex
+ D .godot/imported/concept_ui.png-d6aee6df623599d0e9e8f1b4c5ee7672.md5
+ D .godot/imported/facility.png-104c8a422f77cea697834dcc494386c7.ctex
+ D .godot/imported/facility.png-104c8a422f77cea697834dcc494386c7.md5
+ D .godot/imported/facility.png-2b67b62bc73cb03bae4d86939f96233a.md5
+ D .godot/imported/facility.png-f57f895cf9a5ef30a105a8929ea23a53.md5
+ D .godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex
+ D .godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5
+ D .godot/imported/icon.svg-5c21cea936611480a3dbfda2009ce7a3.ctex
+ D .godot/imported/icon.svg-5c21cea936611480a3dbfda2009ce7a3.md5
+ D .godot/imported/main_scene_execute_visual.png-e972687b6297b9e1ec8e54f7f0c73946.ctex
+ D .godot/imported/main_scene_execute_visual.png-e972687b6297b9e1ec8e54f7f0c73946.md5
+ D .godot/imported/main_scene_running_20251123_234805.png-9d8de7011882801aa3cc02b157df613f.ctex
+ D .godot/imported/main_scene_running_20251123_234805.png-9d8de7011882801aa3cc02b157df613f.md5
+ D .godot/imported/main_scene_running_20251123_235438.png-c18332aa3cc64be11c1765430393199d.ctex
+ D .godot/imported/main_scene_running_20251123_235438.png-c18332aa3cc64be11c1765430393199d.md5
+ D .godot/imported/main_scene_running_20251124_000928.png-e0db99dfa4d2b043f786bdacc6fed6b5.ctex
+ D .godot/imported/main_scene_running_20251124_000928.png-e0db99dfa4d2b043f786bdacc6fed6b5.md5
+ D .godot/imported/main_scene_running_20251124_001931.png-99c4a96d90eb2f349b67bade6ba50c4b.ctex
+ D .godot/imported/main_scene_running_20251124_001931.png-99c4a96d90eb2f349b67bade6ba50c4b.md5
+ D .godot/imported/main_scene_verified_20251124_095014.png-e8d381253ca23418267e4b88c88ceaf0.ctex
+ D .godot/imported/main_scene_verified_20251124_095014.png-e8d381253ca23418267e4b88c88ceaf0.md5
+ D .godot/imported/main_scene_verified_20251124_105138.png-a12253744a15df5bbfcf358c12ee5c43.ctex
+ D .godot/imported/main_scene_verified_20251124_105138.png-a12253744a15df5bbfcf358c12ee5c43.md5
+ D .godot/imported/main_scene_verified_20251124_112537.png-8da0db021541cbcb527df5f26d3b5b7e.ctex
+ D .godot/imported/main_scene_verified_20251124_112537.png-8da0db021541cbcb527df5f26d3b5b7e.md5
+ D .godot/imported/patient.png-0e8e8a05c29afa80778b0b3c24f3afdb.ctex
+ D .godot/imported/patient.png-0e8e8a05c29afa80778b0b3c24f3afdb.md5
+ D .godot/imported/patient.png-1b35f29fb45535ffe5daccd91bb120fb.md5
+ D .godot/imported/patient.png-30ac83d5288249fd1ea9af9d5cf7e5cc.md5
+ D .godot/imported/patient_moan.ogg-de792c34934d876aed153a38fbfba8b5.md5
+ D .godot/imported/patient_placeholder.png-420a55848144fafd287e4eba71132b06.ctex
+ D .godot/imported/patient_placeholder.png-420a55848144fafd287e4eba71132b06.md5
+ D .godot/imported/sample_sim_log.csv-69aab2d6a323fe38f839eb8f61d93ae2.md5
+ D .godot/imported/sim_runtime_screenshot.png-51120af9f7903ed6725dc2568f8df280.ctex
+ D .godot/imported/sim_runtime_screenshot.png-51120af9f7903ed6725dc2568f8df280.md5
+ D .godot/imported/sim_visual_final.png-1f6fb92fbce2144941b146dad7ef4952.ctex
+ D .godot/imported/sim_visual_final.png-1f6fb92fbce2144941b146dad7ef4952.md5
+ D .godot/imported/ui_pop.ogg-4908cfc061a469b3b453c2fc819c1ab5.md5
+ D .godot/imported/ultimate_visual_proof_20251124_000048.png-6551095979773f362d6ca796063d0584.ctex
+ D .godot/imported/ultimate_visual_proof_20251124_000048.png-6551095979773f362d6ca796063d0584.md5
+ D .godot/shader_cache/BestFitNormalShaderRD/8c748b5176971d04b037d61fe8ee9c0da50efc42fb21ff2f4fc11dbf138ac284/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/BlitShaderRD/25c59c709fcd7c8e69780f3edeaebc055b68c06b660c69bb43d8246614325591/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/BokehDofShaderRD/5a14c722b7cad6a5d1853b764825b687b8e8c26d08a7edef6f50a28c2a237b9c/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CanvasOcclusionShaderRD/2e1e40e085c85bd3960b7bad3be9bad88a3e02174708138d2eb3215933437ede/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CanvasSdfShaderRD/e3e36a196484fd7752bf3d5dca5d9ff7512a4e981b5f5f57e6f0a0fc50640721/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CanvasShaderRD/8f73ea59600218c7f4a72f38f0a825d4b9edae392f00688807259ea2faf43974/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CanvasShaderRD/8f73ea59600218c7f4a72f38f0a825d4b9edae392f00688807259ea2faf43974/45fb1ddc6499e56682916a355ce2839e61f42dfe.vulkan.cache
+ D .godot/shader_cache/CanvasShaderRD/8f73ea59600218c7f4a72f38f0a825d4b9edae392f00688807259ea2faf43974/8a7277c8d3ac029b087c3fa9c55de85560be5119.vulkan.cache
+ D .godot/shader_cache/CanvasShaderRD/8f73ea59600218c7f4a72f38f0a825d4b9edae392f00688807259ea2faf43974/c0a681ae42aa3e0b5abba232ccae0b036be455e4.vulkan.cache
+ D .godot/shader_cache/CanvasShaderRD/8f73ea59600218c7f4a72f38f0a825d4b9edae392f00688807259ea2faf43974/f3e258e8f7ec2e7e740b62f3bc48ecf5c99fb0db.vulkan.cache
+ D .godot/shader_cache/ClusterDebugShaderRD/7253e84e6deaaf9cd1391aff49a754db31e162f9ecaf776485fde4bc31121aa6/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ClusterRenderShaderRD/5520632edde9dc7efc467666b1888d0f07fe10e4c2e113e68f1757bab97a847b/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ClusterStoreShaderRD/9ca626ebec243544ae7398e49713da5e69391ab29de1ced02b03e718a013c28f/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CopyShaderRD/363226e4e754f4dd97b1000777a12a1e717a0202ef34a8bb5cbbee343880d1a3/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CopyToFbShaderRD/0adebb67e6205ddab89bef68d0541718044b8408d301ef90fcc572ab1f1dc3c1/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CubeToDpShaderRD/f3ba78a7ce282686c1bace415c6d4852f8b5df07fd90aff0139030354b9c53e6/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CubemapDownsamplerShaderRD/831be8c39044041b2e1da3b55ee6c2d5d5242c0c11326369eda23b7ae42ee04c/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CubemapFilterShaderRD/73d1b21cf27dc843bbcc28dc35d902623419ae7f0c17dba1d9c725d82959f576/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/CubemapRoughnessShaderRD/bb92ea060a11d89f9121ad84bf077cdf954f39a59c3cc78038611f19f3d94533/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/FsrUpscaleShaderRD/0715ca028e84f0a9b6f91a4ac308d37a5c185438f466e254fac8b7377dc10759/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/GiShaderRD/69ca96412569cbef4a05e515b55b5744ab10048a32a6d2fef2a7c2ad984c9155/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/IntegrateDfgShaderRD/287328d7c084c243ad82ac05423c4a58662ea18582b5b369f3288be49e4a66d8/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/LuminanceReduceShaderRD/62fd065f2a03f76e82ff0efdd729b029811828e67b3dc62b0dd4c1b2a8eb2c23/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/MotionVectorsShaderRD/e9ac9ae0667a399f458196d55204937c545356cd64ba755844d9c9943cffdc55/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ParticlesCopyShaderRD/76ee6b7648ff369a05e8340a639ce08c065370fd23e6d18634d522db1c3ac055/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ParticlesShaderRD/c77129ff51da9b8bd8037785c1a2afcdca1f25aa602d8d22c4973640d55305a4/f128cab0b22fb7e0d9f023d6cdb81309be392d95.vulkan.cache
+ D .godot/shader_cache/ResolveShaderRD/5e0937d6a862fc03f2a42b11dd8fcc8ca9fa948bc51bc5504f3e3a92e954cc33/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/111f8cfd3c260d918df85827eb251dc36a43cb13.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/35a078cb7dc07df55e460ed1a913486a68ab6bb0.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/7412c254abd0f944fb53942228920fe187f1d723.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/7a57964a6a80c226a1011fb78edbda41d2219632.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/7a6b05ba6ca90f8a542e0d1fcc3360f7d52c6e09.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/7d4c2429f20db9b651852713d31971380f209eec.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/89044bace37a3ce54cf2cc5190e11bed6d14f97a.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/a38af1e47720abf30ca44f3d3c099c07b046df81.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/ab0b960474f1491b42ef9f2ca13dbd4ccaf64911.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/f88424e725a3bb50f358e9b042552af7b1c2f921.vulkan.cache
+ D .godot/shader_cache/SceneForwardClusteredShaderRD/df8d1dbb6fb950c04bcc78fb1667a6eb52d604ac1f0317023833936c838ed75f/f89c365b12d7e2d46fb2e1f6ace46a76b6cd5e89.vulkan.cache
+ D .godot/shader_cache/ScreenSpaceReflectionFilterShaderRD/b8974626c582dd282d9ca1bd58b6ffeda45b41e5b160baa199088657ad7eca95/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ScreenSpaceReflectionScaleShaderRD/f028513910f44db288a6d0d7315df152a910214dd680426d7817a0db185bb512/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ScreenSpaceReflectionShaderRD/aa7798f702ec7502be62da736ef869c792a69bb4310d9a535e0b6596ad1c4c8f/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SdfgiDebugProbesShaderRD/c25d7a81827da688487a69637d3e61ae9f31c125940f4fbf05b6de4a2c1e78a9/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SdfgiDebugShaderRD/6de37bb5aa871af3d348d47b0cbfc09f6873bf5a2500f0cf9280e404ff4ce97b/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SdfgiDirectLightShaderRD/a3474a0b60ebab5bb7010596e49cfb91bbfc3689c4df741b809ddc92e1fa90e9/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SdfgiIntegrateShaderRD/62e2ae895bf90996b40c48aeab6a59c24d27c6c843ef9ee94adf3f6de80b26ac/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SdfgiPreprocessShaderRD/60c77a38319fd7cc123270bcc0dfbdddd8f74e985d1907c08c726e3d4dbf7b06/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/ShadowFrustumShaderRD/851c9007fbee11476e65c3cbb595c7113c7e98676c38d49b88056bdb1eb5904b/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SkeletonShaderRD/e0325885d3b45ea42d045525d1c732805f14a5a6cc4b6b67ce336626653e9573/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SkyShaderRD/9c26bd5dc001c975a8ec36520d74f1e5aa9d8125c8172a160acf52f8ebf362f3/03e3b11c69e24394b2d955a8c0ba85587bb70839.vulkan.cache
+ D .godot/shader_cache/SkyShaderRD/9c26bd5dc001c975a8ec36520d74f1e5aa9d8125c8172a160acf52f8ebf362f3/de678811d1bad3cad4892a8db7b6ea0be197d51d.vulkan.cache
+ D .godot/shader_cache/SkyShaderRD/9c26bd5dc001c975a8ec36520d74f1e5aa9d8125c8172a160acf52f8ebf362f3/e105b1e014f9523daf8d734c2f2dc115ba341902.vulkan.cache
+ D .godot/shader_cache/SmaaBlendingShaderRD/9f3b4dcf01e8d340348bba93235fb3c9c13964b1e1bd23e7d59891cc9748a71c/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SmaaEdgeDetectionShaderRD/e4c623cbbd80f252ca1afe76f478a818c89eb124cff6ca285865b0ba733f1f07/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SmaaWeightCalculationShaderRD/604beebafad6f83aaaead58113c3a3e5b0ed7a7c5605fd197dd952e3821b5878/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SortShaderRD/ce9b4120b1d1a35c1bea19b12a6206dee2526af5e61fd4520555d6b447f15e34/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SpecularMergeShaderRD/99444119f03d2c92d5ab325e0fa261255c819d4cb4b019c0eaa369b2d0383a8f/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsEffectsDownsampleShaderRD/47ce5b07a7399a4ea52ee0ba0ba0016f7c1b3429f72c2ef29b4382bf8f1d92e7/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsaoBlurShaderRD/4d3910b2d37af6bb5a68153677dd3f49c424b932871284ee1bb2e31936b31ca0/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsaoImportanceMapShaderRD/fe84d24f104b577d6ae2183f611ddfa9ef6ba4834d972f00460c66aa67c6e788/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsaoInterleaveShaderRD/b804d0579b589636ca331298d9f8885e277e5fd8be1d20d4560044000a029a49/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsaoShaderRD/6831fded981ced729634af4cf4f5515538ff84cbb773c0d583873e29462e1080/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsilBlurShaderRD/9d2d3e521c5d1601e636d8fc3e533a52362ad011112fde07a344fe3511cea943/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsilImportanceMapShaderRD/3d668b995f5f00c0cdb73fd8c13cd3bed37bf5f45c10621fcc2475eefd50a7bd/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsilInterleaveShaderRD/36d769d4532c446edf161d4b3d932557d4fad2904fda9c5f6861ae7fd162c9ee/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SsilShaderRD/335e8f9954286db1ee28430b2c9ef17fb01fb4bb8b74d688be9cec967dee41e6/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/SubsurfaceScatteringShaderRD/cfc79a4166aa45746b6bfa4b2a3345978e68ace79a0a82ab13fdda9f32a7a0b0/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/TaaResolveShaderRD/8e863ed5b6e6cf5b67a722559308f90a5653d397bdedd8d8c2abe45a89893049/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/TonemapShaderRD/06d49e3e1e33f4e3f9069e4df65b734ffc54e7ad36b2b03be9c40766a30f7576/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/VolumetricFogProcessShaderRD/6b05211651f14a1593c8b3be3b5932c64a3beba37ce1e1649b4ea67ac36d3c47/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/VolumetricFogShaderRD/963b90021bd602c144aa8f80b75ecdf64c2abe48940f55cf2f25f2deda808186/9a227745af2d65830f930370a9fbba551fbd6f60.vulkan.cache
+ D .godot/shader_cache/VoxelGiDebugShaderRD/49ee1e463ded1be1341dc6ee222f492cd9f8484aabe4cf39ca46f519abecbb6c/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/VoxelGiShaderRD/3d7b0b0258a2977a47dc0a84db7cb49a5e1bfaa74053e42ffae7d3e87d48965f/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ D .godot/shader_cache/VrsShaderRD/c86a9b4edb92bad6f336fcaf68fd7f5e123c9317179b774d48915216f3d81819/087916079fba7c625e62b0c2cca570e0fb87c99a.vulkan.cache
+ M .godot/uid_cache.bin
+ D ProjectRunTest/logs/godot_log_20251123_022525.txt
+ D ProjectRunTest/logs/godot_log_20251123_022953.txt
+ M assets/ambulance.png
+ M assets/ambulance.png.import
+ M assets/facility.png
+ M assets/facility.png.import
+ M assets/patient.png
+ M assets/patient.png.import
+ D logs/Main.tscn.corrupt.20251124_000757
+ D logs/artifact_godot_console.log
+ D logs/backups/project_backup_20251124_112454.zip
+ D logs/godot_run_final.log
+ D logs/godot_run_instantiate.log
+ D logs/godot_visual_run.log
+ D logs/health_check_after_auto_fix.log
+ D logs/health_check_after_deep_repair.log
+ D logs/health_check_after_fixes.log
+ D logs/health_check_after_fixes_err.log
+ D logs/health_check_after_placeholders.log
+ D logs/health_check_after_repo_repair.log
+ D logs/health_check_after_visual.log
+ D logs/health_check_before_visual.log
+ D logs/health_check_definitive.log
+ D logs/health_check_definitive_retry.log
+ D logs/health_check_final.log
+ D logs/health_check_final_corrected.log
+ D logs/health_check_final_corrected_err.log
+ D logs/health_check_initial.log
+ D logs/health_check_mission.log
+ D logs/health_check_paths_fixed.log
+ D logs/health_check_previsual.log
+ D logs/health_check_ultimate.log
+ D logs/health_execute_headless.log
+ D logs/health_execute_scripted.log
+ D logs/health_execute_scripted_retry.log
+ D logs/health_reimport_20251124_112454.log
+ D logs/health_reimport_20251124_154209.log
+ D logs/health_scripted_20251124_112454.log
+ D logs/health_scripted_20251124_154209.log
+ D logs/main_scene_execute_visual.png
+ D logs/main_scene_execute_visual.png.import
+ D logs/main_scene_running_20251123_234805.png
+ D logs/main_scene_running_20251123_234805.png.import
+ D logs/main_scene_running_20251123_235438.png
+ D logs/main_scene_running_20251123_235438.png.import
+ D logs/main_scene_running_20251124_000928.png
+ D logs/main_scene_running_20251124_000928.png.import
+ D logs/main_scene_running_20251124_001931.png
+ D logs/main_scene_running_20251124_001931.png.import
+ D logs/main_scene_verified_20251124_095014.png
+ D logs/main_scene_verified_20251124_095014.png.import
+ D logs/main_scene_verified_20251124_105138.png
+ D logs/main_scene_verified_20251124_105138.png.import
+ D logs/main_scene_verified_20251124_112537.png
+ D logs/main_scene_verified_20251124_112537.png.import
+ D logs/sample_sim_log.Exposed.translation
+ D logs/sample_sim_log.Hospitalized.translation
+ D logs/sample_sim_log.Infectious.translation
+ D logs/sample_sim_log.Queued.translation
+ D logs/sample_sim_log.Recovered.translation
+ D logs/sample_sim_log.Susceptible.translation
+ D logs/sample_sim_log.csv
+ D logs/sample_sim_log.csv.import
+ D logs/sim_runtime_screenshot.png
+ D logs/sim_runtime_screenshot.png.import
+ D logs/sim_visual_final.png
+ D logs/sim_visual_final.png.import
+ D logs/ultimate_visual_proof_20251124_000048.png
+ D logs/ultimate_visual_proof_20251124_000048.png.import
+ M misc/validator_mainloop.gd
+ M project.godot
+ M res/assets/ambulance.png
+ M res/assets/ambulance.png.import
+ M res/assets/facility.png
+ M res/assets/facility.png.import
+ M res/assets/patient.png
+ M res/assets/patient.png.import
+ D res/res/assets/ambulance.png
+ D res/res/assets/ambulance.png.import
+ D res/res/assets/facility.png
+ D res/res/assets/facility.png.import
+ D res/res/assets/patient.png
+ D res/res/assets/patient.png.import
+ D res/res/scenes/Ambulance.tscn
+ D res/res/scenes/Facility.tscn
+ D res/res/scenes/Patient.tscn
+ D res/res/scripts/Ambulance.gd
+ D res/res/scripts/Ambulance.gd.uid
+ D res/res/scripts/Facility.gd
+ D res/res/scripts/Facility.gd.uid
+ D res/res/scripts/HUD.gd
+ D res/res/scripts/HUD.gd.uid
+ D res/res/scripts/Main.gd
+ D res/res/scripts/Main.gd.uid
+ D res/res/scripts/Patient.gd
+ D res/res/scripts/Patient.gd.uid
+ D res/res/scripts/game.gd
+ D res/res/scripts/game.gd.uid
+ D res/res/scripts/logger.gd
+ D res/res/scripts/logger.gd.uid
+ D res/res/scripts/player.gd
+ D res/res/scripts/player.gd.uid
+ D res/res/scripts/scale_utils.gd
+ D res/res/scripts/scale_utils.gd.uid
+ D res/res/scripts/spatial_grid.gd
+ D res/res/scripts/spatial_grid.gd.uid
+ M res/scenes/Ambulance.tscn
+ D res/scenes/CutsceneIntro.tscn
+ M res/scenes/Facility.tscn
+ D res/scenes/Main.tscn
+ M res/scenes/Patient.tscn
+ D res/scenes/World.tscn
+ D res/scripts/Ambulance.gd
+ D res/scripts/Ambulance.gd.uid
+ D res/scripts/AudioManager.gd
+ D res/scripts/AudioManager.gd.uid
+ D res/scripts/CameraController.gd
+ D res/scripts/CameraController.gd.uid
+ D res/scripts/CutsceneIntro.gd
+ D res/scripts/CutsceneIntro.gd.uid
+ D res/scripts/Facility.gd
+ D res/scripts/Facility.gd.uid
+ D res/scripts/HUD.gd
+ D res/scripts/HUD.gd.uid
+ D res/scripts/Main.gd
+ D res/scripts/Main.gd.uid
+ D res/scripts/Patient.gd
+ D res/scripts/Patient.gd.uid
+ D res/scripts/SimulationEngine.gd
+ D res/scripts/SimulationEngine.gd.uid
+ D res/scripts/game.gd
+ D res/scripts/game.gd.uid
+ D res/scripts/player.gd
+ D res/scripts/player.gd.uid
+ M res/sounds/ambient_bg.ogg.import
+ M res/sounds/ambulance_siren.ogg.import
+ M res/sounds/cinematic_sting.ogg.import
+ M res/sounds/patient_moan.ogg.import
+ M res/sounds/ui_pop.ogg.import
+ M res/tools/run_main_visual.gd
+ M scenes/Ambulance.tscn
+ M scenes/Facility.tscn
+ M scenes/Patient.tscn
+ M scenes/World.tscn
+ M tools/force_spawn_visual.gd
+ M tools/health_check_final.gd
+ M tools/run_main_visual.gd
+?? .godot/editor/Main.tscn-editstate-4a24720ee5e787dbe30abc634fa3679d.cfg
+?? .godot/editor/Main.tscn-folding-4a24720ee5e787dbe30abc634fa3679d.cfg
+?? .godot/editor/editor_layout.cfg
+?? .godot/editor/editor_script_doc_cache.res-folding-a7de57390d6e786984ca20c70a831128.cfg
+?? .godot/editor/script_editor_cache.cfg
+?? CameraController.gd
+?? CameraController.gd.uid
+?? Godot.exe
+?? Godot.zip
+?? file_report.json
+?? png_report.txt
+?? png_report_v2.txt
+?? res/scripts/SpriteAutoScaler.gd
+?? res/scripts/SpriteAutoScaler.gd.uid
+?? res_report.txt
+?? scenes/CutsceneIntro.tscn
+?? scenes/Main.tscn
+?? scripts/
+?? so_health_check.ps1
+?? so_health_report_20251125_202038.txt
+?? so_health_report_20251125_204753.txt
+?? tools/internal_validate.gd
+?? tools/internal_validate.gd.uid
+?? tools/internal_validate_5d.gd
+?? tools/internal_validate_5d.gd.uid
+?? tools/internal_validate_5e.gd
+?? tools/internal_validate_5e.gd.uid
+?? tools/internal_validate_5f.gd
+?? tools/internal_validate_5f.gd.uid
+?? tools/master_validate.gd
+?? tools/master_validate.gd.uid
+?? tools/smoke_test.gd.uid
+
+GIT CLEAN preview (untracked files that would be removed):
+Would remove .godot/editor/Main.tscn-editstate-4a24720ee5e787dbe30abc634fa3679d.cfg
+Would remove .godot/editor/Main.tscn-folding-4a24720ee5e787dbe30abc634fa3679d.cfg
+Would remove .godot/editor/editor_layout.cfg
+Would remove .godot/editor/editor_script_doc_cache.res-folding-a7de57390d6e786984ca20c70a831128.cfg
+Would remove .godot/editor/script_editor_cache.cfg
+Would remove CameraController.gd
+Would remove CameraController.gd.uid
+Would remove Godot.exe
+Would remove Godot.zip
+Would remove assets/originals/
+Would remove file_report.json
+Would remove png_report.txt
+Would remove png_report_v2.txt
+Would remove res/scripts/SpriteAutoScaler.gd
+Would remove res/scripts/SpriteAutoScaler.gd.uid
+Would remove res_report.txt
+Would remove scenes/CutsceneIntro.tscn
+Would remove scenes/Main.tscn
+Would remove scripts/
+Would remove so_health_check.ps1
+Would remove so_health_report_20251125_202038.txt
+Would remove so_health_report_20251125_204753.txt
+Would remove tools/internal_validate.gd
+Would remove tools/internal_validate.gd.uid
+Would remove tools/internal_validate_5d.gd
+Would remove tools/internal_validate_5d.gd.uid
+Would remove tools/internal_validate_5e.gd
+Would remove tools/internal_validate_5e.gd.uid
+Would remove tools/internal_validate_5f.gd
+Would remove tools/internal_validate_5f.gd.uid
+Would remove tools/master_validate.gd
+Would remove tools/master_validate.gd.uid
+Would remove tools/smoke_test.gd.uid
+GIT: To actually remove untracked files run: git -C D:\Repos\Seasonal_outbreaks_Godot clean -fdx  (ONLY AFTER YOU'VE INSPECTED THE PREVIEW ABOVE)
+
+== FINAL HEALTH CHECKS ==
+Drive C: Free=25,186MB  Used=135,742MB
+Drive D: Free=257,606MB  Used=52,646MB
+Trash backup location: D:\SO_TRASH_BACKUP\20251125_204753
+Snapshot location (if created): D:\SO_QUICK_SNAPSHOT\20251125_204753
+Report saved: D:\Repos\Seasonal_outbreaks_Godot\so_health_report_20251125_204753.txt
+To make a local reminder that will pop when you finish the project (this script does not schedule it for you — you asked me not to run background jobs):
+
+1) Save this small one-liner to a file, e.g. D:\remind_finish_project.ps1:
+   Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('Project finished — remember to clean system too','Reminder','OK','Information')
+
+2) Create a scheduled task (example: show reminder at 2025-12-01 09:00):
+   schtasks /Create /SC ONCE /TN "SO_Project_Reminder" /TR "powershell -NoProfile -ExecutionPolicy Bypass -File \"D:\remind_finish_project.ps1\"" /ST 09:00 /SD 2025-12-01 /F
+
+Adjust date/time as you like. The command only schedules a local reminder and does not share data.

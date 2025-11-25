@@ -34,6 +34,3 @@ enabled=PackedStringArray("res://addons/auto_play/plugin.cfg")
 2d_physics/layer_2="Patient"
 2d_physics/layer_3="Facility"
 2d_physics/layer_4="Vehicle"
-
-
-

@@ -1,0 +1,21 @@
+CLEANUP REPORT - 11/25/2025 21:00:54
+Mode: PREVIEW
+Trash folder: D:\SO_TRASH_BACKUP_20251125_210051
+
+Remaining top-level items:
+  - .git
+  - .github
+  - .godot
+  - addons
+  - assets
+  - docs
+  - migration
+  - misc
+  - ProjectRunTest
+  - reports
+  - res
+  - scenarios
+  - scenes
+  - scripts
+  - tests
+  - tools

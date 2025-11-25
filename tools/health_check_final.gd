@@ -1,7 +1,7 @@
-﻿extends SceneTree
+extends SceneTree
 func _init():
     var ok = true
-    var scenes = ["res://res/res/scenes/Main.tscn", "res://res/res/scenes/Patient.tscn"]
+    var scenes = ["res://res/scenes/Main.tscn", "res://res/scenes/Patient.tscn"]
     for s in scenes:
         if ResourceLoader.exists(s):
             var r = ResourceLoader.load(s)
@@ -16,3 +16,4 @@ func _init():
     if ok: print("HEALTH_CHECK_OK")
     else: print("HEALTH_CHECK_FAILED")
     quit()
+

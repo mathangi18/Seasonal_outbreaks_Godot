@@ -2,9 +2,9 @@ extends SceneTree
 
 func _init():
     print("Force Spawn Visual Starting...")
-    var main_path = "res://res/scenes/Main.tscn"
+    var main_path = "res://scenes/Main.tscn"
     if not ResourceLoader.exists(main_path):
-        main_path = "res://res/res/scenes/Main.tscn"
+        main_path = "res://res/scenes/Main.tscn"
     
     if ResourceLoader.exists(main_path):
         print("Loading Main scene from: ", main_path)
@@ -18,3 +18,4 @@ func _init():
     else:
         print("ERROR: Main.tscn not found!")
         quit()
+

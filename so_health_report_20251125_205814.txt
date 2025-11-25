@@ -1,0 +1,23 @@
+Cleanup report - 2025-11-25T20:58:17.1627995+01:00
+RepoRoot: D:\Repos\Seasonal_outbreaks_Godot
+Mode: False
+Trash backup (when executed): D:\SO_TRASH_BACKUP_20251125_205814
+Snapshot (created when executed): D:\SO_QUICK_SNAPSHOT_20251125_205814
+
+Top-level directories present after cleanup (preview):
+  - D:\Repos\Seasonal_outbreaks_Godot\.git
+  - D:\Repos\Seasonal_outbreaks_Godot\.github
+  - D:\Repos\Seasonal_outbreaks_Godot\.godot
+  - D:\Repos\Seasonal_outbreaks_Godot\addons
+  - D:\Repos\Seasonal_outbreaks_Godot\assets
+  - D:\Repos\Seasonal_outbreaks_Godot\docs
+  - D:\Repos\Seasonal_outbreaks_Godot\migration
+  - D:\Repos\Seasonal_outbreaks_Godot\misc
+  - D:\Repos\Seasonal_outbreaks_Godot\ProjectRunTest
+  - D:\Repos\Seasonal_outbreaks_Godot\reports
+  - D:\Repos\Seasonal_outbreaks_Godot\res
+  - D:\Repos\Seasonal_outbreaks_Godot\scenarios
+  - D:\Repos\Seasonal_outbreaks_Godot\scenes
+  - D:\Repos\Seasonal_outbreaks_Godot\scripts
+  - D:\Repos\Seasonal_outbreaks_Godot\tests
+  - D:\Repos\Seasonal_outbreaks_Godot\tools

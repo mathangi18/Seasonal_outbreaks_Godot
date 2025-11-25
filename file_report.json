@@ -1,0 +1,127 @@
+[
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\ambulance.png",
+    "Length": 16028,
+    "Hash": "8E11956E2AD9DF1D2BB94F68A2EDD9356B918CB3A841FFBE98D0CC3F9D93BDA1"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\ambulance.png.import",
+    "Length": 942,
+    "Hash": "15EAFAEE68B7CE9276A78CE3200861FF442759F964B709CA236513FCE668132E"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\facility.png",
+    "Length": 27598,
+    "Hash": "AC6C9415F13A640E8CD14D238438BF7A2EE7C48EB478EB84912651BDE6B73DF4"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\facility.png.import",
+    "Length": 939,
+    "Hash": "0B8713E22E6AE2AF349D59D49D43136A31BF9CECD2285F77825DE81FAB3A2DE0"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\patient.png",
+    "Length": 3395,
+    "Hash": "12D3D9BADB1B23A6BC156006CB601B46781DD4B35F483DD851855498906EF9A5"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\patient.png.import",
+    "Length": 936,
+    "Hash": "2EE8BB07F9D55028FAB7350865952BFC297DACD4A1B0AE07E14A1991EE2D5A67"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Ambulance.tscn",
+    "Length": 347,
+    "Hash": "B007CBB1B3E01DE78D46D55EA23213F70B6BC545D94CF8F4D03B7E9DADCAD3A6"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Facility.tscn",
+    "Length": 369,
+    "Hash": "3C44F94E0DE24D522CC5DFAC2D84229B7651FB6090FDC8449E3E612E246ABE6D"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Patient.tscn",
+    "Length": 343,
+    "Hash": "D41DB3CF8236F5AFC9B303975FEA0F70D333FBBB6B9833FEBB09F1D269AEA150"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\SpriteAutoScaler.gd",
+    "Length": 1246,
+    "Hash": "CF10AB09690775E10E44C58244FF53B7BDE95E5617CAB21D333AF3E802E71BC0"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\SpriteAutoScaler.gd.uid",
+    "Length": 19,
+    "Hash": "C6CAA2F06B24321EDE9BFB27A3414022D10CDCA2B1E9C9FE40DBC764142C91AD"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\ambient_bg.ogg",
+    "Length": 14,
+    "Hash": "FD312D8ED03381BD035A97FEAD9AA103CB48E74AEAA22C2825DD38BBB11FE0B4"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\ambient_bg.ogg.import",
+    "Length": 219,
+    "Hash": "98A4705BA3EB491CC20BEABF91E1142648DA7ABC9AA0854AFAC5AA6FDEE49913"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\ambulance_siren.ogg",
+    "Length": 14,
+    "Hash": "FD312D8ED03381BD035A97FEAD9AA103CB48E74AEAA22C2825DD38BBB11FE0B4"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\ambulance_siren.ogg.import",
+    "Length": 224,
+    "Hash": "1039C17B16CD370400587C33BEF1806627B328CAB3957094C571F72937F2BC4C"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\cinematic_sting.ogg",
+    "Length": 14,
+    "Hash": "FD312D8ED03381BD035A97FEAD9AA103CB48E74AEAA22C2825DD38BBB11FE0B4"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\cinematic_sting.ogg.import",
+    "Length": 224,
+    "Hash": "C04D5B1EF13DE16427FFA773909F228D1418F3174E198C6753817BECD6977534"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\patient_moan.ogg",
+    "Length": 14,
+    "Hash": "FD312D8ED03381BD035A97FEAD9AA103CB48E74AEAA22C2825DD38BBB11FE0B4"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\patient_moan.ogg.import",
+    "Length": 221,
+    "Hash": "9D6A1F2D6A42C2828DB8ACC131D4416A0B61C1B25E76072E0047994AF92093E6"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\ui_pop.ogg",
+    "Length": 14,
+    "Hash": "FD312D8ED03381BD035A97FEAD9AA103CB48E74AEAA22C2825DD38BBB11FE0B4"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\sounds\\ui_pop.ogg.import",
+    "Length": 215,
+    "Hash": "FF5241239DA87633C1ECF3EB349F6BCE5D93B7654162A41F3EA6C367E8F6D607"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\tools\\health_check.gd",
+    "Length": 631,
+    "Hash": "29293519054EABB37982AD74D17CE9C73B858E7F7E321D59725E939C175AA316"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\tools\\health_check.gd.uid",
+    "Length": 20,
+    "Hash": "12DC13F8EDC158030B984DEADE24E572336C612BB2C3B92543B6F639F01DE8FE"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\tools\\run_main_visual.gd",
+    "Length": 101,
+    "Hash": "6199CE9F40F9564CA580B734AA3C5124AE0470FE5065D77FE22598BCCDAC2237"
+  },
+  {
+    "FullName": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\tools\\run_main_visual.gd.uid",
+    "Length": 20,
+    "Hash": "D3C6CF32CAF4889FE5D9C54A5617A1F9862608CA241E4DA23AB980C11649F00F"
+  }
+]
