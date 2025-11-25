@@ -21,3 +21,4 @@ position = Vector2(1657, -1369)
 
 [node name="Facility" parent="." instance=ExtResource("4_c01mt")]
 position = Vector2(-1942, -1241)
+

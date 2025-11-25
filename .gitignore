@@ -1,0 +1,24 @@
+# Godot
+.import/
+.export/
+.godot/
+*.import
+*.import.*
+*.tmp
+*.log
+
+# System/editor junk
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Debug watchers
+node_watch_*.gd
+# Large binary backups
+*.zip
+*.exe
+*.7z
+*.tar
+Godot.zip
+Godot.exe

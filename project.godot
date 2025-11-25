@@ -18,6 +18,9 @@ config/icon="res://icon.svg"
 [autoload]
 
 AudioManager="*res://scripts/AudioManager.gd"
+NodeWatch="res://res/node_watch_autoload.gd"
+NodeWatch2="res://res/node_watch_tiny_verbose.gd"
+spritewatch="res://res/node_watch_sprite_printer.gd"
 
 [display]
 
