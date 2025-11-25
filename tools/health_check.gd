@@ -24,11 +24,11 @@ func _run_health_check():
                 ok = false
 
     var scripts = [
-        "res://scripts/Main.gd",
-        "res://scripts/game.gd",
-        "res://scripts/player.gd",
-        "res://scripts/SimulationEngine.gd",
-        "res://scripts/Patient.gd"
+        "res://res/scripts/SimulationEngine.gd",
+        "res://res/scripts/Patient.gd",
+        "res://res/scripts/Facility.gd",
+        "res://res/scripts/Ambulance.gd",
+        "res://res/scripts/HUD.gd"
     ]
     for sc in scripts:
         if not ResourceLoader.exists(sc):

@@ -1,0 +1,18 @@
+SCRIPT ERROR: Parse Error: Class "AudioManager" hides an autoload singleton.
+   at: GDScript::reload (res://res/scripts/AudioManager.gd:2)
+ERROR: Failed to load script "res://res/scripts/AudioManager.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+ERROR: Failed to instantiate an autoload, script 'res://res/scripts/AudioManager.gd' does not inherit from 'Node'.
+   at: start (main/main.cpp:4335)
+SCRIPT ERROR: Parse Error: Could not find type "SimulationEngine" in the current scope.
+   at: GDScript::reload (res://res/scripts/HUD.gd:4)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+SCRIPT ERROR: Parse Error: Could not find type "SimulationEngine" in the current scope.
+   at: GDScript::reload (res://res/scripts/HUD.gd:16)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: Failed to load script "res://res/scripts/HUD.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)

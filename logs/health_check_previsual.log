@@ -1,0 +1,28 @@
+Godot Engine v4.5.1.stable.official.f62fdbde1 - https://godotengine.org
+Vulkan 1.3.205 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 2050
+
+SCRIPT ERROR: Parse Error: Expected new line after "\".
+   at: GDScript::reload (res://res/scripts/AudioManager.gd:5)
+ERROR: Failed to load script "res://res/scripts/AudioManager.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+ERROR: Failed to instantiate an autoload, script 'res://res/scripts/AudioManager.gd' does not inherit from 'Node'.
+   at: start (main/main.cpp:4335)
+SCRIPT ERROR: Parse Error: Expected new line after "\".
+   at: GDScript::reload (res://res/scripts/SimulationEngine.gd:9)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: Failed to load script "res://res/scripts/SimulationEngine.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+SCRIPT ERROR: Parse Error: The "onready" keyword was removed in Godot 4. Use the "@onready" annotation instead.
+   at: GDScript::reload (res://res/scripts/HUD.gd:5)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+ERROR: Failed to load script "res://res/scripts/HUD.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript.cpp:3041)
+   GDScript backtrace (most recent call first):
+       [0] _run_health_check (res://tools/health_check.gd:21)
+MISSING_SCRIPT:res://scripts/SimulationEngine.gd
+MISSING_SCRIPT:res://scripts/Patient.gd
+HEALTH_CHECK_FAILED

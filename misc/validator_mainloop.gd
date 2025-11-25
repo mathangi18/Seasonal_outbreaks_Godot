@@ -6,7 +6,7 @@ func _init():
 	# Check Resources
 	var res_to_check = [
 		"res://scenes/Main.tscn",
-		"res://scripts/SimulationEngine.gd",
+		"res://res/scripts/SimulationEngine.gd",
 		"res://misc/util/ui_scale.gd"
 	]
 	
