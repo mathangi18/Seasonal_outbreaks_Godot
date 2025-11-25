@@ -1,0 +1,20 @@
+# Algorithm Notes
+
+## Infection State Machine
+1. **Susceptible**: Can be infected if near Infectious/Symptomatic.
+2. **Exposed**: Infected but not contagious (Incubation).
+3. **Infectious**: Contagious but no symptoms.
+4. **Symptomatic**: Contagious and visible (can be hospitalized).
+5. **Recovered**: Immune.
+6. **Hospitalized**: Removed from world, occupies facility.
+
+## Ambulance Dispatch
+1. Loop through Symptomatic patients.
+2. If patient visible (not in transit):
+   - Find idle ambulance.
+   - Dispatch to patient.
+   - Ambulance moves to patient -> Pickup -> Move to Facility -> Dropoff.
+
+## Facility Logic
+1. **Admit**: If capacity > occupants, add to occupants. Else enqueue.
+2. **Tick**: Chance to discharge recovered patients. Admit from queue.
