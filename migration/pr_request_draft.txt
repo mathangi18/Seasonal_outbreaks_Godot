@@ -1,0 +1,18 @@
+PR Request Draft
+================
+Branch: feature/seasonal-outbreaks
+Head Commit: b03230a
+
+Changes:
+- Replaced absolute paths in project files.
+- Moved noisy files to migration staging.
+- Ran static health checks.
+
+Validation:
+- See migration/validation_summary.json
+- See migration/absolute_path_replacements.json
+
+Manual Actions Required:
+1. Review migration/absolute_path_suspects.json for ambiguous paths.
+2. Verify assets in res://assets/ (some were missing in previous checks).
+3. Run Godot smoke test manually (CLI was not available).

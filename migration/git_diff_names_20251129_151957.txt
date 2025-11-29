@@ -1,0 +1,60 @@
+b03230a chore(staging/local): replace absolute paths, move noisy files to migration/staging_by_ag_20251129_151148, add validation logs
+M	assets/patient_placeholder.png.import
+A	cleanup_and_check.py
+A	fix_absolute_paths.py
+D	health_check.py
+M	logs/sample_sim_log.csv.import
+A	migration/absolute_backup_20251129_151828/Ambulance.tscn.bak
+A	migration/absolute_backup_20251129_151828/CutsceneIntro.gd.bak
+A	migration/absolute_backup_20251129_151828/CutsceneIntro.tscn.bak
+A	migration/absolute_backup_20251129_151828/Facility.tscn.bak
+A	migration/absolute_backup_20251129_151828/HUD.tscn.bak
+A	migration/absolute_backup_20251129_151828/Main.tscn.bak
+A	migration/absolute_backup_20251129_151828/Patient.tscn.bak
+A	migration/absolute_backup_20251129_151828/SimulationEngine.gd.bak
+A	migration/absolute_backup_20251129_151828/logger.gd.bak
+A	migration/absolute_backup_20251129_151828/patient_placeholder.png.import.bak
+A	migration/absolute_backup_20251129_151828/project.godot.bak
+A	migration/absolute_backup_20251129_151828/sample_sim_log.csv.import.bak
+A	migration/absolute_path_replacements.json
+A	migration/absolute_path_suspects.json
+R100	ProjectRunTest/FEATURES_GODOT_FULL.txt.txt	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/FEATURES_GODOT_FULL.txt.txt
+R100	ProjectRunTest/docs/validation_history.md	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/docs/validation_history.md
+R100	ProjectRunTest/icon.svg	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/icon.svg
+R100	ProjectRunTest/logs/godot_log_20251123_022525.txt	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/logs/godot_log_20251123_022525.txt
+R100	ProjectRunTest/logs/godot_log_20251123_022953.txt	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/logs/godot_log_20251123_022953.txt
+R100	ProjectRunTest/misc/run_headless.gd	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/misc/run_headless.gd
+R100	ProjectRunTest/misc/validate_project.gd	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/misc/validate_project.gd
+R100	ProjectRunTest/misc/validate_project.gd.bak	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/misc/validate_project.gd.bak
+R100	ProjectRunTest/misc/validator.tscn	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/misc/validator.tscn
+R100	ProjectRunTest/misc/validator_mainloop.gd	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/misc/validator_mainloop.gd
+R100	ProjectRunTest/setup-godot-cli.ps1	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/setup-godot-cli.ps1
+R100	ProjectRunTest/tools/run_and_log.ps1	migration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/tools/run_and_log.ps1
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.Exposed.translation
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.Hospitalized.translation
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.Infectious.translation
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.Queued.translation
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.Recovered.translation
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.Susceptible.translation
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.csv
+A	migration/removed_files/staging_by_ag_20251129_151851/logs/sample_sim_log.csv.import
+A	migration/validation_summary.json
+D	move_noisy_files.py
+D	pr_request.txt
+M	project.godot
+M	res/scenes/Ambulance.tscn
+M	res/scenes/CutsceneIntro.tscn
+M	res/scenes/Facility.tscn
+M	res/scenes/Main.tscn
+M	res/scenes/Patient.tscn
+M	res/scripts/CutsceneIntro.gd
+M	res/scripts/SimulationEngine.gd
+M	scenes/Ambulance.tscn
+M	scenes/Facility.tscn
+M	scenes/HUD.tscn
+M	scenes/Main.tscn
+M	scenes/Patient.tscn
+M	scripts/SimulationEngine.gd
+M	scripts/logger.gd
+D	validate_assets.py
+D	validate_structure.py

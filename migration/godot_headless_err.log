@@ -1,0 +1,12 @@
+ERROR: Attempt to open script 'res://misc/util/ui_scale.gd' resulted in error 'File not found'.
+   at: load_source_code (modules/gdscript/gdscript.cpp:1120)
+ERROR: Failed loading resource: res://misc/util/ui_scale.gd.
+   at: _load (core/io/resource_loader.cpp:343)
+ERROR: Failed to instantiate an autoload, can't load from path: res://misc/util/ui_scale.gd.
+   at: start (main/main.cpp:4329)
+ERROR: Cannot open file 'reres://scenes/main.tscn'.
+   at: load (scene/resources/resource_format_text.cpp:1387)
+ERROR: Failed loading resource: reres://scenes/main.tscn.
+   at: _load (core/io/resource_loader.cpp:343)
+ERROR: Failed loading scene: reres://scenes/main.tscn.
+   at: start (main/main.cpp:4560)

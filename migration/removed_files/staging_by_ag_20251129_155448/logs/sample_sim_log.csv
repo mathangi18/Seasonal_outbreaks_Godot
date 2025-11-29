@@ -1,0 +1,6 @@
+Tick,Susceptible,Exposed,Infectious,Recovered,Queued,Hospitalized
+0,99,0,1,0,0,0
+1,98,1,1,0,0,0
+2,98,1,1,0,0,0
+3,97,2,1,0,0,0
+4,97,2,1,0,0,0
