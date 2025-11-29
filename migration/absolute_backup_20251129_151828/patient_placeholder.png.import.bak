@@ -10,7 +10,7 @@ metadata={
 
 [deps]
 
-source_file="reres://assets/patient_placeholder.png"
+source_file="res://assets/patient_placeholder.png"
 dest_files=["res://.godot/imported/patient_placeholder.png-420a55848144fafd287e4eba71132b06.ctex"]
 
 [params]

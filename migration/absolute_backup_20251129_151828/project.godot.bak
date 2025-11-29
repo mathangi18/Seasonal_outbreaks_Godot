@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Seasonal Outbreaks"
-run/main_scene="reres://scenes/main.tscn"
+run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -36,4 +36,4 @@ window/stretch/mode="canvas_items"
 
 addons/auto_play/plugin.cfg=true
 
-AudioManager="*reres://scripts/audiomanager.gd"
+AudioManager="*res://scripts/AudioManager.gd"

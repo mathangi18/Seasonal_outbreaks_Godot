@@ -1,0 +1,8 @@
+{
+  "project.godot": true,
+  "scenes": true,
+  "scripts": true,
+  "assets": true,
+  "README.md": true,
+  "quick_test.md": true
+}

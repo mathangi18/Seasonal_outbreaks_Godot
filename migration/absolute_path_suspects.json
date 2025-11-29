@@ -1,0 +1,686 @@
+[
+  {
+    "file": ".\\project.godot",
+    "original_text": "/name",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/main_scene",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "s://scenes/Main.tscn",
+    "suggested_replacement": "res://scenes/main.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/features",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/icon",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "s://icon.svg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "s://misc/util/ui_scale.gd",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/size/viewport_width",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/size/viewport_height",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/stretch/mode",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/layer_1",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/layer_2",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/layer_3",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/layer_4",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "/auto_play/plugin.cfg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\project.godot",
+    "original_text": "s://scripts/AudioManager.gd",
+    "suggested_replacement": "res://scripts/audiomanager.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "d://5eibmwtxonwu",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "s://.godot/imported/patient_placeholder.png-420a55848144fafd287e4eba71132b06.ctex",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "s://assets/patient_placeholder.png",
+    "suggested_replacement": "res://assets/patient_placeholder.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "s://.godot/imported/patient_placeholder.png-420a55848144fafd287e4eba71132b06.ctex",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/mode",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/high_quality",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/lossy_quality",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/uastc_level",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/rdo_quality_loss",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/hdr_compression",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/normal_map",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/channel_pack",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/generate",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/limit",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/mode",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/src_normal",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/channel_remap/red",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/channel_remap/green",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/channel_remap/blue",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/channel_remap/alpha",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/fix_alpha_border",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/premult_alpha",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/normal_map_invert_y",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/hdr_as_srgb",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/hdr_clamp_exposure",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/size_limit",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\assets\\patient_placeholder.png.import",
+    "original_text": "/compress_to",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "d://b18ykqhv8ekti",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Susceptible.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.susceptible.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Exposed.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.exposed.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Infectious.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.infectious.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Recovered.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.recovered.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Queued.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.queued.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Hospitalized.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.hospitalized.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.csv",
+    "suggested_replacement": "res://logs/sample_sim_log.csv",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Susceptible.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.susceptible.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Exposed.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.exposed.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Infectious.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.infectious.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Recovered.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.recovered.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Queued.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.queued.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\logs\\sample_sim_log.csv.import",
+    "original_text": "s://logs/sample_sim_log.Hospitalized.translation",
+    "suggested_replacement": "res://logs/sample_sim_log.hospitalized.translation",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Ambulance.tscn",
+    "original_text": "d://ambulance_visual",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scenes\\Ambulance.tscn",
+    "original_text": "s://scripts/Ambulance.gd",
+    "suggested_replacement": "res://scripts/ambulance.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Ambulance.tscn",
+    "original_text": "s://assets/ambulance.png",
+    "suggested_replacement": "res://assets/ambulance.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\CutsceneIntro.tscn",
+    "original_text": "s://scripts/CutsceneIntro.gd",
+    "suggested_replacement": "res://scripts/cutsceneintro.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Facility.tscn",
+    "original_text": "d://facility_visual",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scenes\\Facility.tscn",
+    "original_text": "s://scripts/Facility.gd",
+    "suggested_replacement": "res://scripts/facility.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Facility.tscn",
+    "original_text": "s://assets/facility.png",
+    "suggested_replacement": "res://assets/facility.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Main.tscn",
+    "original_text": "s://scripts/SimulationEngine.gd",
+    "suggested_replacement": "res://scripts/simulationengine.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Main.tscn",
+    "original_text": "s://scripts/HUD.gd",
+    "suggested_replacement": "res://scripts/hud.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Main.tscn",
+    "original_text": "s://scripts/CameraController.gd",
+    "suggested_replacement": "res://scripts/cameracontroller.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Main.tscn",
+    "original_text": "s://scenes/World.tscn",
+    "suggested_replacement": "res://scenes/world.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Main.tscn",
+    "original_text": "/Panel",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scenes\\Patient.tscn",
+    "original_text": "d://patient_visual",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scenes\\Patient.tscn",
+    "original_text": "s://scripts/Patient.gd",
+    "suggested_replacement": "res://scripts/patient.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scenes\\Patient.tscn",
+    "original_text": "s://assets/patient.png",
+    "suggested_replacement": "res://assets/patient.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scripts\\AudioManager.gd",
+    "original_text": "s://sounds/ambient_bg.ogg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\AudioManager.gd",
+    "original_text": "s://sounds/ambulance_siren.ogg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\AudioManager.gd",
+    "original_text": "s://sounds/patient_moan.ogg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\AudioManager.gd",
+    "original_text": "s://sounds/ui_pop.ogg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\AudioManager.gd",
+    "original_text": "s://sounds/cinematic_sting.ogg",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\CutsceneIntro.gd",
+    "original_text": "/Label",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\CutsceneIntro.gd",
+    "original_text": "s://scenes/Main.tscn",
+    "suggested_replacement": "res://scenes/main.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scripts\\HUD.gd",
+    "original_text": "/root/Main/SimulationEngine",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\HUD.gd",
+    "original_text": "/Label",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\SimulationEngine.gd",
+    "original_text": "s://scenes/Patient.tscn",
+    "suggested_replacement": "res://scenes/patient.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scripts\\SimulationEngine.gd",
+    "original_text": "s://scenes/Facility.tscn",
+    "suggested_replacement": "res://scenes/facility.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scripts\\SimulationEngine.gd",
+    "original_text": "s://scenes/Ambulance.tscn",
+    "suggested_replacement": "res://scenes/ambulance.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\res\\scripts\\SimulationEngine.gd",
+    "original_text": "/reproduction_",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\res\\scripts\\SimulationEngine.gd",
+    "original_text": "/infections_",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\Ambulance.tscn",
+    "original_text": "d://ambulance",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\Ambulance.tscn",
+    "original_text": "s://scripts/Ambulance.gd",
+    "suggested_replacement": "res://scripts/ambulance.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Ambulance.tscn",
+    "original_text": "s://assets/ambulance.png",
+    "suggested_replacement": "res://assets/ambulance.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Facility.tscn",
+    "original_text": "d://facility",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\Facility.tscn",
+    "original_text": "s://scripts/Facility.gd",
+    "suggested_replacement": "res://scripts/facility.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Facility.tscn",
+    "original_text": "s://assets/facility.png",
+    "suggested_replacement": "res://assets/facility.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\HUD.tscn",
+    "original_text": "d://hud",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\HUD.tscn",
+    "original_text": "s://scripts/HUD.gd",
+    "suggested_replacement": "res://scripts/hud.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Main.tscn",
+    "original_text": "d://main",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\Main.tscn",
+    "original_text": "s://scripts/Main.gd",
+    "suggested_replacement": "res://scripts/main.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Main.tscn",
+    "original_text": "s://scripts/SimulationEngine.gd",
+    "suggested_replacement": "res://scripts/simulationengine.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Main.tscn",
+    "original_text": "d://hud",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\Main.tscn",
+    "original_text": "s://scenes/HUD.tscn",
+    "suggested_replacement": "res://scenes/hud.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Patient.tscn",
+    "original_text": "d://patient",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scenes\\Patient.tscn",
+    "original_text": "s://scripts/Patient.gd",
+    "suggested_replacement": "res://scripts/patient.gd",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\Patient.tscn",
+    "original_text": "s://assets/patient.png",
+    "suggested_replacement": "res://assets/patient.png",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scenes\\World.tscn",
+    "original_text": "d://world",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\Facility.gd",
+    "original_text": "/leave",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\HUD.gd",
+    "original_text": "/Label",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\logger.gd",
+    "original_text": "/FEATURES_GODOT_FULL.txt",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\logger.gd",
+    "original_text": "r://logs/sim_log.csv",
+    "suggested_replacement": "res://logs/sim_log.csv",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scripts\\logger.gd",
+    "original_text": "r://",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\logger.gd",
+    "original_text": "/simplicity we",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\scale_utils.gd",
+    "original_text": "/FEATURES_GODOT_FULL.txt",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  },
+  {
+    "file": ".\\scripts\\SimulationEngine.gd",
+    "original_text": "s://scenes/Patient.tscn",
+    "suggested_replacement": "res://scenes/patient.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scripts\\SimulationEngine.gd",
+    "original_text": "s://scenes/Facility.tscn",
+    "suggested_replacement": "res://scenes/facility.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scripts\\SimulationEngine.gd",
+    "original_text": "s://scenes/Ambulance.tscn",
+    "suggested_replacement": "res://scenes/ambulance.tscn",
+    "confidence": "HIGH"
+  },
+  {
+    "file": ".\\scripts\\spatial_grid.gd",
+    "original_text": "/FEATURES_GODOT_FULL.txt",
+    "suggested_replacement": null,
+    "confidence": "LOW"
+  }
+]

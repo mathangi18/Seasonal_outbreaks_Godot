@@ -2,7 +2,7 @@ extends Node
 # FEATURES: see /FEATURES_GODOT_FULL.txt, section 8
 
 var log_file: FileAccess
-var file_path = "useres://logs/sim_log.csv"
+var file_path = "user://logs/sim_log.csv"
 
 func _ready():
 	# Ensure directory exists
