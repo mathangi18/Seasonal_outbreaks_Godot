@@ -1,0 +1,31 @@
+PR Request Summary
+==================
+
+Branch: feature/seasonal-outbreaks
+Base Commit: c3afec4
+
+Changes:
+- Moved noisy files to migration/removed_files/staging_by_ag_<timestamp>
+- Removed broken autoloads/plugins from project.godot
+- Validated repository structure and assets
+
+Validation Results:
+- Repo Structure: FAILED (Missing scenes/Simulation.tscn)
+- Health Check: WARN (gdformat not found, absolute paths checked)
+- Asset Validation: FAILED (Missing required assets)
+- Smoke Test: SKIPPED (Godot CLI not available)
+
+Missing Assets:
+- assets/sprites/patient_placeholder.png
+- assets/sprites/icon_hud.svg
+- assets/sprites/state_icons.png
+- assets/sounds/infect.ogg
+
+Manual Fixes Required:
+1. Create/Restore scenes/Simulation.tscn
+2. Upload missing assets to assets/
+3. Install Godot CLI for automated testing
+
+Logs:
+- validation_summary.json
+- health_check.log

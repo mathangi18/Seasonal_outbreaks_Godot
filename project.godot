@@ -17,7 +17,8 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-UIScale="*res://misc/util/ui_scale.gd"
+; UIScale="*res://misc/util/ui_scale.gd" ; Moved to staging
+; AudioManager="*res://scripts/AudioManager.gd" ; Check if exists, if not comment out
 
 [display]
 
@@ -34,6 +35,4 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-addons/auto_play/plugin.cfg=true
-
-AudioManager="*res://scripts/AudioManager.gd"
+; addons/auto_play/plugin.cfg=true ; Moved to staging
