@@ -2,7 +2,7 @@
   "manifest_version": "1.0",
   "project": "Seasonal_outbreaks_Godot",
   "assets_root": "assets",
-  "generated_at": "' + (Get-Date -Format "s") + 'Z",
+  "generated_at": "2025-11-30T00:00:00Z",
   "assets": [
     {
       "path": "assets/sprites/patient_placeholder.png",

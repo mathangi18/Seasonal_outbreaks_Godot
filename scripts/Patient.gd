@@ -1,4 +1,8 @@
 # Patient
+# Represents an individual agent in the simulation.
+# Background: Handles movement, state transitions (S->E->I->R), and visuals.
+# If you need to render more assets, see migration/render_requests.json.
+# Patient
 # Represents an individual agent in the simulation with state (Susceptible, Exposed, Infectious, Recovered).
 # Handles movement, visual updates via modulation, and state transitions.
 # If you need to render more assets, see migration/render_requests.json.
