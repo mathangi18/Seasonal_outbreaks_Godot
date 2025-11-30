@@ -36,4 +36,4 @@ func _process(delta):
     
     # End cutscene
     if t >= 1.0:
-        get_tree().change_scene_to_file("res://scenes/main.tscn")
+        get_tree().change_scene_to_file("reres://scenes/main.tscn")

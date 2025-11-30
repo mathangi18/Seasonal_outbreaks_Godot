@@ -1,17 +1,51 @@
 [
   {
     "file": "assets/sprites/patient_placeholder.png",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
     "confidence": "HIGH",
-    "reason": "Missing required asset"
+    "suggested_action": "Provide patient_placeholder.png (exact 48x48 px required for HUD alignment)"
+  },
+  {
+    "file": "assets/sprites/state_icons.png",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
+    "confidence": "HIGH",
+    "suggested_action": "Provide state_icons.png (4-frame horizontal strip: 4 x 48x48 frames (S, E, I, R). Alternative: four separate 48x48 files state_susceptible.png etc.)"
   },
   {
     "file": "assets/sprites/icon_hud.svg",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
     "confidence": "HIGH",
-    "reason": "Missing required asset"
+    "suggested_action": "Provide icon_hud.svg (Keep simple vector; Godot rasterizes on import/use.)"
   },
   {
     "file": "assets/sounds/infect.ogg",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
     "confidence": "HIGH",
-    "reason": "Missing required asset"
+    "suggested_action": "Provide infect.ogg (Short infection cue)"
+  },
+  {
+    "file": "assets/sounds/ambient_bg.ogg",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
+    "confidence": "MED",
+    "suggested_action": "Provide ambient_bg.ogg (Optional background ambience)"
+  },
+  {
+    "file": "assets/sounds/ambulance_siren.ogg",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
+    "confidence": "MED",
+    "suggested_action": "Provide ambulance_siren.ogg (Ambulance siren / short loop)"
+  },
+  {
+    "file": "assets/sounds/ui_pop.ogg",
+    "original_text": "MISSING",
+    "reason": "Required asset missing",
+    "confidence": "MED",
+    "suggested_action": "Provide ui_pop.ogg (UI click/pop)"
   }
 ]

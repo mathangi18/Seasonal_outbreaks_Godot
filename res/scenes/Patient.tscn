@@ -1,7 +1,7 @@
 ﻿[gd_scene load_steps=4 format=3 uid="uid://patient_visual"]
 
-[ext_resource type="Script" path="reres://scripts/patient.gd" id="1_script"]
-[ext_resource type="Texture2D" path="reres://assets/patient.png" id="2_tex"]
+[ext_resource type="Script" path="res://scripts/patient.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/sprites/patient.png" id="2_tex"]
 
 [sub_resource type="CircleShape2D" id="1"]
 radius = 8.0

@@ -17,9 +17,9 @@ var current_tick: int = 0
 var is_running: bool = false
 
 # Resources
-var patient_scene = preload("res://scenes/patient.tscn")
-var facility_scene = preload("res://scenes/facility.tscn")
-var ambulance_scene = preload("res://scenes/ambulance.tscn")
+var patient_scene = preload("reres://scenes/patient.tscn")
+var facility_scene = preload("reres://scenes/facility.tscn")
+var ambulance_scene = preload("reres://scenes/ambulance.tscn")
 
 signal tick_updated(tick)
 

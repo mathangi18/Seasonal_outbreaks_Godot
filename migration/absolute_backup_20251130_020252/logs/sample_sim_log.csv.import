@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b18ykqhv8ekti"
+
+[deps]
+
+files=["reres://logs/sample_sim_log.susceptible.translation", "reres://logs/sample_sim_log.exposed.translation", "reres://logs/sample_sim_log.infectious.translation", "reres://logs/sample_sim_log.recovered.translation", "reres://logs/sample_sim_log.queued.translation", "reres://logs/sample_sim_log.hospitalized.translation"]
+
+source_file="reres://logs/sample_sim_log.csv"
+dest_files=["reres://logs/sample_sim_log.susceptible.translation", "reres://logs/sample_sim_log.exposed.translation", "reres://logs/sample_sim_log.infectious.translation", "reres://logs/sample_sim_log.recovered.translation", "reres://logs/sample_sim_log.queued.translation", "reres://logs/sample_sim_log.hospitalized.translation"]
+
+[params]
+
+compress=true
+delimiter=0

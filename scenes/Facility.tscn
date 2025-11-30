@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://facility"]
 
-[ext_resource type="Script" path="reres://scripts/facility.gd" id="1_script"]
-[ext_resource type="Texture2D" path="reres://assets/facility.png" id="2_tex"]
+[ext_resource type="Script" path="res://scripts/facility.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/sprites/facility.png" id="2_tex"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(64, 64)

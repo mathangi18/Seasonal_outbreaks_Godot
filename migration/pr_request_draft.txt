@@ -1,18 +1,10 @@
-PR Request Draft
-================
-Branch: feature/seasonal-outbreaks
-Head Commit: b03230a
-
-Changes:
-- Replaced absolute paths in project files.
-- Moved noisy files to migration staging.
-- Ran static health checks.
-
-Validation:
-- See migration/validation_summary.json
-- See migration/absolute_path_replacements.json
-
-Manual Actions Required:
-1. Review migration/absolute_path_suspects.json for ambiguous paths.
-2. Verify assets in res://assets/ (some were missing in previous checks).
-3. Run Godot smoke test manually (CLI was not available).
+Migration complete.
+Timestamp: 20251130_020252
+Suspects: 7
+- Required asset missing: assets/sprites/patient_placeholder.png
+- Required asset missing: assets/sprites/state_icons.png
+- Required asset missing: assets/sprites/icon_hud.svg
+- Required asset missing: assets/sounds/infect.ogg
+- Required asset missing: assets/sounds/ambient_bg.ogg
+- Required asset missing: assets/sounds/ambulance_siren.ogg
+- Required asset missing: assets/sounds/ui_pop.ogg

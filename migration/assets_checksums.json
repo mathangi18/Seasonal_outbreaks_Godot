@@ -1,1 +1,17 @@
-{}
+[
+  {
+    "path": "assets/sprites/patient.png",
+    "sha256": "630788083ba38704ac117e2a3f234cde655c850a3876a4cacea4f5447ec9f418",
+    "size": 18458
+  },
+  {
+    "path": "assets/sprites/ambulance.png",
+    "sha256": "77b8b11f8d46ffdcdabf23cbb5095443bb82fc125e930ce918e38c20cae52253",
+    "size": 79573
+  },
+  {
+    "path": "assets/sprites/facility.png",
+    "sha256": "0020f10e21c30537bfd8b4520b7ff08449f3e8582faefa309aad8525c09d4464",
+    "size": 108309
+  }
+]

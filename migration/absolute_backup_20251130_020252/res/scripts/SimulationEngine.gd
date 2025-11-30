@@ -24,9 +24,9 @@ var infection_log: Array = []
 var infection_chain_log: Array = []
 
 # Resources
-var patient_scene = preload("res://scenes/patient.tscn")
-var facility_scene = preload("res://scenes/facility.tscn")
-var ambulance_scene = preload("res://scenes/ambulance.tscn")
+var patient_scene = preload("reres://scenes/patient.tscn")
+var facility_scene = preload("reres://scenes/facility.tscn")
+var ambulance_scene = preload("reres://scenes/ambulance.tscn")
 
 # Signals
 signal tick_updated(tick)
