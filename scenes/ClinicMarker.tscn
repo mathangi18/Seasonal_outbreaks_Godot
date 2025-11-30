@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_1960952588"]
+
+[node name="Node2DAnimatedSprite2D" type="Node2D -> AnimatedSprite2D"]
+# TODO: Mapped from clinic_marker.apng

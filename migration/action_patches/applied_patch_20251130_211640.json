@@ -1,0 +1,20 @@
+[
+  {
+    "asset": "person_walk.json",
+    "changes": [
+      "C11: Added res:// prefix to notes"
+    ]
+  },
+  {
+    "asset": "person_walk.json (duplicate-lottie)",
+    "changes": [
+      "C11: Added res:// prefix to notes"
+    ]
+  },
+  {
+    "asset": "ui_pop.wav",
+    "changes": [
+      "C11: Added res:// prefix to notes"
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_-542059897"]
+
+[node name="Node2DAnimatedSprite2DorParticles2Dspriteframes" type="Node2D -> AnimatedSprite2D or Particles2D (sprite frames)"]
+# TODO: Mapped from virus_particle.apng

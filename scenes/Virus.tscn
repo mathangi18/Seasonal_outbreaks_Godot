@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_138459121"]
+
+[node name="ControlTextureRectorNode2DAnimatedSprite2D" type="Control -> TextureRect or Node2D -> AnimatedSprite2D"]
+# TODO: Mapped from virus.apng

@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_-1581720836"]
+
+[node name="NodeAudioStreamPlayer" type="Node -> AudioStreamPlayer"]
+# TODO: Mapped from mixkit-slot-machine-win-alert-1931.wav

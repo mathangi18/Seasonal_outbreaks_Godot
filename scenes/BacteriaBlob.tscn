@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_-819058170"]
+
+[node name="Node2DAnimatedSprite2D" type="Node2D -> AnimatedSprite2D"]
+# TODO: Mapped from bacteria_blob.apng

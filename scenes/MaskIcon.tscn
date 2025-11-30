@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_-1250899671"]
+
+[node name="ControlTextureRect" type="Control -> TextureRect"]
+# TODO: Mapped from mask.svg

@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_937743390"]
+
+[node name="ControlTextureRectAnimated" type="Control -> TextureRect (Animated)"]
+# TODO: Mapped from icon_hud.apng

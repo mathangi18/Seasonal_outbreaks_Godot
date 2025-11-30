@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_-418867948"]
+
+[node name="ControlTextureRect" type="Control -> TextureRect"]
+# TODO: Mapped from doctor_avatar.svg

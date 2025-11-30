@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_1116416219"]
+
+[node name="NodeAudioStreamPlayer" type="Node -> AudioStreamPlayer"]
+# TODO: Mapped from hospital-corridors-with-f-7ayj5ooe.wav

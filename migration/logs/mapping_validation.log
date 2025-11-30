@@ -1,0 +1,32 @@
+[2025-11-30 16:49:25] [INFO] === Mapping Validation Started ===
+[2025-11-30 16:49:25] [INFO] Input: D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json
+[2025-11-30 16:49:25] [INFO] Output Report: D:\Repos\Seasonal_outbreaks_Godot\migration\validation_report.json
+[2025-11-30 16:49:25] [INFO] Loading bound_mappings_final.json...
+[2025-11-30 16:49:26] [INFO] Loaded 71 mapping entries
+[2025-11-30 16:50:07] [INFO] === Mapping Validation Started ===
+[2025-11-30 16:50:07] [INFO] Input: D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json
+[2025-11-30 16:50:07] [INFO] Output Report: D:\Repos\Seasonal_outbreaks_Godot\migration\validation_report.json
+[2025-11-30 16:51:04] [INFO] === Mapping Validation Started ===
+[2025-11-30 16:51:04] [INFO] Input: D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json
+[2025-11-30 16:51:04] [INFO] Loading bound_mappings_final.json...
+[2025-11-30 16:51:04] [INFO] Loaded 71 mapping entries
+[2025-11-30 16:51:04] [INFO] Validation complete: 2 valid, 80 failures
+[2025-11-30 16:51:04] [INFO] Writing validation report to D:\Repos\Seasonal_outbreaks_Godot\migration\validation_report.json
+[2025-11-30 16:51:04] [INFO] === Validation Complete ===
+[2025-11-30 16:51:04] [INFO] Summary: 2 validated, 80 failures
+[2025-11-30 21:18:22] [INFO] === Mapping Validation Started ===
+[2025-11-30 21:18:22] [INFO] Input: D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json
+[2025-11-30 21:18:22] [INFO] Loading bound_mappings_final.json...
+[2025-11-30 21:18:22] [INFO] Loaded 71 mapping entries
+[2025-11-30 21:18:22] [INFO] Validation complete: 2 valid, 80 failures
+[2025-11-30 21:18:22] [INFO] Writing validation report to D:\Repos\Seasonal_outbreaks_Godot\migration\validation_report.json
+[2025-11-30 21:18:22] [INFO] === Validation Complete ===
+[2025-11-30 21:18:22] [INFO] Summary: 2 validated, 80 failures
+[2025-11-30 21:20:29] [INFO] === Mapping Validation Started ===
+[2025-11-30 21:20:29] [INFO] Input: D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json
+[2025-11-30 21:20:29] [INFO] Loading bound_mappings_final.json...
+[2025-11-30 21:20:29] [INFO] Loaded 71 mapping entries
+[2025-11-30 21:20:29] [INFO] Validation complete: 62 valid, 9 failures
+[2025-11-30 21:20:29] [INFO] Writing validation report to D:\Repos\Seasonal_outbreaks_Godot\migration\validation_report.json
+[2025-11-30 21:20:29] [INFO] === Validation Complete ===
+[2025-11-30 21:20:29] [INFO] Summary: 62 validated, 9 failures

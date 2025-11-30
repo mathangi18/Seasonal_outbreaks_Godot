@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_2060753220"]
+
+[node name="NodeAudioStreamPlayer" type="Node -> AudioStreamPlayer"]
+# TODO: Mapped from infect.ogg

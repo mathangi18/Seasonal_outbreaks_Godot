@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://placeholder_-1200006741"]
+
+[node name="ControlTextureRect" type="Control -> TextureRect"]
+# TODO: Mapped from user_outline.svg
