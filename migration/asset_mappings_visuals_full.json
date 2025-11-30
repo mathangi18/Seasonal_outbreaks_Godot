@@ -1,37 +1,5 @@
 [
   {
-    "role": "ui_pop.ogg",
-    "original_path": "C:\\Users\\Hope\\Downloads\\ui_pop.wav",
-    "new_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sounds\\ui_pop.ogg",
-    "converted": true,
-    "sha256": "3B768EF66B776FA6F6148BCCA529FC428BF751E69479D495B6BF029F96B82159",
-    "notes": "copied/raw or already .ogg"
-  },
-  {
-    "role": "ambulance_siren.ogg",
-    "original_path": "C:\\Users\\Hope\\Downloads\\ambulance_siren.mp3",
-    "new_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sounds\\ambulance_siren.ogg",
-    "converted": true,
-    "sha256": "D576D5008E5DF4D60325F1C56D5C88D7E21D1573F1106C45F97E203AD95060FE",
-    "notes": "copied/raw or already .ogg"
-  },
-  {
-    "role": "infect.ogg",
-    "original_path": "C:\\Users\\Hope\\Downloads\\infect.wav",
-    "new_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sounds\\infect.ogg",
-    "converted": true,
-    "sha256": "4727FDF33F1F4C540D172F6ED8CA93B2172F3ECAF1360819812AFE637F42E6F0",
-    "notes": "copied/raw or already .ogg"
-  },
-  {
-    "role": "ambient_bg.ogg",
-    "original_path": "C:\\Users\\Hope\\Downloads\\ambient_bg.wav",
-    "new_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sounds\\ambient_bg.ogg",
-    "converted": true,
-    "sha256": "4B3FD3017A01AE278C8F9559B54C5C06060EBC70248E98F3DDCF6D667553C466",
-    "notes": "copied/raw or already .ogg"
-  },
-  {
     "role": "alert.apng",
     "original_path": "D:\\seasonal_outbreak_assets\\lotties\\alert.apng",
     "new_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\lotties\\alert.apng",
