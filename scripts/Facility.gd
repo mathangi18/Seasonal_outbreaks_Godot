@@ -1,4 +1,4 @@
-﻿extends Area2D
+extends Area2D
 class_name Facility
 
 @export var capacity: int = 5
@@ -55,3 +55,5 @@ func update_label():
     var label = $Label
     if label:
         label.text = "HOSPITAL\nOcc: %d/%d\nQ: %d" % [occupants.size(), capacity, queue.size()]
+
+

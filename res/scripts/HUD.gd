@@ -10,8 +10,9 @@
 var visible_anim: bool = true
 var fade_time: float = 0.0
 
-func _ready():
-    # Setup animated panel
+
+    if Engine.is_editor_hint():
+        return# Setup animated panel
     if has_node("Panel"):
         $Panel.modulate = Color(1, 1, 1, 0)
         fade_in()
@@ -45,3 +46,5 @@ func fade_out():
     if has_node("Panel"):
         var tween = create_tween()
         tween.tween_property($Panel, "modulate:a", 0.0, 0.5)
+
+

@@ -1,4 +1,0 @@
-[gd_scene format=3 uid="uid://placeholder_-1967639299"]
-
-[node name="NodeAudioStreamPlayer" type="Node -> AudioStreamPlayer"]
-# TODO: Mapped from ui_pop.ogg

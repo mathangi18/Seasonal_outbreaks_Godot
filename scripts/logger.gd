@@ -29,3 +29,4 @@ func log_counts(tick, s, e, i, r, queued, hospitalized):
 		var line = "%d,%d,%d,%d,%d,%d,%d" % [tick, s, e, i, r, queued, hospitalized]
 		log_file.store_line(line)
 		log_file.close()
+

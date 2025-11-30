@@ -106,3 +106,4 @@ func hospitalize():
     visible = false
     is_being_attended = false # Reset
     state_changed.emit(state)
+

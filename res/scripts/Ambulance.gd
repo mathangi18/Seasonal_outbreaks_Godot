@@ -1,4 +1,4 @@
-﻿extends CharacterBody2D
+extends CharacterBody2D
 class_name Ambulance
 
 enum State { IDLE, MOVING_TO_PATIENT, TRANSPORTING, RETURNING }
@@ -14,8 +14,9 @@ var siren_playing: bool = false
 
 signal ambulance_dispatched(ambulance_id, patient_id)
 
-func _ready():
-    collision_layer = 8
+
+    if Engine.is_editor_hint():
+        return = 8
     collision_mask = 1
     var sprite = $Sprite2D
     if sprite:
@@ -83,3 +84,6 @@ func drop_off_patients():
         carried_patients.clear()
         state = State.IDLE
         siren_playing = false
+
+
+

@@ -1,4 +1,0 @@
-[gd_scene format=3 uid="uid://placeholder_-1185219004"]
-
-[node name="Node2DLottiePlayer" type="Node2D -> LottiePlayer"]
-# TODO: Mapped from person_walk.json

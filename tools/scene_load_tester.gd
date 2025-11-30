@@ -1,4 +1,5 @@
-﻿extends Node
+@tool
+extends Node
 @tool
 func _ready() -> void:
     var out = []
@@ -44,3 +45,6 @@ func _collect_scenes(dir:DirAccess, base:String, out_arr:Array) -> void:
                 out_arr.append(base + fname)
         fname = dir.get_next()
     dir.list_dir_end()
+
+
+

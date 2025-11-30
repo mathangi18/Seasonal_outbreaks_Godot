@@ -1,8 +1,8 @@
-﻿[gd_scene load_steps=5 format=3]
+[gd_scene load_steps=5 format=3]
 
 [ext_resource type="Script" path="res://scripts/simulationengine.gd" id="1_sim"]
 [ext_resource type="Script" path="res://scripts/hud.gd" id="2_hud"]
-[ext_resource type="Script" path="reres://scripts/cameracontroller.gd" id="3_cam"]
+[ext_resource type="Script" path="res://scripts/cameracontroller.gd" id="3_cam"]
 [ext_resource type="PackedScene" path="res://scenes/world.tscn" id="4_world"]
 
 [node name="Main" type="Node"]
@@ -31,3 +31,5 @@ offset_top = 10.0
 offset_right = 490.0
 offset_bottom = 30.0
 text = "Simulation HUD"
+
+

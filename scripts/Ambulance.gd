@@ -1,4 +1,4 @@
-﻿extends CharacterBody2D
+extends CharacterBody2D
 class_name Ambulance
 
 enum State { IDLE, MOVING_TO_PATIENT, TRANSPORTING, RETURNING }
@@ -67,3 +67,5 @@ func drop_off_patient():
     if is_instance_valid(target_facility) and is_instance_valid(target_patient):
         target_facility.admit(target_patient)
         state = State.IDLE
+
+

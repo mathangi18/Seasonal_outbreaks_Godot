@@ -1,0 +1,11 @@
+res://migration_disabled_20251130_234540/asset_mappings.original.translation
+res://migration_disabled_20251130_234540/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Susceptible.translation
+res://migration_disabled_20251130_234540/asset_mappings.new.translation
+res://migration_disabled_20251130_234540/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Exposed.translation
+res://migration_disabled_20251130_234540/asset_mappings.converted.translation
+res://migration_disabled_20251130_234540/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Infectious.translation
+res://migration_disabled_20251130_234540/asset_mappings.sha256.translation
+res://migration_disabled_20251130_234540/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Recovered.translation
+res://migration_disabled_20251130_234540/asset_mappings.notes.translation
+res://migration_disabled_20251130_234540/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Queued.translation
+res://migration_disabled_20251130_234540/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Hospitalized.translation

@@ -1,4 +1,4 @@
-﻿extends Camera2D
+extends Camera2D
 
 @export var zoom_speed: float = 0.1
 @export var min_zoom: float = 0.5
@@ -14,8 +14,9 @@ var cinematic_end_pos: Vector2
 var cinematic_start_zoom: Vector2
 var cinematic_end_zoom: Vector2
 
-func _ready():
-    zoom = Vector2(1.0, 1.0)
+
+    if Engine.is_editor_hint():
+        return = Vector2(1.0, 1.0)
     position = Vector2(576, 324)
 
 func _process(delta):
@@ -74,3 +75,6 @@ func process_cinematic(delta):
 
 func ease_in_out(t: float) -> float:
     return t * t * (3.0 - 2.0 * t)
+
+
+

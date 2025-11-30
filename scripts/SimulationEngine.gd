@@ -165,3 +165,4 @@ func get_counts() -> Dictionary:
             Patient.State.HOSPITALIZED: counts.H += 1
     counts["Tick"] = current_tick
     return counts
+

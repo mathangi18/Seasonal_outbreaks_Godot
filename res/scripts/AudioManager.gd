@@ -1,4 +1,4 @@
-﻿extends Node
+extends Node
 
 # Audio channels
 var ambient_player: AudioStreamPlayer
@@ -71,3 +71,5 @@ func play_music(music_stream: AudioStream):
 func stop_music():
     if music_player:
         music_player.stop()
+
+

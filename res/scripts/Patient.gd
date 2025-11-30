@@ -39,8 +39,9 @@ var contagious_period: int = 10
 signal state_changed(new_state)
 signal patient_infected(patient_id, source_id)
 
-func _ready():
-    pick_new_target()
+
+    if Engine.is_editor_hint():
+        return()
     update_visuals()
     collision_layer = 2
     collision_mask = 1 | 3
@@ -149,3 +150,5 @@ func hospitalize():
     
     if AudioManager:
         AudioManager.play_sfx("ui_pop")
+
+

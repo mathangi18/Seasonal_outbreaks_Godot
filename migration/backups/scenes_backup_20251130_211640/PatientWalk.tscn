@@ -1,4 +1,0 @@
-[gd_scene format=3 uid="uid://placeholder_-1691591880"]
-
-[node name="Node2DLottiePlayer" type="Node2D -> LottiePlayer"]
-# TODO: Mapped from patient_walk.json

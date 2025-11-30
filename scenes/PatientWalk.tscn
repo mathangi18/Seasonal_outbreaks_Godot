@@ -2,3 +2,4 @@
 
 [node name="Node2DLottiePlayer" type="Node2D -> LottiePlayer"]
 # TODO: Mapped from patient_walk.json
+

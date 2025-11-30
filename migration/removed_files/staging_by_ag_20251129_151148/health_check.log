@@ -1,9 +1,0 @@
-Health Check Log
-=================
-Checking for absolute paths in project.godot...
-PASS: No absolute paths found in project.godot
-
-Checking for gdformat...
-WARN: gdformat not found, skipping lint check
-
-Health check complete.

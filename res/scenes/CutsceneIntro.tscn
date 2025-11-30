@@ -1,6 +1,6 @@
-﻿[gd_scene load_steps=2 format=3]
+[gd_scene load_steps=2 format=3]
 
-[ext_resource type="Script" path="reres://scripts/cutsceneintro.gd" id="1_script"]
+[ext_resource type="Script" path="res://scripts/cutsceneintro.gd" id="1_script"]
 
 [node name="CutsceneIntro" type="Node2D"]
 script = ExtResource("1_script")
@@ -24,3 +24,5 @@ grow_vertical = 2
 text = "SEASONAL OUTBREAK SIMULATION"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+

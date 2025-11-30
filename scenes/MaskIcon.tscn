@@ -2,3 +2,4 @@
 
 [node name="ControlTextureRect" type="Control -> TextureRect"]
 # TODO: Mapped from mask.svg
+

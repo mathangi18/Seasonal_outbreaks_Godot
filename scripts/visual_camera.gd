@@ -61,3 +61,4 @@ func pulse_zoom(duration_sec: float):
 func shake(duration_sec: float, amount: float = 5.0):
 	shake_timer = duration_sec
 	shake_amount = amount
+

@@ -1,5 +1,0 @@
-b03230a chore(staging/local): replace absolute paths, move noisy files to migration/staging_by_ag_20251129_151148, add validation logs
-9b2a2e7 chore(staging): move noisy files to migration/removed_files/staging_by_ag_20251129_151148; add validation logs
-c3afec4 feat: cinematic sequence + advanced infection mechanics + audio (ag-cinematic-infection)
-2638cbc fix: add missing texture assets for visual simulation
-9f6a356 feat: visuals + ambulances + camera + infection R logging (ag-visual-ambulance-full)

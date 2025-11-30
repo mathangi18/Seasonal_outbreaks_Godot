@@ -1,4 +1,4 @@
-﻿extends Node2D
+extends Node2D
 
 @onready var camera = $Camera2D
 @onready var label = $CanvasLayer/Label
@@ -6,8 +6,9 @@
 var cutscene_time: float = 0.0
 var cutscene_duration: float = 8.0
 
-func _ready():
-    # Start cinematic
+
+    if Engine.is_editor_hint():
+        return# Start cinematic
     if camera:
         camera.position = Vector2(0, 0)
         camera.zoom = Vector2(0.5, 0.5)
@@ -37,3 +38,6 @@ func _process(delta):
     # End cutscene
     if t >= 1.0:
         get_tree().change_scene_to_file("res://scenes/main.tscn")
+
+
+

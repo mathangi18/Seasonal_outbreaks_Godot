@@ -13,3 +13,4 @@ script = ExtResource("2_sim")
 [node name="World" type="Node2D" parent="."]
 
 [node name="HUD" parent="." instance=ExtResource("3_hud")]
+

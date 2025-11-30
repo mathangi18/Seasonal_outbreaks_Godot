@@ -50,3 +50,4 @@ func ss(size: float) -> float:
 
 func get_random_pos() -> Vector2:
 	return Vector2(randf_range(0, world_width), randf_range(0, world_height))
+
