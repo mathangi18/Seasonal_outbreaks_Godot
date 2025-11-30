@@ -1,67 +1,26 @@
 [
   {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\logs\\sample_sim_log.csv.import",
-    "before": "...",
-    "after": "..."
+    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\HUD.gd",
+    "action": "Added header"
   },
   {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Ambulance.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Facility.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Main.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Patient.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\CutsceneIntro.gd",
-    "before": "...",
-    "after": "..."
+    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\Patient.gd",
+    "action": "Added header"
   },
   {
     "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\SimulationEngine.gd",
-    "before": "...",
-    "after": "..."
+    "action": "Added header"
   },
   {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Ambulance.tscn",
-    "before": "...",
-    "after": "..."
+    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\HUD.gd",
+    "action": "Added header"
   },
   {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Facility.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\HUD.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Main.tscn",
-    "before": "...",
-    "after": "..."
-  },
-  {
-    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Patient.tscn",
-    "before": "...",
-    "after": "..."
+    "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\Patient.gd",
+    "action": "Added header"
   },
   {
     "file": "d:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\SimulationEngine.gd",
-    "before": "...",
-    "after": "..."
+    "action": "Added header"
   }
 ]

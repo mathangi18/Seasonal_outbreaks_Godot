@@ -6,10 +6,10 @@ uid="uid://b18ykqhv8ekti"
 
 [deps]
 
-files=["res://logs/sample_sim_log.susceptible.translation", "res://logs/sample_sim_log.exposed.translation", "res://logs/sample_sim_log.infectious.translation", "res://logs/sample_sim_log.recovered.translation", "res://logs/sample_sim_log.queued.translation", "res://logs/sample_sim_log.hospitalized.translation"]
+files=["res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Susceptible.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Exposed.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Infectious.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Recovered.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Queued.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Hospitalized.translation"]
 
 source_file="res://logs/sample_sim_log.csv"
-dest_files=["res://logs/sample_sim_log.susceptible.translation", "res://logs/sample_sim_log.exposed.translation", "res://logs/sample_sim_log.infectious.translation", "res://logs/sample_sim_log.recovered.translation", "res://logs/sample_sim_log.queued.translation", "res://logs/sample_sim_log.hospitalized.translation"]
+dest_files=["res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Susceptible.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Exposed.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Infectious.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Recovered.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Queued.translation", "res://migration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Hospitalized.translation"]
 
 [params]
 

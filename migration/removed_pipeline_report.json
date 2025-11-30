@@ -1,0 +1,18 @@
+[
+  {
+    "path": "d:\\Repos\\Seasonal_outbreaks_Godot\\migration/absolute_path_suspects.json",
+    "reason": "Legacy pipeline file"
+  },
+  {
+    "path": "d:\\Repos\\Seasonal_outbreaks_Godot\\migration/pr_request_draft.txt",
+    "reason": "Legacy pipeline file"
+  },
+  {
+    "path": "d:\\Repos\\Seasonal_outbreaks_Godot\\migration/validation_summary.json",
+    "reason": "Legacy pipeline file"
+  },
+  {
+    "path": "d:\\Repos\\Seasonal_outbreaks_Godot\\migration/assets_checksums.json",
+    "reason": "Legacy pipeline file"
+  }
+]

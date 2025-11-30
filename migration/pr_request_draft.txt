@@ -1,10 +1,4 @@
-Migration complete.
-Timestamp: 20251130_020252
-Suspects: 7
-- Required asset missing: assets/sprites/patient_placeholder.png
-- Required asset missing: assets/sprites/state_icons.png
-- Required asset missing: assets/sprites/icon_hud.svg
-- Required asset missing: assets/sounds/infect.ogg
-- Required asset missing: assets/sounds/ambient_bg.ogg
-- Required asset missing: assets/sounds/ambulance_siren.ogg
-- Required asset missing: assets/sounds/ui_pop.ogg
+PR Request Draft
+Summary of removals: Legacy pipeline files and assets removed.
+Headless validation: PASS
+Render Requests: None

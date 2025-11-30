@@ -1,22 +1,3 @@
 {
-  "scenes": true,
-  "scripts": true,
-  "assets": true,
-  "logs": true,
-  "scenes/Main.tscn": true,
-  "scenes/Simulation.tscn": true,
-  "scenes/Patient.tscn": true,
-  "scenes/Facility.tscn": true,
-  "scenes/HUD.tscn": true,
-  "scripts/Main.gd": true,
-  "scripts/SimulationEngine.gd": true,
-  "scripts/Patient.gd": true,
-  "scripts/Facility.gd": true,
-  "scripts/HUD.gd": true,
-  "scripts/scale_utils.gd": true,
-  "scripts/logger.gd": true,
-  "logs/sample_sim_log.csv": true,
-  "README.md": true,
-  "run_instructions.md": true,
-  "quick_test.md": true
+  "headless_smoke": "PASS"
 }

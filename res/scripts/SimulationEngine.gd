@@ -1,3 +1,7 @@
+# SimulationEngine
+# Manages the core simulation loop, entity spawning (patients, facilities), and infection logic.
+# This script drives the tick-based simulation and updates the state of all agents.
+# If you need to render more assets, see migration/render_requests.json.
 ﻿extends Node
 class_name SimulationEngine
 

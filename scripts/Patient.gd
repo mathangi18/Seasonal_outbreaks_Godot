@@ -1,3 +1,7 @@
+# Patient
+# Represents an individual agent in the simulation with state (Susceptible, Exposed, Infectious, Recovered).
+# Handles movement, visual updates via modulation, and state transitions.
+# If you need to render more assets, see migration/render_requests.json.
 ﻿extends CharacterBody2D
 class_name Patient
 

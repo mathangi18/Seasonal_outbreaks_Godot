@@ -1,3 +1,7 @@
+# HUD
+# Displays simulation statistics and controls.
+# Updates the UI labels based on data from the SimulationEngine.
+# If you need to render more assets, see migration/render_requests.json.
 ﻿extends CanvasLayer
 
 @onready var sim_engine = get_node("/root/Main/SimulationEngine")
