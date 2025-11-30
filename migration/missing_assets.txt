@@ -1,0 +1,5 @@
+migration\ag_clean_rebuild_prompt.txt
+migration\asset_mappings.json
+tools\scene_loader_check.gd
+res\assets\sounds
+res\assets\sprites

@@ -8,9 +8,19 @@ var target_patient: Patient
 var target_facility: Facility
 var speed: float = 150.0
 
+# Audio
+var siren_player: AudioStreamPlayer
+
 func _ready():
     collision_layer = 8 
     collision_mask = 1 
+    
+    # Setup audio
+    siren_player = AudioStreamPlayer.new()
+    add_child(siren_player)
+    if ResourceLoader.exists("res://res/assets/sounds/ambulance_siren.ogg"):
+        siren_player.stream = ResourceLoader.load("res://res/assets/sounds/ambulance_siren.ogg")
+    
     # Visuals
     var sprite = $Sprite2D
     if sprite:
@@ -44,6 +54,9 @@ func dispatch(patient: Patient, facility: Facility):
     target_patient = patient
     target_facility = facility
     state = State.MOVING_TO_PATIENT
+    # Play siren
+    if siren_player and siren_player.stream:
+        siren_player.play()
 
 func pickup_patient():
     if is_instance_valid(target_patient):

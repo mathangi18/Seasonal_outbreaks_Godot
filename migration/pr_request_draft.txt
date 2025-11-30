@@ -1,4 +1,2 @@
 PR Request Draft
-Summary of removals: Legacy pipeline files and assets removed.
-Headless validation: PASS
-Render Requests: None
+Head: 43731b656e37b3cca4b365b71efab8c1776c8441

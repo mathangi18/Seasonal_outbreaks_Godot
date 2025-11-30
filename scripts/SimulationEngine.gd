@@ -24,6 +24,10 @@ var ambulances: Array = []
 var current_tick: int = 0
 var is_running: bool = false
 
+# Audio players
+var sfx_player: AudioStreamPlayer
+var ambient_player: AudioStreamPlayer
+
 # Resources
 var patient_scene = preload("res://scenes/patient.tscn")
 var facility_scene = preload("res://scenes/facility.tscn")
@@ -32,8 +36,23 @@ var ambulance_scene = preload("res://scenes/ambulance.tscn")
 signal tick_updated(tick)
 
 func _ready():
-    # Wait for start_simulation to be called or auto-start if needed
-    pass
+    # Setup audio players
+    sfx_player = AudioStreamPlayer.new()
+    add_child(sfx_player)
+    
+    ambient_player = AudioStreamPlayer.new()
+    add_child(ambient_player)
+    
+    # Load ambient background if available
+    if ResourceLoader.exists("res://res/assets/sounds/ambient_bg.ogg"):
+        ambient_player.stream = ResourceLoader.load("res://res/assets/sounds/ambient_bg.ogg")
+        ambient_player.autoplay = false
+        ambient_player.play()
+
+func play_infection_sound():
+    if ResourceLoader.exists("res://res/assets/sounds/infect.ogg"):
+        sfx_player.stream = ResourceLoader.load("res://res/assets/sounds/infect.ogg")
+        sfx_player.play()
 
 func start_simulation():
     if is_running: return
@@ -105,6 +124,7 @@ func _on_tick():
                     if p.position.distance_to(other.position) < infection_radius:
                         if randf() < infection_prob:
                             other.infect()
+                            play_infection_sound()
                             
     # 3. Facilities Logic
     for f in facilities:

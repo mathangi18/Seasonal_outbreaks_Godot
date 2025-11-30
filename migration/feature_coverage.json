@@ -1,0 +1,3284 @@
+[
+  {
+    "feature": "FEATURES_GODOT_FULL.txt",
+    "found_count": 8,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "FEATURES_GODOT_FULL.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "R100\tProjectRunTest/FEATURES_GODOT_FULL.txt.txt\tmigration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/FEATURES_GODOT_FULL.txt.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\logger.gd",
+        "snippet": "# FEATURES: see /FEATURES_GODOT_FULL.txt, section 8"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\scale_utils.gd",
+        "snippet": "# FEATURES: see /FEATURES_GODOT_FULL.txt, section 3"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\spatial_grid.gd",
+        "snippet": "# FEATURES: see /FEATURES_GODOT_FULL.txt, section 9 (Optimization)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "FEATURES_GODOT_FULL.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "This PR implements the complete Godot 4.x scaffold and core systems for the Seasonal Outbreaks simulation, based on `FEATURES_GODOT_FULL.txt`."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\seasonal_outbreak_Revised.txt",
+        "snippet": "Please refer to that file for the detailed concept and requirements if not fully covered in FEATURES_GODOT_FULL.txt."
+      }
+    ]
+  },
+  {
+    "feature": "Title: Seasonal_outbreaks — Full Godot 4.x Feature Specification (Basic → Advanced)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "Title: Seasonal_outbreaks — Full Godot 4.x Feature Specification (Basic → Advanced)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "Title: Seasonal_outbreaks — Full Godot 4.x Feature Specification (Basic → Advanced)"
+      }
+    ]
+  },
+  {
+    "feature": "Version: 1.0",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "Version: 1.0"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "Version: 1.0"
+      }
+    ]
+  },
+  {
+    "feature": "Engine: Godot 4.x (2D, GDScript)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "Engine: Godot 4.x (2D, GDScript)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "Engine: Godot 4.x (2D, GDScript)"
+      }
+    ]
+  },
+  {
+    "feature": "project.godot",
+    "found_count": 5,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "project.godot"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/project.godot.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_155612.txt",
+        "snippet": "M\tproject.godot"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "project.godot"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"project.godot\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "/scenes",
+    "found_count": 26,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"PackedScene\" path=\"reres://scenes/world.tscn\" id=\"4_world\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scripts\\CutsceneIntro.gd",
+        "snippet": "        get_tree().change_scene_to_file(\"reres://scenes/main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"reres://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"PackedScene\" uid=\"uid://hud\" path=\"reres://scenes/hud.tscn\" id=\"3_hud\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"reres://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\auto_play\\plugin.gd",
+        "snippet": "    # Determine main scene from ProjectSettings, fallback to res://scenes/Main.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\run_headless.gd",
+        "snippet": "\tvar main_scene = load(\"res://scenes/Main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_layers.gd",
+        "snippet": "\tvar p = load(\"res://scenes/Patient.tscn\").instantiate()"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_project.gd",
+        "snippet": "\tvar scenes = [\"res://scenes/Main.tscn\", \"res://scenes/Patient.tscn\", \"res://scenes/Facility.tscn\", \"res://scenes/HUD.tscn\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validator_mainloop.gd",
+        "snippet": "\t\t\"res://scenes/Main.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\tools\\health_check.gd",
+        "snippet": "        \"res://scenes/Main.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2.txt",
+        "snippet": "Godot.exe : ERROR: res://scenes/Main.tscn:1 - Parse Error: Expected '['."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_2.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\misc\\run_headless.gd",
+        "snippet": "    var main_scene := load(\"res://scenes/Main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "/scenes"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "M\tres/scenes/Ambulance.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"PackedScene\" path=\"res://scenes/world.tscn\" id=\"4_world\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\CutsceneIntro.gd",
+        "snippet": "        get_tree().change_scene_to_file(\"res://scenes/main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"res://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"PackedScene\" uid=\"uid://hud\" path=\"res://scenes/hud.tscn\" id=\"3_hud\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"res://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "/scenes"
+      }
+    ]
+  },
+  {
+    "feature": "Main.tscn",
+    "found_count": 14,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scripts\\CutsceneIntro.gd",
+        "snippet": "        get_tree().change_scene_to_file(\"reres://scenes/main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\auto_play\\plugin.gd",
+        "snippet": "    # Determine main scene from ProjectSettings, fallback to res://scenes/Main.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\run_headless.gd",
+        "snippet": "\tvar main_scene = load(\"res://scenes/Main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_project.gd",
+        "snippet": "\tvar scenes = [\"res://scenes/Main.tscn\", \"res://scenes/Patient.tscn\", \"res://scenes/Facility.tscn\", \"res://scenes/HUD.tscn\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validator_mainloop.gd",
+        "snippet": "\t\t\"res://scenes/Main.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\tools\\health_check.gd",
+        "snippet": "        \"res://scenes/Main.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2.txt",
+        "snippet": "Godot.exe : ERROR: res://scenes/Main.tscn:1 - Parse Error: Expected '['."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\misc\\run_headless.gd",
+        "snippet": "    print(\"[HEADLESS] Loading Main.tscn…\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Main.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/Main.tscn.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\res\\\\scenes\\\\Main.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\CutsceneIntro.gd",
+        "snippet": "        get_tree().change_scene_to_file(\"res://scenes/main.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Main.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scenes/Main.tscn\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "Simulation.tscn",
+    "found_count": 4,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Simulation.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\scenes/Simulation.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Simulation.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scenes/Simulation.tscn\": false,"
+      }
+    ]
+  },
+  {
+    "feature": "Patient.tscn",
+    "found_count": 16,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"reres://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"reres://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_layers.gd",
+        "snippet": "\tvar p = load(\"res://scenes/Patient.tscn\").instantiate()"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_project.gd",
+        "snippet": "\tvar scenes = [\"res://scenes/Main.tscn\", \"res://scenes/Patient.tscn\", \"res://scenes/Facility.tscn\", \"res://scenes/HUD.tscn\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_2.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run.txt",
+        "snippet": "ERROR: res://scenes/Patient.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Patient.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/Patient.tscn.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\res\\\\scenes\\\\Patient.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"res://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\SimulationEngine.gd",
+        "snippet": "var patient_scene = preload(\"res://scenes/patient.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Patient.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scenes/Patient.tscn\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "Facility.tscn",
+    "found_count": 16,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scripts\\SimulationEngine.gd",
+        "snippet": "var facility_scene = preload(\"reres://scenes/facility.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scripts\\SimulationEngine.gd",
+        "snippet": "var facility_scene = preload(\"reres://scenes/facility.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_layers.gd",
+        "snippet": "\tvar f = load(\"res://scenes/Facility.tscn\").instantiate()"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_project.gd",
+        "snippet": "\tvar scenes = [\"res://scenes/Main.tscn\", \"res://scenes/Patient.tscn\", \"res://scenes/Facility.tscn\", \"res://scenes/HUD.tscn\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "ERROR: res://scenes/Facility.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "ERROR: res://scenes/Facility.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_2.txt",
+        "snippet": "ERROR: res://scenes/Facility.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "ERROR: res://scenes/Facility.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run.txt",
+        "snippet": "ERROR: res://scenes/Facility.tscn:15 - Parse Error: [ext_resource] referenced non-existent resource at: "
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Facility.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/Facility.tscn.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\res\\\\scenes\\\\Facility.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scripts\\SimulationEngine.gd",
+        "snippet": "var facility_scene = preload(\"res://scenes/facility.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\SimulationEngine.gd",
+        "snippet": "var facility_scene = preload(\"res://scenes/facility.tscn\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Facility.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scenes/Facility.tscn\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "HUD.tscn",
+    "found_count": 8,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"PackedScene\" uid=\"uid://hud\" path=\"reres://scenes/hud.tscn\" id=\"3_hud\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validate_project.gd",
+        "snippet": "\tvar scenes = [\"res://scenes/Main.tscn\", \"res://scenes/Patient.tscn\", \"res://scenes/Facility.tscn\", \"res://scenes/HUD.tscn\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    HUD.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/HUD.tscn.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\scenes\\\\HUD.tscn\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"PackedScene\" uid=\"uid://hud\" path=\"res://scenes/hud.tscn\" id=\"3_hud\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    HUD.tscn"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scenes/HUD.tscn\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "/scripts",
+    "found_count": 29,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/ambulance.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/simulationengine.gd\" id=\"1_sim\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/ambulance.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\HUD.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/hud.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/main.gd\" id=\"1_main\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validator_mainloop.gd",
+        "snippet": "\t\t\"res://scripts/SimulationEngine.gd\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\tools\\health_check.gd",
+        "snippet": "        \"res://scripts/Main.gd\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/Facility.gd:16)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/Facility.gd:16)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_2.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:88)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/Facility.gd:16)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:88)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "/scripts"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "M\tres/scripts/CutsceneIntro.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/ambulance.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\CutsceneIntro.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/cutsceneintro.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/simulationengine.gd\" id=\"1_sim\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/ambulance.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\HUD.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/hud.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/main.gd\" id=\"1_main\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "/scripts"
+      }
+    ]
+  },
+  {
+    "feature": "Main.gd",
+    "found_count": 6,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/main.gd\" id=\"1_main\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\tools\\health_check.gd",
+        "snippet": "        \"res://scripts/Main.gd\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Main.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/main.gd\" id=\"1_main\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Main.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/Main.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "SimulationEngine.gd",
+    "found_count": 18,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/simulationengine.gd\" id=\"1_sim\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/simulationengine.gd\" id=\"2_sim\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\validator_mainloop.gd",
+        "snippet": "\t\t\"res://scripts/SimulationEngine.gd\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\reports\\validation_report.txt",
+        "snippet": "- **File**: `scripts/SimulationEngine.gd`, `scripts/Facility.gd`"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\tools\\health_check.gd",
+        "snippet": "        \"res://scripts/SimulationEngine.gd\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:94)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:94)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_2.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:88)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:65)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/SimulationEngine.gd:88)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    SimulationEngine.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/SimulationEngine.gd.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\res\\\\scripts\\\\SimulationEngine.gd\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/simulationengine.gd\" id=\"1_sim\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/simulationengine.gd\" id=\"2_sim\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    SimulationEngine.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `SimulationEngine.gd`: Tick-based simulation loop, spawning, and infection logic."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/SimulationEngine.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "Patient.gd",
+    "found_count": 9,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\tools\\health_check.gd",
+        "snippet": "        \"res://scripts/Patient.gd\""
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Patient.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/patient.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Patient.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `Patient.gd`: State machine (SEIR), movement, and visuals."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/Patient.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "Facility.gd",
+    "found_count": 12,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\reports\\validation_report.txt",
+        "snippet": "- **File**: `scripts/SimulationEngine.gd`, `scripts/Facility.gd`"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/Facility.gd:16)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/Facility.gd:16)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "   at: GDScript::reload (res://scripts/Facility.gd:16)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    Facility.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/facility.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    Facility.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `Facility.gd`: Capacity management, queuing, and service."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/Facility.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "HUD.gd",
+    "found_count": 9,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/hud.gd\" id=\"2_hud\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\HUD.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"reres://scripts/hud.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\reports\\validation_report.txt",
+        "snippet": "- **File**: `scripts/HUD.gd`"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    HUD.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Main.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/hud.gd\" id=\"2_hud\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\HUD.tscn",
+        "snippet": "[ext_resource type=\"Script\" path=\"res://scripts/hud.gd\" id=\"1_script\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    HUD.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `HUD.gd`: Scoreboard and scenario loading."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/HUD.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "scale_utils.gd",
+    "found_count": 4,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    scale_utils.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    scale_utils.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `scale_utils.gd`: Viewport scaling and fail-safe constants."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/scale_utils.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "logger.gd",
+    "found_count": 5,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    logger.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "A\tmigration/absolute_backup_20251129_151828/logger.gd.bak"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    logger.gd"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `logger.gd`: CSV logging to `user://logs/`."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"scripts/logger.gd\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "/assets",
+    "found_count": 21,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\asset_import_report.txt",
+        "snippet": "Place this file in: <repo_root>/assets/asset_import_report.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"reres://assets/ambulance.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"reres://assets/facility.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\res\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"reres://assets/patient.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"reres://assets/ambulance.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"reres://assets/facility.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_backup_20251130_020252\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"reres://assets/patient.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase2_retry.txt",
+        "snippet": "Godot.exe : ERROR: No loader found for resource: res://assets/patient.png (expected type: Texture2D)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_phase3.txt",
+        "snippet": "Godot.exe : ERROR: No loader found for resource: res://assets/patient.png (expected type: Texture2D)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_2.txt",
+        "snippet": "Godot.exe : ERROR: No loader found for resource: res://assets/patient.png (expected type: Texture2D)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run_3.txt",
+        "snippet": "Godot.exe : ERROR: No loader found for resource: res://assets/patient.png (expected type: Texture2D)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\health_check_run.txt",
+        "snippet": "Godot.exe : ERROR: No loader found for resource: res://assets/patient.png (expected type: Texture2D)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "/assets"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_155612.txt",
+        "snippet": "A\tmigration/assets_checksums.json"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"res://assets/sprites/ambulance.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"res://assets/sprites/facility.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"res://assets/sprites/patient.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Ambulance.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"res://assets/sprites/ambulance.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Facility.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"res://assets/sprites/facility.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scenes\\Patient.tscn",
+        "snippet": "[ext_resource type=\"Texture2D\" path=\"res://assets/sprites/patient.png\" id=\"2_tex\"]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "/assets"
+      }
+    ]
+  },
+  {
+    "feature": "patient_placeholder.png",
+    "found_count": 6,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\asset_manifest.json",
+        "snippet": "      \"path\": \"assets/sprites/patient_placeholder.png\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    patient_placeholder.png"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "M\tassets/patient_placeholder.png.import"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_155612.txt",
+        "snippet": "D\tassets/patient_placeholder.png"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    patient_placeholder.png"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"assets/patient_placeholder.png\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "/logs",
+    "found_count": 7,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151148\\misc\\run_headless.gd",
+        "snippet": "\tvar log_path = \"user://logs/sim_log.csv\""
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "/logs"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "R100\tProjectRunTest/logs/godot_log_20251123_022525.txt\tmigration/removed_files/staging_by_ag_20251129_151851/ProjectRunTest/logs/godot_log_20251123_022525.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_155612.txt",
+        "snippet": "A\tmigration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.Exposed.translation"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\logger.gd",
+        "snippet": "var file_path = \"useres://logs/sim_log.csv\""
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "/logs"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "  - `logger.gd`: CSV logging to `user://logs/`."
+      }
+    ]
+  },
+  {
+    "feature": "sample_sim_log.csv",
+    "found_count": 6,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    sample_sim_log.csv"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_151957.txt",
+        "snippet": "M\tlogs/sample_sim_log.csv.import"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\git_diff_names_20251129_155612.txt",
+        "snippet": "A\tmigration/removed_files/staging_by_ag_20251129_155448/logs/sample_sim_log.csv"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\operation_log_20251130_020252.json",
+        "snippet": "    \"file\": \"d:\\\\Repos\\\\Seasonal_outbreaks_Godot\\\\logs\\\\sample_sim_log.csv.import\","
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    sample_sim_log.csv"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"logs/sample_sim_log.csv\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "README.md",
+    "found_count": 4,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "README.md"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "README.md"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "- **Documentation**: Added `README.md`, `run_instructions.md`, `quick_test.md`."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"README.md\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "run_instructions.md",
+    "found_count": 4,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "run_instructions.md"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "run_instructions.md"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "- **Documentation**: Added `README.md`, `run_instructions.md`, `quick_test.md`."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"run_instructions.md\": true,"
+      }
+    ]
+  },
+  {
+    "feature": "quick_test.md",
+    "found_count": 4,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "quick_test.md"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "quick_test.md"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\pr_description.txt",
+        "snippet": "- **Documentation**: Added `README.md`, `run_instructions.md`, `quick_test.md`."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\validation_summary.json",
+        "snippet": "  \"quick_test.md\": true"
+      }
+    ]
+  },
+  {
+    "feature": "------------------------------------------------------------",
+    "found_count": 3,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\asset_import_report.txt",
+        "snippet": "-----------------------------------------------------------------"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "------------------------------------------------------------"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "------------------------------------------------------------"
+      }
+    ]
+  },
+  {
+    "feature": "1. PROJECT SKELETON & CORE ARCHITECTURE",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "1. PROJECT SKELETON & CORE ARCHITECTURE"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "1. PROJECT SKELETON & CORE ARCHITECTURE"
+      }
+    ]
+  },
+  {
+    "feature": "1.1 Project Structure: create the files/folders above exactly.",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "1.1 Project Structure: create the files/folders above exactly."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "1.1 Project Structure: create the files/folders above exactly."
+      }
+    ]
+  },
+  {
+    "feature": "1.2 Main Scene Bootstrap:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "1.2 Main Scene Bootstrap:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "1.2 Main Scene Bootstrap:"
+      }
+    ]
+  },
+  {
+    "feature": "- Main.tscn loads Simulation.tscn & HUD.tscn.",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Main.tscn loads Simulation.tscn & HUD.tscn."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Main.tscn loads Simulation.tscn & HUD.tscn."
+      }
+    ]
+  },
+  {
+    "feature": "- call scale_utils.init() in Main._ready().",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - call scale_utils.init() in Main._ready()."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - call scale_utils.init() in Main._ready()."
+      }
+    ]
+  },
+  {
+    "feature": "- provide Start / Pause / Reset controls exposed in HUD.",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - provide Start / Pause / Reset controls exposed in HUD."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - provide Start / Pause / Reset controls exposed in HUD."
+      }
+    ]
+  },
+  {
+    "feature": "2. UNIVERSAL SCALING SYSTEM (scale_utils.gd)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "2. UNIVERSAL SCALING SYSTEM (scale_utils.gd)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "2. UNIVERSAL SCALING SYSTEM (scale_utils.gd)"
+      }
+    ]
+  },
+  {
+    "feature": "2.1 Auto-scaling API:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "2.1 Auto-scaling API:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "2.1 Auto-scaling API:"
+      }
+    ]
+  },
+  {
+    "feature": "- sx(x) -> scaled X coordinate",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - sx(x) -> scaled X coordinate"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - sx(x) -> scaled X coordinate"
+      }
+    ]
+  },
+  {
+    "feature": "- sy(y) -> scaled Y coordinate",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - sy(y) -> scaled Y coordinate"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - sy(y) -> scaled Y coordinate"
+      }
+    ]
+  },
+  {
+    "feature": "- ss(size) -> scaled size (radius, font size, icon)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - ss(size) -> scaled size (radius, font size, icon)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - ss(size) -> scaled size (radius, font size, icon)"
+      }
+    ]
+  },
+  {
+    "feature": "- Detect viewport size, DPR, aspect ratio, world bounds and compute scale factors.",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Detect viewport size, DPR, aspect ratio, world bounds and compute scale factors."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Detect viewport size, DPR, aspect ratio, world bounds and compute scale factors."
+      }
+    ]
+  },
+  {
+    "feature": "- Call init() from Main._ready() to compute scales and export them as global constants or a singleton.",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Call init() from Main._ready() to compute scales and export them as global constants or a singleton."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Call init() from Main._ready() to compute scales and export them as global constants or a singleton."
+      }
+    ]
+  },
+  {
+    "feature": "2.2 Fail-safe Mode (exact fallback):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "2.2 Fail-safe Mode (exact fallback):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "2.2 Fail-safe Mode (exact fallback):"
+      }
+    ]
+  },
+  {
+    "feature": "- If detection fails, use:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - If detection fails, use:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - If detection fails, use:"
+      }
+    ]
+  },
+  {
+    "feature": "PATIENT_RADIUS = 3.0",
+    "found_count": 3,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "      PATIENT_RADIUS = 3.0"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\scale_utils.gd",
+        "snippet": "const FAILSAFE_PATIENT_RADIUS = 3.0"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "      PATIENT_RADIUS = 3.0"
+      }
+    ]
+  },
+  {
+    "feature": "PATIENT_BASE_SPEED = 1.8",
+    "found_count": 3,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "      PATIENT_BASE_SPEED = 1.8"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\scale_utils.gd",
+        "snippet": "const FAILSAFE_PATIENT_BASE_SPEED = 1.8"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "      PATIENT_BASE_SPEED = 1.8"
+      }
+    ]
+  },
+  {
+    "feature": "WORLD_W = 600",
+    "found_count": 3,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "      WORLD_W = 600"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\scale_utils.gd",
+        "snippet": "const FAILSAFE_WORLD_W = 600.0"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "      WORLD_W = 600"
+      }
+    ]
+  },
+  {
+    "feature": "WORLD_H = 380",
+    "found_count": 3,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "      WORLD_H = 380"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\scale_utils.gd",
+        "snippet": "const FAILSAFE_WORLD_H = 380.0"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "      WORLD_H = 380"
+      }
+    ]
+  },
+  {
+    "feature": "- Ensure simulation still runs when fallbacks are active.",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Ensure simulation still runs when fallbacks are active."
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Ensure simulation still runs when fallbacks are active."
+      }
+    ]
+  },
+  {
+    "feature": "3. TICK-BASED SIMULATION ENGINE (SimulationEngine.gd)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "3. TICK-BASED SIMULATION ENGINE (SimulationEngine.gd)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "3. TICK-BASED SIMULATION ENGINE (SimulationEngine.gd)"
+      }
+    ]
+  },
+  {
+    "feature": "3.1 Fixed Tick Loop:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "3.1 Fixed Tick Loop:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "3.1 Fixed Tick Loop:"
+      }
+    ]
+  },
+  {
+    "feature": "- export var tick_interval",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - export var tick_interval"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - export var tick_interval"
+      }
+    ]
+  },
+  {
+    "feature": "- process ticks via _process(delta) accumulating dt and calling _tick() when >= tick_interval",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - process ticks via _process(delta) accumulating dt and calling _tick() when >= tick_interval"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - process ticks via _process(delta) accumulating dt and calling _tick() when >= tick_interval"
+      }
+    ]
+  },
+  {
+    "feature": "- emit signals: tick(int), patient_infected(Node), patient_recovered(Node), facility_overloaded(Node)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - emit signals: tick(int), patient_infected(Node), patient_recovered(Node), facility_overloaded(Node)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - emit signals: tick(int), patient_infected(Node), patient_recovered(Node), facility_overloaded(Node)"
+      }
+    ]
+  },
+  {
+    "feature": "3.2 Exported Editor Parameters (must be @export):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "3.2 Exported Editor Parameters (must be @export):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "3.2 Exported Editor Parameters (must be @export):"
+      }
+    ]
+  },
+  {
+    "feature": "- initial_population : int",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - initial_population : int"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - initial_population : int"
+      }
+    ]
+  },
+  {
+    "feature": "- infection_radius : float",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - infection_radius : float"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - infection_radius : float"
+      }
+    ]
+  },
+  {
+    "feature": "- infection_prob : float",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - infection_prob : float"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - infection_prob : float"
+      }
+    ]
+  },
+  {
+    "feature": "- incubation_ticks : int",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - incubation_ticks : int"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - incubation_ticks : int"
+      }
+    ]
+  },
+  {
+    "feature": "- infectious_ticks : int",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - infectious_ticks : int"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - infectious_ticks : int"
+      }
+    ]
+  },
+  {
+    "feature": "- patient_speed : float",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - patient_speed : float"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - patient_speed : float"
+      }
+    ]
+  },
+  {
+    "feature": "- facility_capacity : int",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - facility_capacity : int"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - facility_capacity : int"
+      }
+    ]
+  },
+  {
+    "feature": "- facility_service_rate : float",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - facility_service_rate : float"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - facility_service_rate : float"
+      }
+    ]
+  },
+  {
+    "feature": "- RNG_seed : int (0 = random)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - RNG_seed : int (0 = random)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - RNG_seed : int (0 = random)"
+      }
+    ]
+  },
+  {
+    "feature": "3.3 Responsibilities:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "3.3 Responsibilities:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "3.3 Responsibilities:"
+      }
+    ]
+  },
+  {
+    "feature": "- spawn/track patient instances",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - spawn/track patient instances"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - spawn/track patient instances"
+      }
+    ]
+  },
+  {
+    "feature": "- spawn/track facility instances",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - spawn/track facility instances"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - spawn/track facility instances"
+      }
+    ]
+  },
+  {
+    "feature": "- call infection check function (isolated)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - call infection check function (isolated)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - call infection check function (isolated)"
+      }
+    ]
+  },
+  {
+    "feature": "- update scoreboard (via signals)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - update scoreboard (via signals)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - update scoreboard (via signals)"
+      }
+    ]
+  },
+  {
+    "feature": "- call logger to append tick row",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - call logger to append tick row"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - call logger to append tick row"
+      }
+    ]
+  },
+  {
+    "feature": "4. PATIENT SYSTEM (Patient.tscn / Patient.gd)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "4. PATIENT SYSTEM (Patient.tscn / Patient.gd)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "4. PATIENT SYSTEM (Patient.tscn / Patient.gd)"
+      }
+    ]
+  },
+  {
+    "feature": "4.1 State machine:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "4.1 State machine:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "4.1 State machine:"
+      }
+    ]
+  },
+  {
+    "feature": "- enum {SUSCEPTIBLE, EXPOSED, INFECTIOUS, RECOVERED}",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - enum {SUSCEPTIBLE, EXPOSED, INFECTIOUS, RECOVERED}"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - enum {SUSCEPTIBLE, EXPOSED, INFECTIOUS, RECOVERED}"
+      }
+    ]
+  },
+  {
+    "feature": "- Exposed -> after incubation_ticks -> Infectious",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Exposed -> after incubation_ticks -> Infectious"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Exposed -> after incubation_ticks -> Infectious"
+      }
+    ]
+  },
+  {
+    "feature": "- Infectious -> after infectious_ticks -> Recovered",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Infectious -> after infectious_ticks -> Recovered"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Infectious -> after infectious_ticks -> Recovered"
+      }
+    ]
+  },
+  {
+    "feature": "4.2 Movement:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "4.2 Movement:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "4.2 Movement:"
+      }
+    ]
+  },
+  {
+    "feature": "- use CharacterBody2D (or Node2D + move_and_slide)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - use CharacterBody2D (or Node2D + move_and_slide)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - use CharacterBody2D (or Node2D + move_and_slide)"
+      }
+    ]
+  },
+  {
+    "feature": "- pick random target within world bounds using sx/sy",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - pick random target within world bounds using sx/sy"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - pick random target within world bounds using sx/sy"
+      }
+    ]
+  },
+  {
+    "feature": "- cap per-frame step: max_step = patient_speed * delta * smoothing_factor",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - cap per-frame step: max_step = patient_speed * delta * smoothing_factor"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - cap per-frame step: max_step = patient_speed * delta * smoothing_factor"
+      }
+    ]
+  },
+  {
+    "feature": "- optional: Tween smoothing on target changes",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - optional: Tween smoothing on target changes"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - optional: Tween smoothing on target changes"
+      }
+    ]
+  },
+  {
+    "feature": "4.3 Visuals:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "4.3 Visuals:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "4.3 Visuals:"
+      }
+    ]
+  },
+  {
+    "feature": "- 48x48 placeholder sprite (assets/patient_placeholder.png)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - 48x48 placeholder sprite (assets/patient_placeholder.png)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - 48x48 placeholder sprite (assets/patient_placeholder.png)"
+      }
+    ]
+  },
+  {
+    "feature": "- Light2D or shader halo: orange = EXPOSED, red = INFECTIOUS, blue/green = RECOVERED",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Light2D or shader halo: orange = EXPOSED, red = INFECTIOUS, blue/green = RECOVERED"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Light2D or shader halo: orange = EXPOSED, red = INFECTIOUS, blue/green = RECOVERED"
+      }
+    ]
+  },
+  {
+    "feature": "- clicking a patient opens info tooltip (id, state, ticks in state, facility assigned)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - clicking a patient opens info tooltip (id, state, ticks in state, facility assigned)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - clicking a patient opens info tooltip (id, state, ticks in state, facility assigned)"
+      }
+    ]
+  },
+  {
+    "feature": "4.4 Infection (isolated function):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "4.4 Infection (isolated function):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "4.4 Infection (isolated function):"
+      }
+    ]
+  },
+  {
+    "feature": "- naive O(n^2) initial implementation:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - naive O(n^2) initial implementation:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - naive O(n^2) initial implementation:"
+      }
+    ]
+  },
+  {
+    "feature": "for each infectious a:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "      for each infectious a:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "      for each infectious a:"
+      }
+    ]
+  },
+  {
+    "feature": "for each susceptible b:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "        for each susceptible b:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "        for each susceptible b:"
+      }
+    ]
+  },
+  {
+    "feature": "if distance(a,b) <= infection_radius:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "          if distance(a,b) <= infection_radius:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "          if distance(a,b) <= infection_radius:"
+      }
+    ]
+  },
+  {
+    "feature": "if randf() < infection_prob: b.infect()",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "             if randf() < infection_prob: b.infect()"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "             if randf() < infection_prob: b.infect()"
+      }
+    ]
+  },
+  {
+    "feature": "- wrap into check_infections() so grid/quadtree swap is trivial later",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - wrap into check_infections() so grid/quadtree swap is trivial later"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - wrap into check_infections() so grid/quadtree swap is trivial later"
+      }
+    ]
+  },
+  {
+    "feature": "5. FACILITY & QUEUE SYSTEM",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "5. FACILITY & QUEUE SYSTEM"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "5. FACILITY & QUEUE SYSTEM"
+      }
+    ]
+  },
+  {
+    "feature": "5.1 Facility Node (Facility.tscn / Facility.gd):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "5.1 Facility Node (Facility.tscn / Facility.gd):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "5.1 Facility Node (Facility.tscn / Facility.gd):"
+      }
+    ]
+  },
+  {
+    "feature": "- properties: capacity, service_rate",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - properties: capacity, service_rate"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - properties: capacity, service_rate"
+      }
+    ]
+  },
+  {
+    "feature": "- lists: occupants[], queue[]",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - lists: occupants[], queue[]"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - lists: occupants[], queue[]"
+      }
+    ]
+  },
+  {
+    "feature": "- methods: admit(patient), enqueue(patient), dequeue_and_admit()",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - methods: admit(patient), enqueue(patient), dequeue_and_admit()"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - methods: admit(patient), enqueue(patient), dequeue_and_admit()"
+      }
+    ]
+  },
+  {
+    "feature": "- tick_service() called each simulation tick to process service_rate patients",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - tick_service() called each simulation tick to process service_rate patients"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - tick_service() called each simulation tick to process service_rate patients"
+      }
+    ]
+  },
+  {
+    "feature": "5.2 Queue Logic:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "5.2 Queue Logic:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "5.2 Queue Logic:"
+      }
+    ]
+  },
+  {
+    "feature": "- FIFO queue",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - FIFO queue"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - FIFO queue"
+      }
+    ]
+  },
+  {
+    "feature": "- when admit fails because full -> push to queue and emit facility_overloaded if queue grows beyond threshold",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - when admit fails because full -> push to queue and emit facility_overloaded if queue grows beyond threshold"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - when admit fails because full -> push to queue and emit facility_overloaded if queue grows beyond threshold"
+      }
+    ]
+  },
+  {
+    "feature": "5.3 Visuals:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "5.3 Visuals:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "5.3 Visuals:"
+      }
+    ]
+  },
+  {
+    "feature": "- Label showing occupancy and queue \"Q: x / cap\"",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Label showing occupancy and queue \"Q: x / cap\""
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Label showing occupancy and queue \"Q: x / cap\""
+      }
+    ]
+  },
+  {
+    "feature": "- pulse Tween on overload, or flash color via modulate",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - pulse Tween on overload, or flash color via modulate"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - pulse Tween on overload, or flash color via modulate"
+      }
+    ]
+  },
+  {
+    "feature": "6. SCOREBOARD & HUD PANELS (HUD.tscn / HUD.gd)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "6. SCOREBOARD & HUD PANELS (HUD.tscn / HUD.gd)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "6. SCOREBOARD & HUD PANELS (HUD.tscn / HUD.gd)"
+      }
+    ]
+  },
+  {
+    "feature": "6.1 Score rules:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "6.1 Score rules:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "6.1 Score rules:"
+      }
+    ]
+  },
+  {
+    "feature": "- +10 on recovery",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - +10 on recovery"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - +10 on recovery"
+      }
+    ]
+  },
+  {
+    "feature": "- -5 on new infection",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - -5 on new infection"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - -5 on new infection"
+      }
+    ]
+  },
+  {
+    "feature": "- -20 on facility overload or failed admission",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - -20 on facility overload or failed admission"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - -20 on facility overload or failed admission"
+      }
+    ]
+  },
+  {
+    "feature": "6.2 Toggleable Panels (use flags or @export):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "6.2 Toggleable Panels (use flags or @export):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "6.2 Toggleable Panels (use flags or @export):"
+      }
+    ]
+  },
+  {
+    "feature": "- SHOW_SCOREBOARD = true",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - SHOW_SCOREBOARD = true"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - SHOW_SCOREBOARD = true"
+      }
+    ]
+  },
+  {
+    "feature": "- SHOW_QUEUE_PANEL = true",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - SHOW_QUEUE_PANEL = true"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - SHOW_QUEUE_PANEL = true"
+      }
+    ]
+  },
+  {
+    "feature": "- SHOW_STATS_PANEL = true",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - SHOW_STATS_PANEL = true"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - SHOW_STATS_PANEL = true"
+      }
+    ]
+  },
+  {
+    "feature": "- SHOW_FACILITY_PANEL = true",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - SHOW_FACILITY_PANEL = true"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - SHOW_FACILITY_PANEL = true"
+      }
+    ]
+  },
+  {
+    "feature": "6.3 Panels must:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "6.3 Panels must:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "6.3 Panels must:"
+      }
+    ]
+  },
+  {
+    "feature": "- read scale via scale_utils and size/position themselves using sx/sy/ss",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - read scale via scale_utils and size/position themselves using sx/sy/ss"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - read scale via scale_utils and size/position themselves using sx/sy/ss"
+      }
+    ]
+  },
+  {
+    "feature": "- update on SimulationEngine.tick signal",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - update on SimulationEngine.tick signal"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - update on SimulationEngine.tick signal"
+      }
+    ]
+  },
+  {
+    "feature": "- expose buttons to toggle visibility and to export current CSV snapshot",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - expose buttons to toggle visibility and to export current CSV snapshot"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - expose buttons to toggle visibility and to export current CSV snapshot"
+      }
+    ]
+  },
+  {
+    "feature": "6.4 HUD Controls:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "6.4 HUD Controls:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "6.4 HUD Controls:"
+      }
+    ]
+  },
+  {
+    "feature": "- Buttons: Start, Pause, Reset, Load Preset, Export CSV, Toggle Panels",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Buttons: Start, Pause, Reset, Load Preset, Export CSV, Toggle Panels"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Buttons: Start, Pause, Reset, Load Preset, Export CSV, Toggle Panels"
+      }
+    ]
+  },
+  {
+    "feature": "7. CSV LOGGING (logger.gd)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "7. CSV LOGGING (logger.gd)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "7. CSV LOGGING (logger.gd)"
+      }
+    ]
+  },
+  {
+    "feature": "7.1 Write to user://logs/sim_log.csv",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "7.1 Write to user://logs/sim_log.csv"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "7.1 Write to user://logs/sim_log.csv"
+      }
+    ]
+  },
+  {
+    "feature": "7.2 Header (write once at simulation start):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "7.2 Header (write once at simulation start):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "7.2 Header (write once at simulation start):"
+      }
+    ]
+  },
+  {
+    "feature": "tick,susceptible,exposed,infectious,recovered,queued,hospitalized",
+    "found_count": 3,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    tick,susceptible,exposed,infectious,recovered,queued,hospitalized"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\scripts\\logger.gd",
+        "snippet": "\t\tlog_file.store_line(\"Tick,Susceptible,Exposed,Infectious,Recovered,Queued,Hospitalized\")"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    tick,susceptible,exposed,infectious,recovered,queued,hospitalized"
+      }
+    ]
+  },
+  {
+    "feature": "7.3 Append one line per tick with integer counts",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "7.3 Append one line per tick with integer counts"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "7.3 Append one line per tick with integer counts"
+      }
+    ]
+  },
+  {
+    "feature": "7.4 Also commit logs/sample_sim_log.csv as example output",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "7.4 Also commit logs/sample_sim_log.csv as example output"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "7.4 Also commit logs/sample_sim_log.csv as example output"
+      }
+    ]
+  },
+  {
+    "feature": "8. SAMPLE SCENARIOS / PRESETS",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "8. SAMPLE SCENARIOS / PRESETS"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "8. SAMPLE SCENARIOS / PRESETS"
+      }
+    ]
+  },
+  {
+    "feature": "8.1 Provide preset files (JSON or .tres) placed in /scenarios or /res://presets:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "8.1 Provide preset files (JSON or .tres) placed in /scenarios or /res://presets:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "8.1 Provide preset files (JSON or .tres) placed in /scenarios or /res://presets:"
+      }
+    ]
+  },
+  {
+    "feature": "- high_infectivity.json",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - high_infectivity.json"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - high_infectivity.json"
+      }
+    ]
+  },
+  {
+    "feature": "- low_hospital_capacity.json",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - low_hospital_capacity.json"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - low_hospital_capacity.json"
+      }
+    ]
+  },
+  {
+    "feature": "- long_incubation.json",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - long_incubation.json"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - long_incubation.json"
+      }
+    ]
+  },
+  {
+    "feature": "- low_mobility.json",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - low_mobility.json"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - low_mobility.json"
+      }
+    ]
+  },
+  {
+    "feature": "- stress_test_large_pop.json",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - stress_test_large_pop.json"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - stress_test_large_pop.json"
+      }
+    ]
+  },
+  {
+    "feature": "8.2 UI dropdown to load presets, or auto-load a default on first run",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "8.2 UI dropdown to load presets, or auto-load a default on first run"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "8.2 UI dropdown to load presets, or auto-load a default on first run"
+      }
+    ]
+  },
+  {
+    "feature": "9. PERFORMANCE & HEADLESS (advanced)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "9. PERFORMANCE & HEADLESS (advanced)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "9. PERFORMANCE & HEADLESS (advanced)"
+      }
+    ]
+  },
+  {
+    "feature": "9.1 Spatial Partitioning (replaceable implementation):",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "9.1 Spatial Partitioning (replaceable implementation):"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "9.1 Spatial Partitioning (replaceable implementation):"
+      }
+    ]
+  },
+  {
+    "feature": "- Implement spatial_grid.gd or quadtree.gd utility",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Implement spatial_grid.gd or quadtree.gd utility"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Implement spatial_grid.gd or quadtree.gd utility"
+      }
+    ]
+  },
+  {
+    "feature": "- Same public API as check_infections() to allow swapping",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Same public API as check_infections() to allow swapping"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Same public API as check_infections() to allow swapping"
+      }
+    ]
+  },
+  {
+    "feature": "9.2 Headless Batch Mode:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "9.2 Headless Batch Mode:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "9.2 Headless Batch Mode:"
+      }
+    ]
+  },
+  {
+    "feature": "- SimulationEngine should support running in headless mode:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - SimulationEngine should support running in headless mode:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - SimulationEngine should support running in headless mode:"
+      }
+    ]
+  },
+  {
+    "feature": "- optional command-line flags: --ticks=N --seed=S --preset=NAME --headless",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "    - optional command-line flags: --ticks=N --seed=S --preset=NAME --headless"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "    - optional command-line flags: --ticks=N --seed=S --preset=NAME --headless"
+      }
+    ]
+  },
+  {
+    "feature": "- When headless: disable rendering, still write CSV logs",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - When headless: disable rendering, still write CSV logs"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - When headless: disable rendering, still write CSV logs"
+      }
+    ]
+  },
+  {
+    "feature": "- Useful for parameter sweeps and reproducible runs",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Useful for parameter sweeps and reproducible runs"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Useful for parameter sweeps and reproducible runs"
+      }
+    ]
+  },
+  {
+    "feature": "10. EDITOR TOOLS, GRAPHS & DEBUG (advanced)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "10. EDITOR TOOLS, GRAPHS & DEBUG (advanced)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "10. EDITOR TOOLS, GRAPHS & DEBUG (advanced)"
+      }
+    ]
+  },
+  {
+    "feature": "10.1 Editor Tool:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "10.1 Editor Tool:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "10.1 Editor Tool:"
+      }
+    ]
+  },
+  {
+    "feature": "- add tool script for painting facilities / spawn zones in editor",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - add tool script for painting facilities / spawn zones in editor"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - add tool script for painting facilities / spawn zones in editor"
+      }
+    ]
+  },
+  {
+    "feature": "- expose Save Preset button",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - expose Save Preset button"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - expose Save Preset button"
+      }
+    ]
+  },
+  {
+    "feature": "10.2 In-Game Graphs:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "10.2 In-Game Graphs:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "10.2 In-Game Graphs:"
+      }
+    ]
+  },
+  {
+    "feature": "- simple CanvasItem drawing S/E/I/R time series",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - simple CanvasItem drawing S/E/I/R time series"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - simple CanvasItem drawing S/E/I/R time series"
+      }
+    ]
+  },
+  {
+    "feature": "- zoom/scale controls and export to PNG",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - zoom/scale controls and export to PNG"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - zoom/scale controls and export to PNG"
+      }
+    ]
+  },
+  {
+    "feature": "10.3 Debug Overlay:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "10.3 Debug Overlay:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "10.3 Debug Overlay:"
+      }
+    ]
+  },
+  {
+    "feature": "- show FPS, agent count, infection checks/tick, grid cell occupancy",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - show FPS, agent count, infection checks/tick, grid cell occupancy"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - show FPS, agent count, infection checks/tick, grid cell occupancy"
+      }
+    ]
+  },
+  {
+    "feature": "11. ASSET POLISH & ACCESSIBILITY",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "11. ASSET POLISH & ACCESSIBILITY"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "11. ASSET POLISH & ACCESSIBILITY"
+      }
+    ]
+  },
+  {
+    "feature": "11.1 Replace placeholders with distinct icons / shapes per state",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "11.1 Replace placeholders with distinct icons / shapes per state"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "11.1 Replace placeholders with distinct icons / shapes per state"
+      }
+    ]
+  },
+  {
+    "feature": "11.2 Color-blind friendly mode: use shapes or icons + colors",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "11.2 Color-blind friendly mode: use shapes or icons + colors"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "11.2 Color-blind friendly mode: use shapes or icons + colors"
+      }
+    ]
+  },
+  {
+    "feature": "11.3 Minimal animations (idle breathing, infection particle burst)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "11.3 Minimal animations (idle breathing, infection particle burst)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "11.3 Minimal animations (idle breathing, infection particle burst)"
+      }
+    ]
+  },
+  {
+    "feature": "12. DOCUMENTATION & QA",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "12. DOCUMENTATION & QA"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "12. DOCUMENTATION & QA"
+      }
+    ]
+  },
+  {
+    "feature": "12.1 README.md:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "12.1 README.md:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "12.1 README.md:"
+      }
+    ]
+  },
+  {
+    "feature": "- How to run in Godot 4.x",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - How to run in Godot 4.x"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - How to run in Godot 4.x"
+      }
+    ]
+  },
+  {
+    "feature": "- Feature summary",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Feature summary"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Feature summary"
+      }
+    ]
+  },
+  {
+    "feature": "- Scale_utils explanation & fail-safe behavior",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Scale_utils explanation & fail-safe behavior"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Scale_utils explanation & fail-safe behavior"
+      }
+    ]
+  },
+  {
+    "feature": "- Scenario list",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Scenario list"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Scenario list"
+      }
+    ]
+  },
+  {
+    "feature": "- Mapping section->script lines (short mapping)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Mapping section->script lines (short mapping)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Mapping section->script lines (short mapping)"
+      }
+    ]
+  },
+  {
+    "feature": "12.2 run_instructions.md: step-by-step for beginners",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "12.2 run_instructions.md: step-by-step for beginners"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "12.2 run_instructions.md: step-by-step for beginners"
+      }
+    ]
+  },
+  {
+    "feature": "12.3 quick_test.md:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "12.3 quick_test.md:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "12.3 quick_test.md:"
+      }
+    ]
+  },
+  {
+    "feature": "- Project opens with no missing resources",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Project opens with no missing resources"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Project opens with no missing resources"
+      }
+    ]
+  },
+  {
+    "feature": "- Press Play -> initial population spawns",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Press Play -> initial population spawns"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Press Play -> initial population spawns"
+      }
+    ]
+  },
+  {
+    "feature": "- At least one infection within first X ticks",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - At least one infection within first X ticks"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - At least one infection within first X ticks"
+      }
+    ]
+  },
+  {
+    "feature": "- CSV logs generated at user://logs/sim_log.csv",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - CSV logs generated at user://logs/sim_log.csv"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - CSV logs generated at user://logs/sim_log.csv"
+      }
+    ]
+  },
+  {
+    "feature": "- Scoreboard updates and panels toggle",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Scoreboard updates and panels toggle"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Scoreboard updates and panels toggle"
+      }
+    ]
+  },
+  {
+    "feature": "- Fail-safe fallback triggers on abnormal viewport",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - Fail-safe fallback triggers on abnormal viewport"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - Fail-safe fallback triggers on abnormal viewport"
+      }
+    ]
+  },
+  {
+    "feature": "13. OPTIONAL CI / QA / NEXT STEPS",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "13. OPTIONAL CI / QA / NEXT STEPS"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "13. OPTIONAL CI / QA / NEXT STEPS"
+      }
+    ]
+  },
+  {
+    "feature": "13.1 Add simple GitHub Action verifying repository structure and running a lint (gdformat)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "13.1 Add simple GitHub Action verifying repository structure and running a lint (gdformat)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "13.1 Add simple GitHub Action verifying repository structure and running a lint (gdformat)"
+      }
+    ]
+  },
+  {
+    "feature": "13.2 Add unit tests (GUT) for patient state transitions, facility queue logic and logger writes (headless)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "13.2 Add unit tests (GUT) for patient state transitions, facility queue logic and logger writes (headless)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "13.2 Add unit tests (GUT) for patient state transitions, facility queue logic and logger writes (headless)"
+      }
+    ]
+  },
+  {
+    "feature": "13.3 Create issues for: asset polish, spatial grid optimization, editor plugin",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "13.3 Create issues for: asset polish, spatial grid optimization, editor plugin"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "13.3 Create issues for: asset polish, spatial grid optimization, editor plugin"
+      }
+    ]
+  },
+  {
+    "feature": "14. REFERENCE FILES USED (local paths)",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "14. REFERENCE FILES USED (local paths)"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "14. REFERENCE FILES USED (local paths)"
+      }
+    ]
+  },
+  {
+    "feature": "Please cross-check & map these features to:",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "Please cross-check & map these features to:"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "Please cross-check & map these features to:"
+      }
+    ]
+  },
+  {
+    "feature": "- /mnt/data/FEATURES_MASTER.txt.txt",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - /mnt/data/FEATURES_MASTER.txt.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - /mnt/data/FEATURES_MASTER.txt.txt"
+      }
+    ]
+  },
+  {
+    "feature": "- /mnt/data/seasonal outbreak - Revised.docx",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "  - /mnt/data/seasonal outbreak - Revised.docx"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "  - /mnt/data/seasonal outbreak - Revised.docx"
+      }
+    ]
+  },
+  {
+    "feature": "END OF FEATURES_GODOT_FULL.txt",
+    "found_count": 2,
+    "locations": [
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\removed_files\\staging_by_ag_20251129_151851\\ProjectRunTest\\FEATURES_GODOT_FULL.txt.txt",
+        "snippet": "END OF FEATURES_GODOT_FULL.txt"
+      },
+      {
+        "file": "D:\\Repos\\Seasonal_outbreaks_Godot\\FEATURES_GODOT_FULL.txt",
+        "snippet": "END OF FEATURES_GODOT_FULL.txt"
+      }
+    ]
+  }
+]

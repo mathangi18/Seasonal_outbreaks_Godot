@@ -1,0 +1,116 @@
+{
+  "manifest_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\asset_assistant_prompt.json",
+  "checked": [
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\asset_assistant_prompt.json",
+      "requested": "migration\\asset_assistant_prompt.json",
+      "normalized": "migration\\asset_assistant_prompt.json",
+      "exists": true
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\ag_clean_rebuild_prompt.txt",
+      "requested": "migration\\ag_clean_rebuild_prompt.txt",
+      "normalized": "migration\\ag_clean_rebuild_prompt.txt",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\asset_mappings.json",
+      "requested": "migration\\asset_mappings.json",
+      "normalized": "migration\\asset_mappings.json",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\absolute_path_replacements.json",
+      "requested": "migration\\absolute_path_replacements.json",
+      "normalized": "migration\\absolute_path_replacements.json",
+      "exists": true
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\validation_summary.json",
+      "requested": "migration\\validation_summary.json",
+      "normalized": "migration\\validation_summary.json",
+      "exists": true
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\pr_request_draft.txt",
+      "requested": "migration\\pr_request_draft.txt",
+      "normalized": "migration\\pr_request_draft.txt",
+      "exists": true
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\tools\\scene_loader_check.gd",
+      "requested": "tools\\scene_loader_check.gd",
+      "normalized": "tools\\scene_loader_check.gd",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\incoming_for_ag",
+      "requested": "assets\\incoming_for_ag",
+      "normalized": "assets\\incoming_for_ag",
+      "exists": true
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sounds",
+      "requested": "res\\assets\\sounds",
+      "normalized": "res\\assets\\sounds",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sprites",
+      "requested": "res\\assets\\sprites",
+      "normalized": "res\\assets\\sprites",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration",
+      "requested": "migration",
+      "normalized": "migration",
+      "exists": true
+    }
+  ],
+  "checked_at": "2025-11-30T03:41:47",
+  "required_files": [
+    "migration\\asset_assistant_prompt.json",
+    "migration\\ag_clean_rebuild_prompt.txt",
+    "migration\\ag_clean_rebuild_prompt.txt",
+    "migration\\asset_mappings.json",
+    "migration\\absolute_path_replacements.json",
+    "migration\\validation_summary.json",
+    "migration\\pr_request_draft.txt",
+    "tools\\scene_loader_check.gd"
+  ],
+  "manifest_candidates": null,
+  "manifest_present": true,
+  "missing": [
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\ag_clean_rebuild_prompt.txt",
+      "requested": "migration\\ag_clean_rebuild_prompt.txt",
+      "normalized": "migration\\ag_clean_rebuild_prompt.txt",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\asset_mappings.json",
+      "requested": "migration\\asset_mappings.json",
+      "normalized": "migration\\asset_mappings.json",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\tools\\scene_loader_check.gd",
+      "requested": "tools\\scene_loader_check.gd",
+      "normalized": "tools\\scene_loader_check.gd",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sounds",
+      "requested": "res\\assets\\sounds",
+      "normalized": "res\\assets\\sounds",
+      "exists": false
+    },
+    {
+      "absolute": "D:\\Repos\\Seasonal_outbreaks_Godot\\res\\assets\\sprites",
+      "requested": "res\\assets\\sprites",
+      "normalized": "res\\assets\\sprites",
+      "exists": false
+    }
+  ]
+}
