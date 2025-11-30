@@ -1,0 +1,20 @@
+{
+    "timestamp": "20251130_211640",
+    "snapshot_path": "D:\\Repos\\Seasonal_outbreaks_Godot_snapshot_20251130_211640",
+    "mapping_backup_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\bound_mappings_final.json.bak.20251130_211640",
+    "scenes_backup_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\migration\\backups\\scenes_backup_20251130_211640",
+    "git_branch": "ag/auto-fixes/20251130_211640",
+    "output_files": [
+        "migration/action_patches/validation_report_dryrun_20251130_211640.json",
+        "migration/action_patches/applied_patch_20251130_211640.json",
+        "migration/action_patches/validation_report_after_patch_20251130_211640.json",
+        "migration/action_patches/git_patch_20251130_211640.diff",
+        "migration/action_patches/rollback_commands_20251130_211640.txt",
+        "migration/action_patches/final_summary_20251130_211640.json"
+    ],
+    "counts": {
+        "c08_fixed": 0,
+        "c11_fixed": 3,
+        "scenes_created": 59
+    }
+}

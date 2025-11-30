@@ -1,0 +1,12 @@
+# Rollback Instructions
+# Timestamp: 20251130_211640
+
+# 1. Restore Mapping File
+Copy-Item "D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json.bak.20251130_211640" "D:\Repos\Seasonal_outbreaks_Godot\migration\bound_mappings_final.json" -Force
+
+# 2. Restore Scenes
+# Warning: This will overwrite current scenes with backup versions.
+Copy-Item "D:\Repos\Seasonal_outbreaks_Godot\migration\backups\scenes_backup_20251130_211640\*" "D:\Repos\Seasonal_outbreaks_Godot\scenes\" -Recurse -Force
+
+# 3. Restore Full Repo from Snapshot (Destructive)
+# robocopy "D:\Repos\Seasonal_outbreaks_Godot_snapshot_20251130_211640" "D:\Repos\Seasonal_outbreaks_Godot" /MIR
