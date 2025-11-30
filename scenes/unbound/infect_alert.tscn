@@ -1,0 +1,6 @@
+﻿[gd_scene load_steps=2 format=3]
+
+[ext_resource type="AudioStream" path="res://res/assets/sounds/infect_alert.wav" id="1_aud"]
+
+[node name="infect_alert" type="AudioStreamPlayer"]
+stream = ExtResource("1_aud")

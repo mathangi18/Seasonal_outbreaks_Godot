@@ -1,0 +1,11 @@
+<<CAMERA_PLAN>>
+Create scenes/CameraWrapper.tscn and scripts/visual_camera.gd:
+- Camera2D smoothing_enabled=true, smoothing_speed=5.0, zoom=Vector2(0.85,0.85)
+- Methods: set_target(), pulse_zoom(), shake()
+- CanvasLayer for HUD. Optional Viewport for offscreen rasterization.
+
+scenes\generated_*
+
+res\assets\lotties
+
+C02 — No scene/asset references until files exist

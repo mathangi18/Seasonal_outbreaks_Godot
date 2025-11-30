@@ -1,0 +1,50 @@
+{
+    "plan_id": "ag_autopipeline_resume_v1",
+    "timestamp": "2025-11-30T13:55:00+01:00",
+    "status": "complete",
+    "steps": [
+        {
+            "block": "00",
+            "action": "Global Intent & Rules",
+            "status": "done"
+        },
+        {
+            "block": "01",
+            "action": "Inputs & Manifests",
+            "status": "done"
+        },
+        {
+            "block": "02",
+            "action": "Hard Constraints",
+            "status": "done"
+        },
+        {
+            "block": "03",
+            "action": "Camera & Visuals",
+            "status": "done"
+        },
+        {
+            "block": "04",
+            "action": "Auto-Wipe",
+            "status": "done"
+        },
+        {
+            "block": "05",
+            "action": "Validation",
+            "status": "done"
+        },
+        {
+            "block": "06",
+            "action": "Runbook & Artifacts",
+            "status": "in_progress"
+        }
+    ],
+    "artifacts": [
+        "migration/ag_run_log.txt",
+        "migration/ag_wipe_log.txt",
+        "migration/scene_validation.json",
+        "scenes/CameraWrapper.tscn",
+        "scripts/visual_camera.gd",
+        "scenes/unbound/*.tscn"
+    ]
+}

@@ -1,0 +1,8 @@
+<<HEADLESS_VALIDATION>>
+Run Godot headless scene load for each produced scene and emit validation_report.json, ag_errors.json, ag_run_log.txt. Abort on first critical error.
+
+scenes\generated_*
+
+res\assets\lotties
+
+C02 — No scene/asset references until files exist

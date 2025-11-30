@@ -1,0 +1,8 @@
+<<INTENT>>
+Resume AG pipeline headless on branch ag/implement-from-manifest; operate locally only; read manifests and rendered asset folders; generate scenes/scripts and camera wrapper; keep changes local; do not push.
+
+scenes\generated_*
+
+res\assets\lotties
+
+C02 — No scene/asset references until files exist

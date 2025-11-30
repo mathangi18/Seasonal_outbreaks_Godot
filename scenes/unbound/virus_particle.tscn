@@ -1,0 +1,3 @@
+﻿[gd_scene format=3]
+
+[node name="virus_particle" type="Node"]

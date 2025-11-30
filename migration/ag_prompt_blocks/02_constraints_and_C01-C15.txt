@@ -1,0 +1,8 @@
+<<CONSTRAINTS>>
+Enforce hard constraints C01-C15 (no new top-level dirs, no .import writes, exact case, res:// usage, etc.). Fail on any violation.
+
+scenes\generated_*
+
+res\assets\lotties
+
+C02 — No scene/asset references until files exist

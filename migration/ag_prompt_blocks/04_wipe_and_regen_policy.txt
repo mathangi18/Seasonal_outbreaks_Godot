@@ -1,0 +1,9 @@
+<<WIPE_POLICY>>
+Delete only AG-generated globs: scenes/generated_*, scripts/gen_*, migration/ag_temp_* if user issues GO. Do not delete res/assets/*.
+Record deletions to migration/ag_wipe_log.txt.
+
+scenes\generated_*
+
+res\assets\lotties
+
+C02 — No scene/asset references until files exist

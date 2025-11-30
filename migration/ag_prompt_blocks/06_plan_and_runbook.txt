@@ -1,0 +1,8 @@
+<<RUNBOOK>>
+Produce migration/ag_plan.json with step-by-step commands for dry-run, wipe (if GO), resume, and rollback git commands. All actions local only.
+
+scenes\generated_*
+
+res\assets\lotties
+
+C02 — No scene/asset references until files exist

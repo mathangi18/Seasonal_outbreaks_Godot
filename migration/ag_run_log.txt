@@ -1,0 +1,9 @@
+[2025-11-30T13:07:50+01:00] BLOCK 00 STARTED: Global Intent & Rules
+[2025-11-30T13:07:50+01:00] GLOBAL INTENT: Resume Seasonal_outbreaks autopipeline LOCALLY on ag/implement-from-manifest.
+[2025-11-30T13:07:50+01:00] CONSTRAINTS ADOPTED: C01-C15, Local-only, Atomic, Traceable.
+[2025-11-30T13:19:49+01:00] BLOCK 01: All input files verified present.
+[2025-11-30T13:27:43+01:00] BLOCK 02: Constraints C01-C15 verified. Allowed paths confirmed. Forbidden paths acknowledged.
+[2025-11-30T13:46:16+01:00] BLOCK 03: CameraWrapper.tscn and visual_camera.gd created with mandatory specs.
+[2025-11-30T13:48:00+01:00] BLOCK 04: Auto-wipe complete. 0 files deleted. Logged to ag_wipe_log.txt.
+[2025-11-30T13:52:00+01:00] BLOCK 05: Assets resolved. Placeholders created. Validation complete. See migration/scene_validation.json.
+[2025-11-30T13:58:00+01:00] BLOCK 06: Artifacts generated. Pipeline COMPLETE.

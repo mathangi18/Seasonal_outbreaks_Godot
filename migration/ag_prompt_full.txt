@@ -1,0 +1,218 @@
+#######################################################################
+AG TASK: RESUME & REBUILD - LOCAL ONLY - BRANCH: ag/implement-from-manifest
+#######################################################################
+
+INTENT (one line)
+Resume the Seasonal_outbreaks autopipeline headless and fully local on branch
+"ag/implement-from-manifest". Use manifests and asset_catalog and rendered assets
+to re-generate code-first scenes and scripts, run headless validation, produce
+logs, and be auditable and rollbackable. Auto-wipe allowed (branch-local).
+Do not push to remote.
+
+RUN MODE
+Block-by-block interactive: feed AG blocks 00 → 06 in order. AG must ACK each block
+and produce migration/ag_plan.json (or other plan artifact) before the next block.
+
+PREREQUISITES (AG must check)
+- Working directory: D:\Repos\Seasonal_outbreaks_Godot
+- Current branch must be exactly: ag/implement-from-manifest
+  - If not, ABORT and print exact git command to switch: `git checkout ag/implement-from-manifest`
+- Files to be present (in order; abort if missing):
+  1) D:\Repos\Seasonal_outbreaks_Godot\migration\asset_mappings.json
+  2) D:\Repos\Seasonal_outbreaks_Godot\migration\asset_mappings_visuals_full.json
+  3) D:\seasonal_outbreak_assets\ (rendered sources — compare filenames to manifest)
+  4) D:\Repos\Seasonal_outbreaks_Godot\asset_catalog.json
+  5) D:\Repos\Seasonal_outbreaks_Godot\migration\FEATURES_MASTER.txt.txt
+  6) D:\Repos\Seasonal_outbreaks_Godot\migration\seasonal outbreak - Revised.docx
+
+HARD POLICY — IMMEDIATE ABORT ON VIOLATION
+- Operate only on local branch: "ag/implement-from-manifest". Do NOT auto-switch branches.
+- No network fetches except for optional installs that will require explicit YES_INSTALL.
+- No writing to: .godot/, .import/, addons/, or any top-level dirs outside the allowed list.
+- No generation of .import, .tres, .res files by AG.
+- All asset paths must match manifest entries exactly (case-sensitive, slash-correct).
+- If any manifest path is missing on disk -> ABORT.
+- If >5 SHA mismatches -> ABORT.
+
+ALLOWED WRITE PATHS (only these)
+- D:\Repos\Seasonal_outbreaks_Godot\scenes\...
+- D:\Repos\Seasonal_outbreaks_Godot\scripts\...
+- D:\Repos\Seasonal_outbreaks_Godot\res\assets\lotties\...
+- D:\Repos\Seasonal_outbreaks_Godot\res\assets\svgs\...
+- D:\Repos\Seasonal_outbreaks_Godot\res\assets\sprites\...
+- D:\Repos\Seasonal_outbreaks_Godot\res\assets\sounds\...
+- D:\Repos\Seasonal_outbreaks_Godot\migration\... (logs, manifests, plan files)
+Anything else = immediate abort.
+
+EXPLICIT HARD CONSTRAINT SUITE (C01–C15)
+C01 — No runtime presentation APIs
+  - Do not generate AnyLogic Presentation classes, Java/AnyLogic UI, or runtime presentation APIs. Only Godot-native scenes/scripts.
+
+C02 — No scene/asset references until files actually exist
+  - Do not create `.tres`, `.res`, `.import`. Do not reference an asset in scenes or scripts until `Test-Path(new_path)` == true.
+
+C03 — No modification of Godot’s import pipeline
+  - Never edit `.godot/` or create `.import` files. Do not alter editor import metadata.
+
+C04 — No autoloads unless predeclared
+  - Do not register autoload singletons or modify `project.godot`.
+
+C05 — No dynamic folders
+  - Only write to directories on ALLOWED WRITE PATHS list. No creation of any other top-level folders.
+
+C06 — Every asset must exist in manifest BEFORE code references it
+  - AG must only reference assets explicitly listed in `migration/asset_mappings.json` or visuals manifest.
+
+C07 — No auto-atlasing or auto-conversion
+  - Do not perform texture atlasing, packing, or auto-conversion (SVG->PNG, WAV->OGG) unless user-authorized with specific commands.
+
+C08 — Exact case sensitivity
+  - All path comparisons and file lookups are case-sensitive. Any mismatch => fail-stop.
+
+C09 — Never use absolute filesystem paths in Godot code
+  - All Godot resource paths must use `res://` prefix and match manifest. No `C:\` or `D:\` in scripts or scene references.
+
+C10 — Cautious audio loading
+  - Do not load audio unless `.ogg` exists. Use `ResourceLoader.exists()` checks and fallback to silent degrade if missing.
+
+C11 — Everything must use res:// paths
+  - All scene, script, and asset URIs MUST be `res://` scheme exactly matching manifest entries.
+
+C12 — No hidden junk files
+  - Ignore `.DS_Store`, `Thumbs.db`, etc. Log these as ignored and skip.
+
+C13 — Do NOT use SVG for animation frames
+  - SVG files only allowed for static UI icons. Animated sprites must be Lottie JSONs or PNG sequences.
+
+C14 — No instancing scenes that haven’t been written yet
+  - Ensure dependencies exist before instancing. Generate dependent scenes first.
+
+C15 — No silent scene reference failures
+  - If a generated scene references a missing node, missing signal, or missing asset → immediate abort with remediation.
+
+ASSET CATALOG USAGE (strict)
+- Load D:\Repos\Seasonal_outbreaks_Godot\asset_catalog.json (must be valid JSON).
+- For each manifest entry (filename from `new_path`):
+  1) Attempt exact case-sensitive match in asset_catalog.
+  2) If not found, perform case-insensitive candidate search and list matches; DO NOT auto-assign.
+  3) If still unmatched, mark `catalog:missing` and generate a conservative placeholder scene in `scenes/unbound/<role>.tscn` (do NOT wire into main scenes).
+- Use `purpose` and `intended_scene` from catalog to decide which scene to generate and how to wire the asset.
+- Log catalog mismatches to `migration/catalog_mismatch.json`.
+
+PRECHECKS — atomic
+1) Validate current branch == ag/implement-from-manifest. If not: ABORT and print `git checkout ag/implement-from-manifest`.
+2) Validate presence and JSON schema of manifest(s) (fields: role, original_path, new_path, sha256, converted).
+3) Validate asset_catalog.json is readable JSON.
+4) For each manifest entry:
+   - Resolve `new_path` exactly (no heuristics).
+   - `Test-Path(new_path)` must be true; otherwise abort.
+   - Compute SHA256; compare to manifest.sha256; record match/mismatch.
+   - If mismatch, write to validation report and continue; if total mismatches > 5 then ABORT.
+5) Produce `migration/validation_report.json` and `migration/validation_report.md`.
+
+ABORT & REPORT rules
+- Any missing manifest path => immediate abort (no writes).
+- >5 SHA mismatches => immediate abort.
+- On abort, write `migration/ag_errors.json` with actionable remediation steps and stop.
+
+AUTO-WIPE POLICY (your selection: B — auto-wipe)
+- Preconditions:
+  - Must be on branch ag/implement-from-manifest (check again before wipe).
+- Allowed delete globs (only these patterns; exact):
+  - D:\Repos\Seasonal_outbreaks_Godot\scenes\generated_*
+  - D:\Repos\Seasonal_outbreaks_Godot\scripts\gen_*
+  - D:\Repos\Seasonal_outbreaks_Godot\migration\ag_temp_*
+- Forbidden: any deletion or modification under D:\Repos\Seasonal_outbreaks_Godot\res\assets\* or other top-level dirs.
+- Wipe steps:
+  1) Enumerate files matching globs using exact literal matching.
+  2) Write `migration/ag_wipe_log.txt` with timestamp and full file list.
+  3) Delete the files (local only).
+  4) Do NOT perform git operations (no commits or pushes).
+- AG must generate `migration/ag_rollback.ps1` to help undo generated files (note: no backups created by default).
+
+REGENERATION WORKFLOW (atomic staged apply)
+1) PLAN PHASE:
+   - Write `migration/ag_plan.json`: deterministic list of actions (delete list, files to write, scenes/scripts to generate, step ids).
+   - Write `migration/ag_plan_human.md`: exact PowerShell & Godot headless commands to reproduce or run locally.
+2) APPLY PHASE:
+   - Perform auto-wipe per allowed globs (log to ag_wipe_log.txt).
+   - Generate code-first artifacts:
+     - `scripts/SimulationEngine.gd` (ResourceLoader.exists guard + infection sound)
+     - `scripts/Ambulance.gd`, `scripts/HUD.gd`
+     - `scenes/*` required by FEATURES_MASTER and asset_catalog (only under scenes/)
+     - `scenes/CameraWrapper.tscn` and `scripts/visual_camera.gd` (camera wrapper)
+   - For each generated script that loads assets: include `ResourceLoader.exists()` checks and graceful fallback.
+3) VALIDATION PHASE:
+   - For each generated scene: run headless load (Godot) or parse .tscn for resource refs.
+   - Produce `migration/scene_validation.json` and `migration/ag_run_log.txt`.
+   - If any scene load_status == error -> write `migration/ag_errors.json` and abort.
+4) FINAL:
+   - If all ok, print human summary and write `migration/ag_summary.txt`.
+
+CAMERA & VISUAL PLAN (explicit)
+- Use `scripts/visual_camera.gd` (canonical code).
+  - smoothing_enabled = true; smoothing_speed = 5.0; zoom = Vector2(0.85,0.85); offset = Vector2(0,-40).
+  - Methods: `set_target(node_path)`, `pulse_zoom(time_sec)`, `shake(duration)`.
+- Create `scenes/CameraWrapper.tscn` which contains `Camera2D` node assigned this script and set current at begin.
+- Visuals: AG must generate scenes that attach lottie players (for Lottie JSONs), or SpriteFrames for PNG sequences. SVGs only for HUD icons (respect C13).
+
+HEADLESS VALIDATION — exact behavior
+- AG must attempt to instantiate each generated scene in headless Godot (preferred). If Godot not available, AG must parse .tscn files and validate each referenced `res://` path exists in manifest and on disk.
+- For each scene, output: { name, load_status: ok|error, missing_resources: [], node_issues: [] } into `migration/scene_validation.json`.
+- Retry transient IO errors up to 2 times with exponential backoff (2s,4s). If still failing, treat as deterministic error and abort.
+
+STALL & TIMEOUT BEHAVIOR
+- If any step blocks >30s:
+  - Write STALL record to `migration/ag_run_log.txt` with step id and reason.
+  - Pause and wait for user input: `RESUME_STEP <id>` or `ABORT`.
+  - Provide troubleshooting hints and exact commands to fix (e.g., "Godot not found at PATH, run: choco install godot" or similar; AG must not auto-install without YES_INSTALL).
+
+INSTALLS & TOOLING (interactive)
+- If required tooling missing (ffmpeg, headless Godot), AG will:
+  1) Print exact one-line PowerShell install command for detected OS and a small rationale.
+  2) Pause and wait for user command: `YES_INSTALL` to execute or `NO_INSTALL` to skip.
+  3) If `YES_INSTALL`, AG runs the command locally and resumes.
+- AG MUST NOT run installs without an explicit `YES_INSTALL`.
+
+LOGGING & DELIVERABLES (must produce)
+- migration/ag_plan.json
+- migration/ag_plan_human.md
+- migration/ag_run_log.txt (streaming)
+- migration/ag_errors.json
+- migration/validation_report.json and .md
+- migration/ag_wipe_log.txt
+- migration/scene_validation.json
+- migration/ag_rollback.ps1
+- migration/ag_summary.txt (one paragraph human summary)
+- Print `git status --porcelain` snapshot at end (for auditing; AG must not commit).
+
+LIVE MONITORING (PowerShell)
+- Use this watcher locally to tail logs:
+  powershell -NoExit -Command "while ($true){ Clear-Host; Get-Content 'D:\Repos\Seasonal_outbreaks_Godot\migration\ag_run_log.txt' -Tail 40 -ErrorAction SilentlyContinue; Start-Sleep -Seconds 3 }"
+
+FAIL/RETRY POLICY
+- Transient IO: retry up to 2 times (2s,4s). Log each try.
+- Deterministic failures: abort and produce remediation steps.
+- Warnings: proceed only if plan includes "allow_warnings": true.
+
+AUDITABILITY & ROLLBACK
+- All deletions and writes logged to `migration/ag_wipe_log.txt` and `migration/ag_run_log.txt`.
+- AG will create `migration/ag_rollback.ps1` listing all generated files for manual rollback.
+
+INTERACTIVE BEHAVIOR (user prompts)
+- AG must print clear messages and wait for `YES_INSTALL` when installations needed.
+- On stalls >30s, AG must print STALL details and wait for `RESUME_STEP <id>` or `ABORT`.
+
+FINAL EXECUTION SEQUENCE (what AG must do)
+1) Acknowledge the prompt and echo: "I ACKNOWLEDGE: I will operate ONLY on branch 'ag/implement-from-manifest' and only locally; I will auto-wipe ONLY the specified globs; I will NOT push or create branches; I will pause for installs and on stalls >30s."
+2) Run PRECHECKS. If they pass, write `migration/ag_plan.json` and `migration/ag_plan_human.md`.
+3) Wait 5 seconds then (auto-wipe) apply wipe per allowed globs.
+4) Regenerate scenes & scripts as per plan (code-first).
+5) Run headless validations; write scene_validation.json.
+6) If successful, write `migration/ag_summary.txt` and print final `git status --porcelain`.
+7) If any error or abort condition encountered, write `migration/ag_errors.json` with exact remediation steps and stop.
+
+END OF PROMPT
+
+
+C02 — No scene/asset references until files exist
