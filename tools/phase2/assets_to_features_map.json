@@ -1,0 +1,746 @@
+{
+  "generated_at": "2025-12-01 01:35:01Z",
+  "feature_source": "D:\\Repos\\Seasonal_outbreaks_Godot\\tools\\references\\FEATURES_GODOT_FULL.txt",
+  "assets_root": "D:\\seasonal_outbreak_assets",
+  "total_files": 116,
+  "by_ext": {
+    ".bak": {
+      "count": 14,
+      "size": 18004594
+    },
+    ".json": {
+      "count": 4,
+      "size": 217448
+    },
+    ".gif": {
+      "count": 23,
+      "size": 3268088
+    },
+    ".zip": {
+      "count": 1,
+      "size": 3960631
+    },
+    ".svg": {
+      "count": 23,
+      "size": 6057
+    },
+    ".apng": {
+      "count": 23,
+      "size": 2341104
+    },
+    ".docx": {
+      "count": 1,
+      "size": 2820023
+    },
+    ".wav": {
+      "count": 14,
+      "size": 16850988
+    },
+    ".mp3": {
+      "count": 12,
+      "size": 1980258
+    },
+    ".txt": {
+      "count": 1,
+      "size": 13091
+    }
+  },
+  "assets": [
+    {
+      "path": "FEATURES_MASTER.txt.txt",
+      "size": 13091,
+      "ext": ".txt",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties_archive_20251129-235212.zip",
+      "size": 3960631,
+      "ext": ".zip",
+      "tag": "misc"
+    },
+    {
+      "path": "seasonal outbreak - Revised.docx",
+      "size": 2820023,
+      "ext": ".docx",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\alert.apng",
+      "size": 47582,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\alert.gif",
+      "size": 123130,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\ambulance.apng",
+      "size": 175838,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\ambulance.gif",
+      "size": 218189,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\ambulance.json",
+      "size": 65218,
+      "ext": ".json",
+      "tag": "animation"
+    },
+    {
+      "path": "lotties\\bacteria_blob.apng",
+      "size": 84995,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\bacteria_blob.gif",
+      "size": 112578,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\calendar.apng",
+      "size": 194235,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\calendar.gif",
+      "size": 217434,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\clinic_marker.apng",
+      "size": 146526,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\clinic_marker.gif",
+      "size": 177440,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\doctor_avatar.apng",
+      "size": 208570,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\doctor_avatar.gif",
+      "size": 157865,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\facility.apng",
+      "size": 33461,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\facility.gif",
+      "size": 75232,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\hospital.apng",
+      "size": 52222,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\hospital.gif",
+      "size": 155810,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\icon_hud.apng",
+      "size": 85068,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\icon_hud.gif",
+      "size": 279523,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\manifest.json",
+      "size": 3903,
+      "ext": ".json",
+      "tag": "animation"
+    },
+    {
+      "path": "lotties\\mask.apng",
+      "size": 133552,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\mask.gif",
+      "size": 118324,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\medicine_bottle.apng",
+      "size": 74564,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\medicine_bottle.gif",
+      "size": 157335,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\microscope.apng",
+      "size": 34489,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\microscope.gif",
+      "size": 54342,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\nurse_avatar.apng",
+      "size": 207824,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\nurse_avatar.gif",
+      "size": 186571,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\patient_walk.apng",
+      "size": 40434,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\patient_walk.gif",
+      "size": 23053,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\patient_walk.json",
+      "size": 133,
+      "ext": ".json",
+      "tag": "animation"
+    },
+    {
+      "path": "lotties\\person_avatar.apng",
+      "size": 65012,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\person_avatar.gif",
+      "size": 275732,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\person_walk.json",
+      "size": 148194,
+      "ext": ".json",
+      "tag": "animation"
+    },
+    {
+      "path": "lotties\\shield_check.apng",
+      "size": 49751,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\shield_check.gif",
+      "size": 128845,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\stat_chart.apng",
+      "size": 64761,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\stat_chart.gif",
+      "size": 313514,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\syringe.apng",
+      "size": 151849,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\syringe.gif",
+      "size": 94483,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\thermometer.apng",
+      "size": 88762,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\thermometer.gif",
+      "size": 69915,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\user_outline.apng",
+      "size": 84248,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\user_outline.gif",
+      "size": 31263,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\virus_particle.apng",
+      "size": 127755,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\virus_particle.gif",
+      "size": 57381,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\virus.apng",
+      "size": 98235,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\virus.gif",
+      "size": 61989,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "lotties\\warning_triangle.apng",
+      "size": 91371,
+      "ext": ".apng",
+      "tag": "image"
+    },
+    {
+      "path": "lotties\\warning_triangle.gif",
+      "size": 178140,
+      "ext": ".gif",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\ambient_bg.wav",
+      "size": 1058478,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\ambient_bg.wav.bak",
+      "size": 1152078,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\ambulance_siren.wav",
+      "size": 352878,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\ambulance_siren.wav.bak",
+      "size": 384078,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.wav",
+      "size": 3528078,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.wav.bak",
+      "size": 3840078,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\hospital-corridors-with-f-7ayj5ooe.wav",
+      "size": 3528078,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\hospital-corridors-with-f-7ayj5ooe.wav.bak",
+      "size": 3840078,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\infect_alert.wav",
+      "size": 70638,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\infect_alert.wav.bak",
+      "size": 76878,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\mixkit-sci-fi-click-900.wav",
+      "size": 122858,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\mixkit-sci-fi-click-900.wav.bak",
+      "size": 133714,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\mixkit-sick-man-coughing-2221.wav",
+      "size": 219218,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\mixkit-sick-man-coughing-2221.wav.bak",
+      "size": 238594,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\mixkit-slot-machine-win-alert-1931.wav",
+      "size": 628802,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\mixkit-slot-machine-win-alert-1931.wav.bak",
+      "size": 684402,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\synth-ambulance-20-79441.wav",
+      "size": 2832354,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\synth-ambulance-20-79441.wav.bak",
+      "size": 3082830,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds\\ui_pop.wav",
+      "size": 10662,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds\\ui_pop.wav.bak",
+      "size": 11598,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds_in\\hospital-corridors-with-f-7ayj5ooe.normalized.mp3",
+      "size": 320826,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\hospital-corridors-with-f-7ayj5ooe.normalized.normalized.mp3",
+      "size": 320826,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\hospital-corridors-with-f-7ayj5ooe.normalized.normalized.normalized.mp3",
+      "size": 320826,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\hospital-corridors-with-f-7ayj5ooe.wav",
+      "size": 3528078,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\hospital-corridors-with-f-7ayj5ooe.wav.bak",
+      "size": 3528078,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds_in\\mixkit-sci-fi-click-900.normalized.mp3",
+      "size": 11954,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-sci-fi-click-900.normalized.normalized.mp3",
+      "size": 11954,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-sci-fi-click-900.wav",
+      "size": 122854,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-sci-fi-click-900.wav.bak",
+      "size": 184244,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds_in\\mixkit-sick-man-coughing-2221.normalized.mp3",
+      "size": 20732,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-sick-man-coughing-2221.normalized.normalized.mp3",
+      "size": 20732,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-sick-man-coughing-2221.wav",
+      "size": 219214,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-sick-man-coughing-2221.wav.bak",
+      "size": 219180,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds_in\\mixkit-slot-machine-win-alert-1931.normalized.mp3",
+      "size": 57930,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-slot-machine-win-alert-1931.normalized.normalized.mp3",
+      "size": 57930,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-slot-machine-win-alert-1931.wav",
+      "size": 628798,
+      "ext": ".wav",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\mixkit-slot-machine-win-alert-1931.wav.bak",
+      "size": 628764,
+      "ext": ".bak",
+      "tag": "misc"
+    },
+    {
+      "path": "sounds_in\\synth-ambulance-20-79441.mp3",
+      "size": 321120,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\synth-ambulance-20-79441.normalized.mp3",
+      "size": 257714,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "sounds_in\\synth-ambulance-20-79441.normalized.normalized.mp3",
+      "size": 257714,
+      "ext": ".mp3",
+      "tag": "sound"
+    },
+    {
+      "path": "svgs\\alert.svg",
+      "size": 232,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\ambulance.svg",
+      "size": 409,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\bacteria_blob.svg",
+      "size": 203,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\calendar.svg",
+      "size": 222,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\clinic_marker.svg",
+      "size": 243,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\doctor_avatar.svg",
+      "size": 243,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\facility.svg",
+      "size": 296,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\hospital.svg",
+      "size": 215,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\icon_hud.svg",
+      "size": 297,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\mask.svg",
+      "size": 244,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\medicine_bottle.svg",
+      "size": 231,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\microscope.svg",
+      "size": 167,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\nurse_avatar.svg",
+      "size": 309,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\patient_walk.svg",
+      "size": 488,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\person_avatar.svg",
+      "size": 237,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\shield_check.svg",
+      "size": 290,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\stat_chart.svg",
+      "size": 224,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\syringe.svg",
+      "size": 245,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\thermometer.svg",
+      "size": 225,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\user_outline.svg",
+      "size": 233,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\virus_particle.svg",
+      "size": 192,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\virus.svg",
+      "size": 402,
+      "ext": ".svg",
+      "tag": "image"
+    },
+    {
+      "path": "svgs\\warning_triangle.svg",
+      "size": 210,
+      "ext": ".svg",
+      "tag": "image"
+    }
+  ]
+}

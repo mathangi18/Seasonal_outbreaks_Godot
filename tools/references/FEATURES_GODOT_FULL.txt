@@ -1,0 +1,5 @@
+FEATURES_GODOT_FULL.txt
+-----------------------
+This repo reference was created on 2025-12-01 01:35:01Z as the Godot feature spec placeholder.
+You uploaded a FEATURES_GODOT_FULL file to the assistant; place the real FEATURES_GODOT_FULL.txt here if not auto-copied.
+Reference (assistant-cited): FEATURES_GODOT_FULL.txt. :contentReference[oaicite:1]{index=1}
