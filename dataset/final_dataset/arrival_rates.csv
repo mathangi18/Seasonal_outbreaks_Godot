@@ -1,0 +1,3 @@
+disease,country,year,month,mean_daily_arrivals,season_multiplier,notes
+dengue,All,2024,Sep,41.5,1.0,derived_from_cases_total
+unspecified,All,unknown,unknown,0.0,1.0,derived_from_cases_total

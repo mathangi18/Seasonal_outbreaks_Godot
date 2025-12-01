@@ -1,0 +1,19 @@
+Synthetic derivations and justification
+
+1) Costs:
+- Base USD estimates taken from WHO/WorldBank ranges.
+- PHC enforced to be approx 1/5 of private as requested.
+- Converted to INR at 83 INR/USD.
+
+2) Travel times -> distances:
+- Urban distance km = (urban_time_min / 60) * 30 km/h
+- Rural distance km = (rural_time_min / 60) * 22 km/h (adjusted for terrain)
+- Values rounded to 0.1 km.
+
+3) Facility counts:
+- Where exact counts unavailable, used government reports when possible; otherwise regional estimates with conservative rounding.
+
+4) Arrival rates:
+- mean_daily_arrivals = cases_total / 30.
+
+All synthetic fields are flagged in files or noted.

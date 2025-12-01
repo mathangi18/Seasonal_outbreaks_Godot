@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://placeholder_843501950"]
+
+[node name="NodeAudioStreamPlayerstream" type="Node -> AudioStreamPlayer (stream)"]
+# TODO: Mapped from ambient_bg.ogg
+

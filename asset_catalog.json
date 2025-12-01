@@ -1,0 +1,283 @@
+{
+  "generated_at": "2025-11-30T00:00:00Z",
+  "source_root": "D:\\seasonal_outbreak_assets",
+  "summary": "Catalog of assets created or finalized by the Lottie → Lottie/PNG → GIF/APNG → frames pipeline. Each entry includes purpose and Godot usage notes.",
+  "counts_estimated": {
+    "lotties_folder_files":  forty_two,
+    "sounds_files": 6,
+    "svgs": "various"
+  },
+  "lotties": [
+    {
+      "name": "ambulance.json",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\ambulance.json",
+      "derived_files": [
+        "D:\\seasonal_outbreak_assets\\lotties\\ambulance.gif",
+        "D:\\seasonal_outbreak_assets\\lotties\\ambulance.apng"
+      ],
+      "type": "lottie/json → rendered GIF/APNG",
+      "purpose": "Animated ambulance icon for UI / map alert.",
+      "godot_use": "Prefer converting frames into a SpriteFrames resource (AnimatedSprite2D). Keep ambulance.json as backup; use ambulance.strip.png or individual frames for in-game animation.",
+      "import_recommendation": "Export frames as PNGs (48–128px depending on UI scale), Filter=Off, Mipmaps=Off; convert audio triggers to .ogg for playback."
+    },
+    {
+      "name": "person_walk.json",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\person_walk.json",
+      "derived_files": [
+        "D:\\seasonal_outbreak_assets\\lotties\\person_walk.gif",
+        "D:\\seasonal_outbreak_assets\\lotties\\person_walk.apng"
+      ],
+      "type": "lottie/json → rendered character walk animation",
+      "purpose": "Player or NPC walk-cycle; small loop for map or HUD preview.",
+      "godot_use": "Use as AnimatedSprite2D frames (frame folder) or as an AnimatedTexture for Control nodes.",
+      "import_recommendation": "Use frames folder for consistent per-frame collision/hitbox slicing if needed."
+    },
+    {
+      "name": "patient_walk.json",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\patient_walk.json",
+      "derived_files": [
+        "D:\\seasonal_outbreak_assets\\lotties\\patient_walk.gif",
+        "D:\\seasonal_outbreak_assets\\lotties\\patient_walk.apng"
+      ],
+      "type": "lottie/json → rendered animation",
+      "purpose": "Patient walking animation for map or tutorial panels.",
+      "godot_use": "AnimatedSprite2D or use frames to compose SpriteFrames via script."
+    },
+    {
+      "name": "alert.gif / alert.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\alert.gif",
+      "type": "attention animation (GIF/APNG)",
+      "purpose": "Short, high-attention visual for alerts/popups.",
+      "godot_use": "Extract to frames or use as a strip.png for AnimatedSprite2D."
+    },
+    {
+      "name": "bacteria_blob.gif / bacteria_blob.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\bacteria_blob.gif",
+      "type": "decorative animation",
+      "purpose": "Biological hazard or decorative motif in HUD/map.",
+      "godot_use": "AnimatedSprite2D frames; low FPS (6–10) recommended for subtle motion."
+    },
+    {
+      "name": "calendar.gif / calendar.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\calendar.gif",
+      "type": "UI animation",
+      "purpose": "Indicate scheduling/calendar events.",
+      "godot_use": "TextureRect animation via SpriteFrames or AnimationPlayer changing frames."
+    },
+    {
+      "name": "clinic_marker.gif / clinic_marker.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\clinic_marker.gif",
+      "type": "map marker animation",
+      "purpose": "Animated marker for clinics on map.",
+      "godot_use": "SpriteFrames on a Node2D placed at map coordinates."
+    },
+    {
+      "name": "doctor_avatar.gif / doctor_avatar.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\doctor_avatar.gif",
+      "type": "avatar animation",
+      "purpose": "UI avatar for health worker/profile panels.",
+      "godot_use": "TextureRect or AnimatedSprite2D (single-frame or tiny loop)."
+    },
+    {
+      "name": "facility.gif / facility.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\facility.gif",
+      "type": "map icon",
+      "purpose": "Hospital / facility icon for map or list.",
+      "godot_use": "Use as icon in Control nodes or as Sprite in 2D scenes."
+    },
+    {
+      "name": "hospital.gif / hospital.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\hospital.gif",
+      "type": "map/building animation",
+      "purpose": "Animated hospital building for map/legend.",
+      "godot_use": "AnimatedSprite2D frames; use lower resolution for UI thumbnails."
+    },
+    {
+      "name": "icon_hud.gif / icon_hud.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\icon_hud.gif",
+      "type": "HUD icon pack / animation",
+      "purpose": "General HUD icon (composite or multi-frame).",
+      "godot_use": "Slice into separate icons (if composite) or use as strip for AnimatedSprite2D."
+    },
+    {
+      "name": "mask.gif / mask.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\mask.gif",
+      "type": "safety icon animation",
+      "purpose": "Mask / PPE indicator.",
+      "godot_use": "Texture for HUD; keep PNG fallback for small UI."
+    },
+    {
+      "name": "medicine_bottle.gif / medicine_bottle.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\medicine_bottle.gif",
+      "type": "resource icon animation",
+      "purpose": "Medicine / supplies icon.",
+      "godot_use": "AnimatedSprite2D or static TextureRect."
+    },
+    {
+      "name": "microscope.gif / microscope.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\microscope.gif",
+      "type": "science/analysis icon",
+      "purpose": "Laboratory/diagnostics visual cue.",
+      "godot_use": "AnimatedSprite2D; small thumbnail in panels."
+    },
+    {
+      "name": "nurse_avatar.gif / nurse_avatar.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\nurse_avatar.gif",
+      "type": "avatar animation",
+      "purpose": "Nurse avatar for UI panels.",
+      "godot_use": "TextureRect / AnimatedSprite2D."
+    },
+    {
+      "name": "patient_walk.gif / patient_walk.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\patient_walk.gif",
+      "type": "walk cycle",
+      "purpose": "Small loop for patient movement.",
+      "godot_use": "AnimatedSprite2D frames or AnimationPlayer sequence."
+    },
+    {
+      "name": "person_avatar.gif / person_avatar.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\person_avatar.gif",
+      "type": "avatar icon",
+      "purpose": "Generic person icon/avatar.",
+      "godot_use": "TextureRect for UI or as sprite frame."
+    },
+    {
+      "name": "person_walk.gif / person_walk.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\person_walk.gif",
+      "type": "walk animation",
+      "purpose": "Generic walk cycle.",
+      "godot_use": "AnimatedSprite2D."
+    },
+    {
+      "name": "shield_check.gif / shield_check.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\shield_check.gif",
+      "type": "status icon",
+      "purpose": "Successful check / protective status indicator.",
+      "godot_use": "UI icon; use small loop."
+    },
+    {
+      "name": "stat_chart.gif / stat_chart.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\stat_chart.gif",
+      "type": "data visualization icon",
+      "purpose": "Animated stats/chart for dashboards.",
+      "godot_use": "TextureRect or AnimatedSprite2D."
+    },
+    {
+      "name": "syringe.gif / syringe.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\syringe.gif",
+      "type": "action icon",
+      "purpose": "Vaccination / injection indicator.",
+      "godot_use": "HUD/Map icon."
+    },
+    {
+      "name": "thermometer.gif / thermometer.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\thermometer.gif",
+      "type": "status icon",
+      "purpose": "Temperature/fever indicator.",
+      "godot_use": "HUD/Tooltip icons."
+    },
+    {
+      "name": "user_outline.gif / user_outline.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\user_outline.gif",
+      "type": "profile icon",
+      "purpose": "User/person outline for lists and HUD.",
+      "godot_use": "TextureRect or AnimatedSprite2D."
+    },
+    {
+      "name": "virus_particle.gif / virus_particle.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\virus_particle.gif",
+      "type": "danger icon",
+      "purpose": "Virus particle animation for alerts or backgrounds.",
+      "godot_use": "AnimatedSprite2D with blending if used as overlay."
+    },
+    {
+      "name": "virus.gif / virus.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\virus.gif",
+      "type": "icon",
+      "purpose": "Virus icon.",
+      "godot_use": "HUD/Icon usage."
+    },
+    {
+      "name": "warning_triangle.gif / warning_triangle.apng",
+      "file": "D:\\seasonal_outbreak_assets\\lotties\\warning_triangle.gif",
+      "type": "alert icon",
+      "purpose": "General warning symbol for modals/alerts.",
+      "godot_use": "Use as a high-contrast TextureRect or AnimatedSprite2D for flashing alerts."
+    }
+  ],
+  "sounds": [
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.wav",
+      "purpose": "Long ambient hospital background. Use looped AudioStream for scene ambience.",
+      "godot_use": "Convert to .ogg (AudioStreamOGGVorbis) for smaller size and use AudioStreamPlayer (stream=true for long files)."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\mixkit-sci-fi-click-900.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\mixkit-sci-fi-click-900.wav",
+      "purpose": "UI click/pop SFX.",
+      "godot_use": "Convert to .ogg, pre-load for low-latency playback by AudioStreamPlayer or AudioStreamPlayer2D."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\mixkit-sick-man-coughing-2221.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\mixkit-sick-man-coughing-2221.wav",
+      "purpose": "Short cough sound—contextual ambient cue.",
+      "godot_use": "Use sparingly; map to infection events. Convert to .ogg."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\mixkit-slot-machine-win-alert-1931.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\mixkit-slot-machine-win-alert-1931.wav",
+      "purpose": "Notification/alert SFX (mapped to UI pop).",
+      "godot_use": "Convert to .ogg; map to UI notifications; consider trimming or normalizing volume."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\synth-ambulance-20-79441.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\synth-ambulance-20-79441.wav",
+      "purpose": "Ambulance siren / vehicle SFX source. Pipeline also synthesized a short placeholder ambulance_siren.wav when remote download failed.",
+      "godot_use": "Trim and convert to .ogg or looped short sample for repeating siren. For long sirens use streaming."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\ambient_bg.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\ambient_bg.wav",
+      "purpose": "Short generated ambient background (synthesized when remote source was missing).",
+      "godot_use": "Convert to .ogg and set as looped AudioStream for ambient layers."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\ambulance_siren.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\ambulance_siren.wav",
+      "purpose": "Synthesized ambulance siren placeholder (2s) created locally using ffmpeg lavfi. Good for testing.",
+      "godot_use": "Convert to .ogg; if you need a looped siren, create a seamless loop or use programmatic crossfade."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\infect_alert.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\infect_alert.wav",
+      "purpose": "Short alert blip synthesized as placeholder.",
+      "godot_use": "Convert to .ogg; use for short one-shot alerts."
+    },
+    {
+      "src": "D:\\seasonal_outbreak_assets\\sounds\\ui_pop.wav",
+      "final": "D:\\seasonal_outbreak_assets\\sounds\\ui_pop.wav",
+      "purpose": "Tiny UI pop SFX created as placeholder.",
+      "godot_use": "Convert to .ogg; preload to avoid first-play latency."
+    }
+  ],
+  "svgs_and_png_fallbacks": {
+    "path": "D:\\seasonal_outbreak_assets\\svgs (and rasterized fallbacks in sprites area)",
+    "purpose": "Source vector icons. Pipeline rasterized 256x256 PNG fallbacks for Godot import where SVG import may not be desired.",
+    "usage_notes": "Prefer resizable VectorTexture for crisp scaling; for runtime performance or older Godot versions use PNG fallbacks with Filter=Off and Mipmaps=Off."
+  },
+  "how_to_use_in_godot": {
+    "general": [
+      "Convert long ambient audio to .ogg and use streaming AudioStreamOGGVorbis for memory efficiency.",
+      "Convert short SFX to .ogg and preload frequently used ones.",
+      "For each gif/apng: either extract frames into a frames folder and create a SpriteFrames resource, or use the pipeline-produced *.strip.png and AssetLoader.load_frames_from_strip(path, frame_w, frame_h, count).",
+      "Set PNG textures used for UI: Filter=Off, Generate Mipmaps=Off, Repeat=Disabled.",
+      "Store final assets under your Godot project folder (copy/move D:\\seasonal_outbreak_assets\\lotties and sounds into your repo assets)."
+    ],
+    "sprites": [
+      "AnimatedSprite2D with SpriteFrames created programmatically avoids manual inspector work. Use asset_loader.gd helper to programmatically build frames from strips or folders.",
+      "For icons used in Control nodes, use TextureRect with PNG fallback (pref 64×64 or 48×48 depending on layout)."
+    ]
+  },
+  "generated_by_note": "This catalog was created from pipeline logs you provided. It is a snapshot — if you've since moved/removed files, re-run an inventory command and update the catalog before feeding it to an agent."
+}

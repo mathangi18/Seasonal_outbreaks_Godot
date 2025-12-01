@@ -1,0 +1,49 @@
+Asset import report — Godot import guidance (Godot 3.x and 4.x notes)
+-----------------------------------------------------------------
+Place this file in: <repo_root>/assets/asset_import_report.txt
+
+General notes:
+- Godot creates .import metadata files automatically when you open the project.
+- Filenames and relative paths are important: use exactly the filenames listed in the manifest.
+- After adding assets, open Godot -> Import dock -> select a resource -> apply the recommended settings below -> Reimport.
+
+1) PNG (UI sprites, icons, single frames)
+   - Import Type: Texture
+   - Compression: Lossless (or Off)
+   - Filter: Off (for pixel-crisp UI/icons)
+   - Repeat: Off
+   - Mipmaps: Off (UI/2D sprites)
+   - Alpha: Preserved (use PNG with alpha)
+   - Fixes: If scaling issues occur, set Repeat=Off and Mipmaps=Off, then Reimport.
+
+2) PNG (Sprite sheets / strips)
+   - Import Type: Texture
+   - Compression: Lossless
+   - Filter: Off
+   - Repeat: Off
+   - Mipmaps: Off
+   - Use AnimatedSprite/AnimatedSprite2D -> "New SpriteFrames" -> Add Frames From Sprite Sheet, set horizontal/vertical counts to slice.
+
+3) SVG (vector)
+   - Godot rasterizes SVG at import.
+   - Keep file small (<20 KB) and simple (no embedded raster images).
+   - Import Type (Godot 4): SVGTexture automatically rasterizes at use-time; for Godot 3, use an editor plugin or rasterize to PNG externally.
+   - If you need a specific pixel size, export to PNG at desired resolution before adding.
+
+4) OGG (sound effects / music)
+   - Import Type: Stream
+   - Looping: As required per file (ambient_bg -> loopable)
+   - Mix to Mono: Recommended for short SFX (infect.ogg)
+   - Streaming: Use Stream for background and big audio; use Sample for short effects if necessary.
+
+5) Naming & Paths
+   - Use these exact relative paths (inside repo): res://assets/sprites/ and res://assets/sounds/
+   - Filenames are case-sensitive when the project is used on case-sensitive filesystems (Linux). Keep exact names.
+
+6) Recommended actions after placing assets:
+   - Open Godot editor
+   - Project -> Project Settings -> AutoLoad -> register any script singletons if needed (AssetLoader later)
+   - In Import dock, check each asset and reimport with recommended settings
+   - Clear cache if you replace files: Project -> Tools -> "Reimport" or delete .import files and reopen Godot.
+
+End of report.

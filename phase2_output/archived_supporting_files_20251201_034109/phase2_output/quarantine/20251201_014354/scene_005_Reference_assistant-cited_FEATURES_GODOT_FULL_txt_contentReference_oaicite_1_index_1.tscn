@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource path=""assets/scene_005_Reference_assistant-cited_FEATURES_GODOT_FULL_txt_contentReference_oaicite_1_index_1.png"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""scene_005_Reference_assistant-cited_FEATURES_GODOT_FULL_txt_contentReference_oaicite_1_index_1""
+# Feature: Reference (assistant-cited): FEATURES_GODOT_FULL.txt. :contentReference[oaicite:1]{index=1}
+# Generated: 20251201_014203
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

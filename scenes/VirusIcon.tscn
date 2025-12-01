@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://placeholder_-176830985"]
+
+[node name="ControlTextureRect" type="Control -> TextureRect"]
+# TODO: Mapped from virus.svg
+

@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://placeholder_493244356"]
+
+[node name="ControlTextureRect" type="Control -> TextureRect"]
+# TODO: Mapped from microscope.svg
+

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource path=""assets/scene_004_You_uploaded_a_FEATURES_GODOT_FULL_file_to_the_assistant_place_the_real_FEATURES_GODOT_FULL_txt_here_if_not_auto-copied.png"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""scene_004_You_uploaded_a_FEATURES_GODOT_FULL_file_to_the_assistant_place_the_real_FEATURES_GODOT_FULL_txt_here_if_not_auto-copied""
+# Feature: You uploaded a FEATURES_GODOT_FULL file to the assistant; place the real FEATURES_GODOT_FULL.txt here if not auto-copied.
+# Generated: 20251201_014203
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

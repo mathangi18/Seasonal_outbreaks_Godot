@@ -1,0 +1,13 @@
+2025-12-01T02:18:14.7333853+01:00	PROBE: listing top-level items in D:\seasonal_outbreak_assets (non-recursive)
+2025-12-01T02:18:14.7515992+01:00	DIR  : lotties    files_immediate: 50
+2025-12-01T02:18:14.7540928+01:00	DIR  : report    files_immediate: 0
+2025-12-01T02:18:14.7571094+01:00	DIR  : sounds    files_immediate: 20
+2025-12-01T02:18:14.7600850+01:00	DIR  : sounds_in    files_immediate: 20
+2025-12-01T02:18:14.7623081+01:00	DIR  : sprites    files_immediate: 0
+2025-12-01T02:18:14.7646200+01:00	DIR  : svgs    files_immediate: 23
+2025-12-01T02:18:14.7708699+01:00	FILE : asset_catalog.json    size: 13.9 KB
+2025-12-01T02:18:14.7730943+01:00	FILE : feature_godot.json    size: 5.23 KB
+2025-12-01T02:18:14.7765648+01:00	FILE : FEATURES_GODOT_FULL.txt.txt    size: 8.78 KB
+2025-12-01T02:18:14.7780477+01:00	FILE : lotties_archive_20251129-235212.zip    size: 3867.8 KB
+2025-12-01T02:18:14.7792688+01:00	FILE : seasonal outbreak - Revised.docx    size: 2753.93 KB
+2025-12-01T02:18:14.7802859+01:00	WROTE PROBE LOG -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\logs\asset_root_probe_20251201_021814.log

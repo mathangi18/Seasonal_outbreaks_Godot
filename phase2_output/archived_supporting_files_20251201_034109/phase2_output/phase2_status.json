@@ -1,0 +1,11 @@
+{
+  "timestamp": "2025-12-01T01:39:17.0614567+01:00",
+  "branch": "dev/phase-2",
+  "repo": "D:\\Repos\\Seasonal_outbreaks_Godot",
+  "features_file": "D:\\Repos\\Seasonal_outbreaks_Godot\\tools\\references\\FEATURES_GODOT_FULL.txt",
+  "assets_root": "D:\\seasonal_outbreak_assets",
+  "assets_map": "D:\\Repos\\Seasonal_outbreaks_Godot\\tools\\phase2\\assets_to_features_map.json",
+  "goal_path": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output",
+  "scenes_existing": false,
+  "note": "Phase-2 bootstrap check-in completed. Next: create generator script and run validator."
+}

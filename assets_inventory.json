@@ -1,0 +1,345 @@
+[
+  {
+    "relative": "assets\\asset_import_report.txt",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\asset_import_report.txt",
+    "size_kb": 2.3,
+    "extension": ".txt",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\asset_manifest.json",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\asset_manifest.json",
+    "size_kb": 4.2,
+    "extension": ".json",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\placeholder_marker.txt",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\placeholder_marker.txt",
+    "size_kb": 0.0,
+    "extension": ".txt",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\ambient_bg.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\ambient_bg.wav",
+    "size_kb": 1125.1,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\ambulance_siren.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\ambulance_siren.wav",
+    "size_kb": 375.1,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.mp3",
+    "size_kb": 313.3,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.normalized.mp3",
+    "size_kb": 313.3,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.normalized.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.normalized.normalized.mp3",
+    "size_kb": 313.3,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.normalized.wav",
+    "size_kb": 3750.1,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\hospital-corridors-with-f-7ayj5ooe.wav",
+    "size_kb": 3445.4,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\infect_alert.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\infect_alert.wav",
+    "size_kb": 75.1,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-sci-fi-click-900.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-sci-fi-click-900.normalized.mp3",
+    "size_kb": 11.7,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-sci-fi-click-900.normalized.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-sci-fi-click-900.normalized.normalized.mp3",
+    "size_kb": 11.7,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-sci-fi-click-900.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-sci-fi-click-900.wav",
+    "size_kb": 179.9,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-sick-man-coughing-2221.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-sick-man-coughing-2221.normalized.mp3",
+    "size_kb": 20.2,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-sick-man-coughing-2221.normalized.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-sick-man-coughing-2221.normalized.normalized.mp3",
+    "size_kb": 20.2,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-sick-man-coughing-2221.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-sick-man-coughing-2221.wav",
+    "size_kb": 214.0,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-slot-machine-win-alert-1931.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-slot-machine-win-alert-1931.normalized.mp3",
+    "size_kb": 56.6,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-slot-machine-win-alert-1931.normalized.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-slot-machine-win-alert-1931.normalized.normalized.mp3",
+    "size_kb": 56.6,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\mixkit-slot-machine-win-alert-1931.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\mixkit-slot-machine-win-alert-1931.wav",
+    "size_kb": 614.0,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\synth-ambulance-20-79441.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\synth-ambulance-20-79441.mp3",
+    "size_kb": 313.6,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\synth-ambulance-20-79441.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\synth-ambulance-20-79441.normalized.mp3",
+    "size_kb": 251.7,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\synth-ambulance-20-79441.normalized.normalized.mp3",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\synth-ambulance-20-79441.normalized.normalized.mp3",
+    "size_kb": 251.7,
+    "extension": ".mp3",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\synth-ambulance-20-79441.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\synth-ambulance-20-79441.wav",
+    "size_kb": 3010.6,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sounds\\ui_pop.wav",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sounds\\ui_pop.wav",
+    "size_kb": 11.3,
+    "extension": ".wav",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\alert.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\alert.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\ambulance.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\ambulance.svg",
+    "size_kb": 0.4,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\bacteria_blob.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\bacteria_blob.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\calendar.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\calendar.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\clinic_marker.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\clinic_marker.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\doctor_avatar.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\doctor_avatar.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\facility.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\facility.svg",
+    "size_kb": 0.3,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\hospital.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\hospital.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\icon_hud.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\icon_hud.svg",
+    "size_kb": 0.3,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\mask.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\mask.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\medicine_bottle.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\medicine_bottle.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\microscope.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\microscope.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\nurse_avatar.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\nurse_avatar.svg",
+    "size_kb": 0.3,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\patient_walk.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\patient_walk.svg",
+    "size_kb": 0.5,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\person_avatar.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\person_avatar.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\shield_check.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\shield_check.svg",
+    "size_kb": 0.3,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\stat_chart.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\stat_chart.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\syringe.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\syringe.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\thermometer.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\thermometer.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\user_outline.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\user_outline.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\virus_particle.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\virus_particle.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\virus.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\virus.svg",
+    "size_kb": 0.4,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\sprites\\warning_triangle.svg",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\sprites\\warning_triangle.svg",
+    "size_kb": 0.2,
+    "extension": ".svg",
+    "dimensions": null
+  },
+  {
+    "relative": "assets\\videos\\27319786-preview.mp4",
+    "path": "D:\\Repos\\Seasonal_outbreaks_Godot\\assets\\videos\\27319786-preview.mp4",
+    "size_kb": 2709.9,
+    "extension": ".mp4",
+    "dimensions": null
+  }
+]

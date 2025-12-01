@@ -1,0 +1,92 @@
+{
+  "missing_assets": [
+    {
+      "reason": "mapped file(s) not found",
+      "candidates": "D:\\seasonal_outbreak_assets\\lotties\\person_walk.gif",
+      "feature": "Patient.gd"
+    }
+  ],
+  "timestamp": "2025-12-01T03:00:37.4051819+01:00",
+  "generated": [
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\icon_hud.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_001_Main.tscn.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\Main.tscn_icon_hud.gif",
+      "feature": "Main.tscn"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\stat_chart.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_002_Simulation.tscn.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\Simulation.tscn_stat_chart.gif",
+      "feature": "Simulation.tscn"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\patient_walk.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_003_Patient.tscn.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\Patient.tscn_patient_walk.gif",
+      "feature": "Patient.tscn"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\facility.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_004_Facility.tscn.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\Facility.tscn_facility.gif",
+      "feature": "Facility.tscn"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\icon_hud.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_005_HUD.tscn.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\HUD.tscn_icon_hud.gif",
+      "feature": "HUD.tscn"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\hospital.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_006_Main.gd.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\Main.gd_hospital.gif",
+      "feature": "Main.gd"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\stat_chart.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_007_SimulationEngine.gd.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\SimulationEngine.gd_stat_chart.gif",
+      "feature": "SimulationEngine.gd"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\clinic_marker.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_009_Facility.gd.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\Facility.gd_clinic_marker.gif",
+      "feature": "Facility.gd"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\icon_hud.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_010_HUD.gd.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\HUD.gd_icon_hud.gif",
+      "feature": "HUD.gd"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\shield_check.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_011_scale_utils.gd.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\scale_utils.gd_shield_check.gif",
+      "feature": "scale_utils.gd"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\stat_chart.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_012_logger.gd.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\logger.gd_stat_chart.gif",
+      "feature": "logger.gd"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\patient_walk.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_013_patient_placeholder.png.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\patient_placeholder.png_patient_walk.gif",
+      "feature": "patient_placeholder.png"
+    },
+    {
+      "asset_src": "D:\\seasonal_outbreak_assets\\lotties\\stat_chart.gif",
+      "scene": "D:\\Repos\\Seasonal_outbreaks_Godot\\phase2_output\\scenes\\scene_014_sample_sim_log.csv.tscn",
+      "asset_repo": "D:\\Repos\\Seasonal_outbreaks_Godot\\project_assets\\phase2\\sample_sim_log.csv_stat_chart.gif",
+      "feature": "sample_sim_log.csv"
+    }
+  ],
+  "errors": [],
+  "skipped": []
+}

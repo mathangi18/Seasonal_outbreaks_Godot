@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://placeholder_545452878"]
+
+[node name="Node2DLottiePlayerAnimatedSprite2D" type="Node2D -> LottiePlayer/AnimatedSprite2D"]
+# TODO: Mapped from nurse_avatar.apng
+

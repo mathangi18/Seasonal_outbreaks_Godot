@@ -1,0 +1,9 @@
+{
+  "description": "When simulation starts, initial_counts should be present and non-negative",
+  "feature": "basic-simulation-start",
+  "expected": {
+    "infected": 0,
+    "recovered": 0,
+    "susceptible": 100
+  }
+}

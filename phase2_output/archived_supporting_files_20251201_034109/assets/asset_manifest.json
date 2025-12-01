@@ -1,0 +1,168 @@
+{
+  "manifest_version": "1.0",
+  "project": "Seasonal_outbreaks_Godot",
+  "assets_root": "assets",
+  "generated_at": "2025-11-30T00:00:00Z",
+  "assets": [
+    {
+      "path": "assets/sprites/patient_placeholder.png",
+      "filename": "patient_placeholder.png",
+      "type": "image/png",
+      "role": "placeholder_agent",
+      "required": true,
+      "dimensions": [
+        48,
+        48
+      ],
+      "max_size_kb": 50,
+      "import_settings": {
+        "import_type": "Texture",
+        "compression": "lossless",
+        "filter": false,
+        "mipmaps": false,
+        "repeat": false
+      },
+      "notes": "exact 48x48 px required for HUD alignment"
+    },
+    {
+      "path": "assets/sprites/state_icons.png",
+      "filename": "state_icons.png",
+      "type": "image/png",
+      "role": "state_icons_strip",
+      "required": true,
+      "dimensions": [
+        192,
+        48
+      ],
+      "max_size_kb": 100,
+      "import_settings": {
+        "import_type": "Texture",
+        "compression": "lossless",
+        "filter": false,
+        "mipmaps": false,
+        "repeat": false
+      },
+      "notes": "4-frame horizontal strip: 4 x 48x48 frames (S, E, I, R). Alternative: four separate 48x48 files state_susceptible.png etc."
+    },
+    {
+      "path": "assets/sprites/icon_hud.svg",
+      "filename": "icon_hud.svg",
+      "type": "image/svg+xml",
+      "role": "hud_icon_vector",
+      "required": true,
+      "dimensions": null,
+      "max_size_kb": 20,
+      "import_settings": {
+        "import_type": "SVGTexture (Godot4) or rasterize to PNG (Godot3)"
+      },
+      "notes": "Keep simple vector; Godot rasterizes on import/use."
+    },
+    {
+      "path": "assets/sprites/patient.png",
+      "filename": "patient.png",
+      "type": "image/png",
+      "role": "agent_highres",
+      "required": false,
+      "dimensions": [
+        128,
+        128
+      ],
+      "max_size_kb": 300,
+      "import_settings": {
+        "import_type": "Texture",
+        "compression": "lossless",
+        "filter": true,
+        "mipmaps": false,
+        "repeat": false
+      },
+      "notes": "Optional higher-res agent art (recommended 128-512)."
+    },
+    {
+      "path": "assets/sprites/ambulance.png",
+      "filename": "ambulance.png",
+      "type": "image/png",
+      "role": "vehicle_sprite",
+      "required": false,
+      "dimensions": [
+        128,
+        128
+      ],
+      "max_size_kb": 300,
+      "import_settings": {},
+      "notes": "Vehicle sprite used by ambulance scene"
+    },
+    {
+      "path": "assets/sprites/facility.png",
+      "filename": "facility.png",
+      "type": "image/png",
+      "role": "facility_sprite",
+      "required": false,
+      "dimensions": [
+        128,
+        128
+      ],
+      "max_size_kb": 300,
+      "import_settings": {},
+      "notes": "Facility/hospital sprite"
+    },
+    {
+      "path": "assets/sounds/infect.ogg",
+      "filename": "infect.ogg",
+      "type": "audio/ogg",
+      "role": "sfx_infect",
+      "required": true,
+      "duration_sec": [
+        0.5,
+        2
+      ],
+      "max_size_kb": 150,
+      "import_settings": {
+        "import_type": "Stream",
+        "mix_to_mono": true,
+        "loop": false
+      },
+      "notes": "Short infection cue"
+    },
+    {
+      "path": "assets/sounds/ambient_bg.ogg",
+      "filename": "ambient_bg.ogg",
+      "type": "audio/ogg",
+      "role": "sfx_ambient",
+      "required": false,
+      "duration_sec": null,
+      "max_size_kb": 1024,
+      "import_settings": {
+        "import_type": "Stream",
+        "loop": true
+      },
+      "notes": "Optional background ambience"
+    },
+    {
+      "path": "assets/sounds/ambulance_siren.ogg",
+      "filename": "ambulance_siren.ogg",
+      "type": "audio/ogg",
+      "role": "sfx_siren",
+      "required": false,
+      "max_size_kb": 500,
+      "import_settings": {
+        "import_type": "Stream",
+        "loop": false
+      },
+      "notes": "Ambulance siren / short loop"
+    },
+    {
+      "path": "assets/sounds/ui_pop.ogg",
+      "filename": "ui_pop.ogg",
+      "type": "audio/ogg",
+      "role": "sfx_ui",
+      "required": false,
+      "max_size_kb": 50,
+      "import_settings": {
+        "import_type": "Sample",
+        "mix_to_mono": true,
+        "loop": false
+      },
+      "notes": "UI click/pop"
+    }
+  ]
+}

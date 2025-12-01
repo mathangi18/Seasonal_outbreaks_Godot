@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="AudioStream" path="res://res/assets/sounds/mixkit-sci-fi-click-900.wav" id="1_aud"]
+
+[node name="mixkit-sci-fi-click-900" type="AudioStreamPlayer"]
+stream = ExtResource("1_aud")
+
+

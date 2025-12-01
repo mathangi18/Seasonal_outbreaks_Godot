@@ -1,0 +1,11 @@
+{
+    "name": "Default Outbreak",
+    "initial_population": 100,
+    "infection_radius": 20.0,
+    "infection_prob": 0.1,
+    "incubation_ticks": 5,
+    "infectious_ticks": 10,
+    "patient_speed": 10.0,
+    "facility_capacity": 10,
+    "facility_service_rate": 1
+}

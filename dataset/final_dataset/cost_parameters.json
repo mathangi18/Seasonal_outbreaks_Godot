@@ -1,0 +1,11 @@
+{
+  "conversion_usd_to_inr": 83.0,
+  "costs_inr": {
+    "India": {"phc_cost_inr": 208, "private_cost_inr": 1079, "mobile_cost_inr": 332},
+    "Sri Lanka": {"phc_cost_inr": 249, "private_cost_inr": 1245, "mobile_cost_inr": 374},
+    "Bangladesh": {"phc_cost_inr": 149, "private_cost_inr": 747, "mobile_cost_inr": 249},
+    "Nepal": {"phc_cost_inr": 100, "private_cost_inr": 498, "mobile_cost_inr": 166},
+    "Indonesia": {"phc_cost_inr": 266, "private_cost_inr": 1328, "mobile_cost_inr": 398}
+  },
+  "notes": "PHC ~ 1/5 of private enforced; conversion rate 83 INR/USD; round to nearest rupee."
+}

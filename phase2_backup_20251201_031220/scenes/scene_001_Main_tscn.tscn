@@ -1,0 +1,8 @@
+﻿[gd_scene load_steps=2 format=3]
+[ext_resource path=""assets/scene_001_Main_tscn.gif"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""scene_001_Main_tscn""
+# Feature: Main.tscn
+# Generated: 20251201_030554
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

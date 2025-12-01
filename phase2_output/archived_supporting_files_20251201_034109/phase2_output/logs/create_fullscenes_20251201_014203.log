@@ -1,0 +1,12 @@
+2025-12-01T01:42:03.8602356+01:00 	 WROTE blank asset -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes\assets\blank.png
+2025-12-01T01:42:03.8955918+01:00 	 No mapped asset found for feature 'FEATURES_GODOT_FULL.txt' -> using blank.png
+2025-12-01T01:42:03.9162166+01:00 	 WROTE scene -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes\scene_001_FEATURES_GODOT_FULL_txt.tscn (asset -> assets/scene_001_FEATURES_GODOT_FULL_txt.png)
+2025-12-01T01:42:03.9180791+01:00 	 No mapped asset found for feature '-----------------------' -> using blank.png
+2025-12-01T01:42:03.9240579+01:00 	 WROTE scene -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes\scene_002_-----------------------.tscn (asset -> assets/scene_002_-----------------------.png)
+2025-12-01T01:42:03.9259066+01:00 	 No mapped asset found for feature 'This repo reference was created on 2025-12-01 01:35:01Z as the Godot feature spec placeholder.' -> using blank.png
+2025-12-01T01:42:03.9324415+01:00 	 WROTE scene -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes\scene_003_This_repo_reference_was_created_on_2025-12-01_01_35_01Z_as_the_Godot_feature_spec_placeholder.tscn (asset -> assets/scene_003_This_repo_reference_was_created_on_2025-12-01_01_35_01Z_as_the_Godot_feature_spec_placeholder.png)
+2025-12-01T01:42:03.9347360+01:00 	 No mapped asset found for feature 'You uploaded a FEATURES_GODOT_FULL file to the assistant; place the real FEATURES_GODOT_FULL.txt here if not auto-copied.' -> using blank.png
+2025-12-01T01:42:03.9402990+01:00 	 WROTE scene -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes\scene_004_You_uploaded_a_FEATURES_GODOT_FULL_file_to_the_assistant_place_the_real_FEATURES_GODOT_FULL_txt_here_if_not_auto-copied.tscn (asset -> assets/scene_004_You_uploaded_a_FEATURES_GODOT_FULL_file_to_the_assistant_place_the_real_FEATURES_GODOT_FULL_txt_here_if_not_auto-copied.png)
+2025-12-01T01:42:03.9417577+01:00 	 No mapped asset found for feature 'Reference (assistant-cited): FEATURES_GODOT_FULL.txt. :contentReference[oaicite:1]{index=1}' -> using blank.png
+2025-12-01T01:42:03.9473113+01:00 	 WROTE scene -> D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes\scene_005_Reference_assistant-cited_FEATURES_GODOT_FULL_txt_contentReference_oaicite_1_index_1.tscn (asset -> assets/scene_005_Reference_assistant-cited_FEATURES_GODOT_FULL_txt_contentReference_oaicite_1_index_1.png)
+2025-12-01T01:42:03.9483824+01:00 	 Completed generation. Scenes created: 5. Scenes dir: D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes

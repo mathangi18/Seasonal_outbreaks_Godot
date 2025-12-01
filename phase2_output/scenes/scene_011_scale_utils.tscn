@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource path=""res://project_assets/phase2/scale_utils.gd_shield_check.gif"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""scale_utils.gd""
+# Feature: scale_utils.gd
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

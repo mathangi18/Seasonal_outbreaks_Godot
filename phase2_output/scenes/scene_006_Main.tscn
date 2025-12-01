@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource path=""res://project_assets/phase2/Main.gd_hospital.gif"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""Main.gd""
+# Feature: Main.gd
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

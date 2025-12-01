@@ -1,0 +1,20 @@
+
+ARCHIVE_FOUND: D:\Repos\Seasonal_outbreaks_Godot\phase2_output\archived_supporting_files_20251201_034109
+RESTORED: project.godot -> D:\Repos\Seasonal_outbreaks_Godot\project.godot
+EXISTS: D:\Repos\Seasonal_outbreaks_Godot\tools\phase2\assets_to_features_map.json
+MOVED_FILE: D:\Repos\Seasonal_outbreaks_Godot\phase2_output\archived_supporting_files_20251201_034109\FEATURES_GODOT_FULL.txt.FullName -> D:\Repos\Seasonal_outbreaks_Godot\tools\references\FEATURES_GODOT_FULL.txt
+EXISTS: D:\Repos\Seasonal_outbreaks_Godot\res\scenes
+EXISTS: D:\Repos\Seasonal_outbreaks_Godot\res\scripts
+EXISTS: D:\Repos\Seasonal_outbreaks_Godot\project_assets\phase2
+EXISTS: D:\Repos\Seasonal_outbreaks_Godot\phase2_output\scenes
+EXISTS: D:\Repos\Seasonal_outbreaks_Godot\scripts
+
+VALIDATION_SUMMARY:
+project.godot present: True
+project_assets/phase2 file count: 14
+phase2_output/scenes (.tscn) count: 41
+scripts (*.gd) count: 26
+NORMALIZED_ATTRS: project.godot
+
+RESTORE LOG: D:\Repos\Seasonal_outbreaks_Godot\phase2_output\restore_log.txt
+If anything looks missing, paste the last 12 lines of this output here.

@@ -1,0 +1,3 @@
+disease,country,year,month,cases_total,source_count,credibility,synthetic_flag,notes
+dengue,All,2024,Sep,1245,3,9,0,extracted_prelim
+unspecified,All,unknown,unknown,0,0,NA,0,extracted_prelim

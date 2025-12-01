@@ -1,7 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://facility"]
+[gd_scene load_steps=4 format=3 uid="uid://facility_visual"]
 
-[ext_resource type="Script" path="res://res/scripts/Facility.gd" id="1_script"]
-[ext_resource type="Texture2D" path="res://assets/facility.png" id="2_tex"]
+[ext_resource type="Script" path="res://scripts/facility.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://assets/sprites/facility.png" id="2_tex"]
 
 [sub_resource type="RectangleShape2D" id="1"]
 size = Vector2(64, 64)
@@ -18,9 +18,11 @@ texture = ExtResource("2_tex")
 shape = SubResource("1")
 
 [node name="Label" type="Label" parent="."]
-offset_left = -32.0
-offset_top = -50.0
-offset_right = 32.0
+offset_left = -40.0
+offset_top = -60.0
+offset_right = 40.0
 offset_bottom = -30.0
 text = "HOSPITAL"
 horizontal_alignment = 1
+
+

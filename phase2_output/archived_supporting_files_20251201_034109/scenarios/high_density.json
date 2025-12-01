@@ -1,0 +1,11 @@
+{
+    "name": "High Density",
+    "initial_population": 300,
+    "infection_radius": 15.0,
+    "infection_prob": 0.2,
+    "incubation_ticks": 3,
+    "infectious_ticks": 15,
+    "patient_speed": 5.0,
+    "facility_capacity": 20,
+    "facility_service_rate": 2
+}

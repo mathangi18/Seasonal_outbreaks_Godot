@@ -1,0 +1,14 @@
+Patient.gd : D:\seasonal_outbreak_assets\lotties\person_walk.gif
+Facility.gd : D:\seasonal_outbreak_assets\lotties\clinic_marker.gif
+SimulationEngine.gd : D:\seasonal_outbreak_assets\lotties\stat_chart.gif
+Facility.tscn : D:\seasonal_outbreak_assets\lotties\facility.gif
+Main.gd : D:\seasonal_outbreak_assets\lotties\hospital.gif
+logger.gd : D:\seasonal_outbreak_assets\lotties\stat_chart.gif
+Patient.tscn : D:\seasonal_outbreak_assets\lotties\patient_walk.gif
+Simulation.tscn : D:\seasonal_outbreak_assets\lotties\stat_chart.gif
+Main.tscn : D:\seasonal_outbreak_assets\lotties\icon_hud.gif
+HUD.gd : D:\seasonal_outbreak_assets\lotties\icon_hud.gif
+scale_utils.gd : D:\seasonal_outbreak_assets\lotties\shield_check.gif
+HUD.tscn : D:\seasonal_outbreak_assets\lotties\icon_hud.gif
+sample_sim_log.csv : D:\seasonal_outbreak_assets\lotties\stat_chart.gif
+patient_placeholder.png : D:\seasonal_outbreak_assets\lotties\patient_walk.gif

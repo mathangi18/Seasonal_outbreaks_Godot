@@ -1,0 +1,40 @@
+Project Structure: create the files/folders above exactly.
+Main Scene Bootstrap:
+Auto-scaling API:
+Fail-safe Mode (exact fallback):
+Fixed Tick Loop:
+Exported Editor Parameters (must be @export):
+Responsibilities:
+State machine:
+Movement:
+Visuals:
+Infection (isolated function):
+Facility Node (Facility.tscn / Facility.gd):
+Queue Logic:
+Score rules:
+Toggleable Panels (use flags or @export):
+Panels must:
+HUD Controls:
+Write to user://logs/sim_log.csv
+Header (write once at simulation start):
+Append one line per tick with integer counts
+Also commit logs/sample_sim_log.csv as example output
+Provide preset files (JSON or .tres) placed in /scenarios or /res://presets:
+UI dropdown to load presets, or auto-load a default on first run
+Spatial Partitioning (replaceable implementation):
+Headless Batch Mode:
+Editor Tool:
+In-Game Graphs:
+Debug Overlay:
+Replace placeholders with distinct icons / shapes per state
+Color-blind friendly mode: use shapes or icons + colors
+Minimal animations (idle breathing, infection particle burst)
+README.md:
+run_instructions.md: step-by-step for beginners
+quick_test.md:
+Add simple GitHub Action verifying repository structure and running a lint (gdformat)
+Add unit tests (GUT) for patient state transitions, facility queue logic and logger writes (headless)
+Create issues for: asset polish, spatial grid optimization, editor plugin
+------------------------------------------------------------
+- FIFO queue
+- -5 on new infection

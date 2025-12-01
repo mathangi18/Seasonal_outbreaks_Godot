@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://placeholder_-857518931"]
+
+[node name="Node2DSprite2D" type="Node2D -> Sprite2D"]
+# TODO: Mapped from hospital.svg
+

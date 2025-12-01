@@ -1,0 +1,5 @@
+# ui_scale.gd - placeholder to satisfy autoload in headless CI runs
+extends Node
+# returns scalar UI scale (1.0 default). Replace with real logic if present.
+func get_ui_scale() -> float:
+    return 1.0

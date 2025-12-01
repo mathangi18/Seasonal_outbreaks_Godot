@@ -1,0 +1,8 @@
+﻿[gd_scene load_steps=2 format=3]
+[ext_resource path=""assets/scene_014_sample_sim_log_csv.gif"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""scene_014_sample_sim_log_csv""
+# Feature: sample_sim_log.csv
+# Generated: 20251201_030554
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

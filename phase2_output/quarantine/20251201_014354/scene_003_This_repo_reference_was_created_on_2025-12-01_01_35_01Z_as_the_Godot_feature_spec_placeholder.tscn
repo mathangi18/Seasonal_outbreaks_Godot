@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+[ext_resource path=""assets/scene_003_This_repo_reference_was_created_on_2025-12-01_01_35_01Z_as_the_Godot_feature_spec_placeholder.png"" type=""Texture"" id=1]
+[node name=""Root"" type=""Node2D""]
+node_name = ""scene_003_This_repo_reference_was_created_on_2025-12-01_01_35_01Z_as_the_Godot_feature_spec_placeholder""
+# Feature: This repo reference was created on 2025-12-01 01:35:01Z as the Godot feature spec placeholder.
+# Generated: 20251201_014203
+[node name=""Sprite"" type=""Sprite"" parent=""Root""]
+texture = ExtResource( 1 )

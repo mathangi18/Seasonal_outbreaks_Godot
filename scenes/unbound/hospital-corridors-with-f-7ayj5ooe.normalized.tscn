@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="AudioStream" path="res://res/assets/sounds/hospital-corridors-with-f-7ayj5ooe.normalized.wav" id="1_aud"]
+
+[node name="hospital-corridors-with-f-7ayj5ooe.normalized" type="AudioStreamPlayer"]
+stream = ExtResource("1_aud")
+
+

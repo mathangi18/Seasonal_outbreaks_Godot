@@ -1,15 +1,35 @@
-[gd_scene load_steps=4 format=3 uid="uid://main"]
+[gd_scene load_steps=5 format=3]
 
-[ext_resource type="Script" path="res://res/scripts/Main.gd" id="1_main"]
-[ext_resource type="Script" path="res://res/scripts/SimulationEngine.gd" id="2_sim"]
-[ext_resource type="PackedScene" uid="uid://hud" path="res://scenes/HUD.tscn" id="3_hud"]
+[ext_resource type="Script" path="res://scripts/simulationengine.gd" id="1_sim"]
+[ext_resource type="Script" path="res://scripts/hud.gd" id="2_hud"]
+[ext_resource type="Script" path="res://scripts/cameracontroller.gd" id="3_cam"]
+[ext_resource type="PackedScene" path="res://scenes/world.tscn" id="4_world"]
 
 [node name="Main" type="Node"]
-script = ExtResource("1_main")
 
 [node name="SimulationEngine" type="Node" parent="."]
-script = ExtResource("2_sim")
+script = ExtResource("1_sim")
 
-[node name="World" type="Node2D" parent="."]
+[node name="World" parent="." instance=ExtResource("4_world")]
 
-[node name="HUD" parent="." instance=ExtResource("3_hud")]
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 324)
+script = ExtResource("3_cam")
+
+[node name="HUD" type="CanvasLayer" parent="."]
+script = ExtResource("2_hud")
+
+[node name="Panel" type="Panel" parent="HUD"]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 510.0
+offset_bottom = 50.0
+
+[node name="Label" type="Label" parent="HUD/Panel"]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 490.0
+offset_bottom = 30.0
+text = "Simulation HUD"
+
+

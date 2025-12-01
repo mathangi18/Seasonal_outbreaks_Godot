@@ -1,0 +1,23 @@
+File Metadata for final_dataset
+--------------------------------
+Created on: 2025-12-01 18:10:23Z
+
+Files generated:
+- seasonal_incidence.csv
+- arrival_rates.csv
+- service_times.csv
+- facility_catalog.csv
+- cost_parameters.json
+- Synthetic_Derivations.txt
+
+Credibility rules:
+- Keep sources with credibility >= 4.
+- When conflicts occur: keep higher credibility; tie -> keep newer; tie -> keep higher granularity.
+- Values with credibility <4 only used if no other source available, and only after approval.
+
+Conversion:
+1 USD = 83 INR (assumed on 2025-12-01). Costs are in INR.
+
+Notes:
+- service_times are WHO/NHM approximations (synthetic).
+- travel distances are approximate translations from travel time.

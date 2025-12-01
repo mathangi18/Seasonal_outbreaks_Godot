@@ -36,3 +36,4 @@ func get_nearby(patient) -> Array:
 
 func get_cell(pos: Vector2) -> Vector2i:
 	return Vector2i(int(pos.x / cell_size), int(pos.y / cell_size))
+

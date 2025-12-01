@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://camera_wrapper_ag_v1"]
+
+[ext_resource type="Script" path="res://scripts/visual_camera.gd" id="1_camera"]
+
+[node name="CameraWrapper" type="Camera2D"]
+position_smoothing_enabled = true
+position_smoothing_speed = 5.0
+script = ExtResource("1_camera")
+

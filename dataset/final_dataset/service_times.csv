@@ -1,0 +1,5 @@
+facility_type,mean_minutes,sd_minutes,source,synthetic
+PHC,15,5,WHO/NHM approximations,true
+PrivateClinic,20,7,WHO/NHM approximations,true
+DistrictHospital,30,10,WHO/NHM approximations,true
+MobileUnit,18,6,WHO/NHM approximations,true
