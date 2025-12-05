@@ -1,0 +1,17 @@
+# Force LF for text files used by Godot / project
+*.gd     text eol=lf
+*.gdscript text eol=lf
+*.tscn   text eol=lf
+*.cfg    text eol=lf
+*.json   text eol=lf
+*.txt    text eol=lf
+*.csv    text eol=lf
+*.tres   text eol=lf
+*.shader text eol=lf
+*.md     text eol=lf
+# binaries (do not treat as text)
+*.png    binary
+*.jpg    binary
+*.ogg    binary
+*.wav    binary
+*.zip    binary

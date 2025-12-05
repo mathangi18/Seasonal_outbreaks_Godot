@@ -1,7 +1,18 @@
+# Godot-generated folders
 .import/
 .godot/
 importcache/
+
+# Godot import metadata
 *.import
 *.import.*
+
+# Logs / temp
 *.log
+*.tmp
+
+# OS junk
 .DS_Store
+Thumbs.db
+
+# Allow scripts, scenes, assets to be committed normally.
