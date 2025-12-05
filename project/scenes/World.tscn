@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3]
+
+[node name="World" type="Node2D"]
+script = "res://scripts/SceneCleanup.gd"
+
+[node name="Camera" type="Camera2D" parent="."]
+script = "res://scripts/CameraController.gd"
+current = true
+
+[node name="Spawner" type="Node" parent="."]
+script = "res://scripts/spawn_generator.gd"

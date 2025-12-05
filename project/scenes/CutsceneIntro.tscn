@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="CutsceneIntro" type="Node2D"]
+script = "res://scripts/SceneCleanup.gd"
+
+[node name="Label" type="Label" parent="."]
+text = "Seasonal Outbreak Simulation"

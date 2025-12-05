@@ -1,0 +1,4 @@
+[gd_scene load_steps=2 format=3]
+
+[node name="RunConfigRunner" type="Node"]
+script = "res://tools/run_config_runner.gd"
